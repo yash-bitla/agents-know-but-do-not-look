@@ -1,6 +1,6 @@
-# When coding agents misjudge what a command does
+# Agents Know, But Do Not Look: An Empirical Study of Command-Effect Failures in Coding Agents
 
-Data and code for a study of AI coding agents that destroy user data. The study asks three questions:
+Data and code for the paper of the same name (working title). The paper studies AI coding agents that destroy user data. The study asks three questions:
 
 1. **RQ1. Incident study.** How do coding agents destroy user data, according to public bug reports?
 2. **RQ2. Sandbox replay.** Do the commands in those reports really do what the reports say?
