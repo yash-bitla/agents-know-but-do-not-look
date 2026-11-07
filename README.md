@@ -1,4 +1,4 @@
-# Agents Know, But Do Not Look: An Empirical Study of Command-Effect Failures in Coding Agents
+# Agents Know, But Do Not Look: An Empirical Study of Misjudged Action Effects in AI Coding Agents
 
 Data and code for the paper of the same name (working title). The paper studies AI coding agents that destroy user data. The study asks three questions:
 
