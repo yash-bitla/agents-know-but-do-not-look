@@ -1,0 +1,7 @@
+# Issue bodies are not redistributed. Rebuild them with collect1.py and round2/fetch_bodies.py.
+issues/
+round2/issues/
+*.log
+*.bak
+.DS_Store
+__pycache__/
