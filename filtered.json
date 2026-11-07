@@ -1,0 +1,5092 @@
+[
+{
+"createdAt": "2026-09-10T07:22:10Z",
+"number": 93287,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Claude Code deleted my entire MacBook Applications directory contents - WTF",
+"url": "https://github.com/anthropics/claude-code/issues/93287"
+},
+{
+"createdAt": "2026-10-24T16:02:30Z",
+"number": 104848,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Claude Code deleted my entire project (unrecoverable) and damaged my friends' live app, 700+ counted corrections over months, and support refuses any review",
+"url": "https://github.com/anthropics/claude-code/issues/104848"
+},
+{
+"createdAt": "2026-09-18T17:57:21Z",
+"number": 95414,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude Code deleted my source tree by running a recursive delete inside a OneDrive-synced folder, then told me to confirm the sync deletion dialog",
+"url": "https://github.com/anthropics/claude-code/issues/95414"
+},
+{
+"createdAt": "2026-09-23T04:50:22Z",
+"number": 96239,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[FEATURE] Allow deleting my own resolved PR review comments on explicit request",
+"url": "https://github.com/anthropics/claude-code/issues/96239"
+},
+{
+"createdAt": "2026-09-22T15:35:07Z",
+"number": 96062,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Terminal gets corrupted, or rewritten over time - impossible to follow what happened. Deletes my messages.",
+"url": "https://github.com/anthropics/claude-code/issues/96062"
+},
+{
+"createdAt": "2026-10-20T06:11:51Z",
+"number": 103668,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[MODEL] Agent refuses to delete my own bot's notification messages in my own Telegram chat, even after repeated explicit requests (Windows desktop)",
+"url": "https://github.com/anthropics/claude-code/issues/103668"
+},
+{
+"createdAt": "2026-08-02T06:02:46Z",
+"number": 83260,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[FEATURE] Allow deleting individual chat messages",
+"url": "https://github.com/anthropics/claude-code/issues/83260"
+},
+{
+"createdAt": "2026-10-27T04:54:51Z",
+"number": 105342,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Subagent-written test ran rm -rf ~ on the real home directory, deleting all of my unpushed works; worktree isolation didn't contain it",
+"url": "https://github.com/anthropics/claude-code/issues/105342"
+},
+{
+"createdAt": "2026-09-16T22:12:03Z",
+"number": 94878,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] macOS TCC permissions lost on auto-update due to versioned binary paths",
+"url": "https://github.com/anthropics/claude-code/issues/94878"
+},
+{
+"createdAt": "2026-07-08T17:27:50Z",
+"number": 75771,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Sonnet 5 deleted my app off my phone out of the blue causing data loss",
+"url": "https://github.com/anthropics/claude-code/issues/75771"
+},
+{
+"createdAt": "2026-02-19T14:07:34Z",
+"number": 26904,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[FEATURE] Add /delete command to delete current session",
+"url": "https://github.com/anthropics/claude-code/issues/26904"
+},
+{
+"createdAt": "2026-09-01T05:02:09Z",
+"number": 91141,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Claude--Locked out of Console after deleting organization \u2014 \"We are unable to use this link\" on every login attempt",
+"url": "https://github.com/anthropics/claude-code/issues/91141"
+},
+{
+"createdAt": "2026-09-14T16:00:54Z",
+"number": 94316,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[MODEL] Desktop Code tab refuses all local file deletion (browser-agent safety rule), then behaves inconsistently under pushback",
+"url": "https://github.com/anthropics/claude-code/issues/94316"
+},
+{
+"createdAt": "2026-08-26T03:02:32Z",
+"number": 89697,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Cowork/local agent mode: session outputs shown as project files vanish from view after re-choosing the project folder \u2014 indistinguishable from data loss",
+"url": "https://github.com/anthropics/claude-code/issues/89697"
+},
+{
+"createdAt": "2026-08-05T23:56:28Z",
+"number": 84339,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Claude refuses to execute commands and claims to be deleting user files",
+"url": "https://github.com/anthropics/claude-code/issues/84339"
+},
+{
+"createdAt": "2026-08-05T22:55:19Z",
+"number": 84329,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Unintended file deletion behavior during execution",
+"url": "https://github.com/anthropics/claude-code/issues/84329"
+},
+{
+"createdAt": "2026-06-10T19:22:10Z",
+"number": 67188,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Cowork: No working stop mechanism; deleting task to stop it permanently deleted user files; usage consumed despite malfunction",
+"url": "https://github.com/anthropics/claude-code/issues/67188"
+},
+{
+"createdAt": "2026-08-15T08:56:44Z",
+"number": 86872,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Sub-agent ran recursive delete outside working dir, wiped entire user profile (~235k files); safety classifier failed open",
+"url": "https://github.com/anthropics/claude-code/issues/86872"
+},
+{
+"createdAt": "2026-08-05T19:11:06Z",
+"number": 84279,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "30-day transcript auto-deletion silently destroyed months of session history \u2014 destructive defaults should announce themselves",
+"url": "https://github.com/anthropics/claude-code/issues/84279"
+},
+{
+"createdAt": "2026-05-24T22:20:21Z",
+"number": 62091,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Agent deleted user's main project repo via gh repo fork --fork-name rename behavior",
+"url": "https://github.com/anthropics/claude-code/issues/62091"
+},
+{
+"createdAt": "2026-05-26T12:21:09Z",
+"number": 62476,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude Code silently deletes conversation transcripts after 30 days by  default",
+"url": "https://github.com/anthropics/claude-code/issues/62476"
+},
+{
+"createdAt": "2026-06-17T09:55:42Z",
+"number": 69059,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Auto-accept mode runs destructive framework DB commands (e.g. `php artisan migrate:fresh`) without confirmation \u2192 data loss",
+"url": "https://github.com/anthropics/claude-code/issues/69059"
+},
+{
+"createdAt": "2026-05-14T22:51:10Z",
+"number": 59248,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Silent retention cleanup deletes session transcripts with no warning, opt-in, or recovery",
+"url": "https://github.com/anthropics/claude-code/issues/59248"
+},
+{
+"createdAt": "2026-05-15T21:05:08Z",
+"number": 59535,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[MODEL] Asked why I am not allowed to remove a disk because it is still using it and deleting random files.",
+"url": "https://github.com/anthropics/claude-code/issues/59535"
+},
+{
+"createdAt": "2026-05-28T04:42:41Z",
+"number": 62997,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude Desktop reinstall destroys Code chat history (transcripts + Recents) while regular Chat history, project files, and memory all survive",
+"url": "https://github.com/anthropics/claude-code/issues/62997"
+},
+{
+"createdAt": "2026-03-07T13:55:16Z",
+"number": 31844,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] vscode extension deletes my messages while I'm writing",
+"url": "https://github.com/anthropics/claude-code/issues/31844"
+},
+{
+"createdAt": "2026-07-29T00:00:10Z",
+"number": 82130,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Reinstalling Claude Desktop after a crash silently wipes local session/recents data \u2014 no warning, no opt-out, no rebuild-from-disk fallback",
+"url": "https://github.com/anthropics/claude-code/issues/82130"
+},
+{
+"createdAt": "2026-05-30T19:55:09Z",
+"number": 64056,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Subagent autonomously ran destructive DELETE scripts against production data",
+"url": "https://github.com/anthropics/claude-code/issues/64056"
+},
+{
+"createdAt": "2026-05-31T23:35:30Z",
+"number": 64355,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Opus deleted entire repository without realizing it (corrupt tool call?)",
+"url": "https://github.com/anthropics/claude-code/issues/64355"
+},
+{
+"createdAt": "2025-12-18T04:57:59Z",
+"number": 14411,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Claude Code decided to delete my production database",
+"url": "https://github.com/anthropics/claude-code/issues/14411"
+},
+{
+"createdAt": "2026-03-05T23:39:09Z",
+"number": 31277,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Dangerous misinterpretation of file deletion request resulted in unintended --force-reset execution",
+"url": "https://github.com/anthropics/claude-code/issues/31277"
+},
+{
+"createdAt": "2026-02-26T18:21:50Z",
+"number": 29082,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Critical Bug: Claude Code executed 'rm -rf' and deleted project files unexpectedly",
+"url": "https://github.com/anthropics/claude-code/issues/29082"
+},
+{
+"createdAt": "2025-06-22T18:07:42Z",
+"number": 2452,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Model laid and deleted my database, it even laid on the title of the GitHub",
+"url": "https://github.com/anthropics/claude-code/issues/2452"
+},
+{
+"createdAt": "2026-04-11T08:46:32Z",
+"number": 46580,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Cowork: Finder drag-drop from workspace folder to Electron apps (WhatsApp, Slack) silently deletes source file \u2014 FUSE volume-ID triggers macOS move semantics",
+"url": "https://github.com/anthropics/claude-code/issues/46580"
+},
+{
+"createdAt": "2026-01-16T10:15:17Z",
+"number": 18543,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude CLI did delete my ~/.claude.json file",
+"url": "https://github.com/anthropics/claude-code/issues/18543"
+},
+{
+"createdAt": "2025-08-26T16:58:39Z",
+"number": 6608,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude code ran `rm -rf` command without permission",
+"url": "https://github.com/anthropics/claude-code/issues/6608"
+},
+{
+"createdAt": "2026-09-27T16:06:47Z",
+"number": 97660,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Subagent ran rm -rf \\ via PowerShell \u2192 MSYS2 bash (PowerShell expanded the escaped variables to empty), wiping C:\\ top-down on Windows",
+"url": "https://github.com/anthropics/claude-code/issues/97660"
+},
+{
+"createdAt": "2026-09-18T18:51:56Z",
+"number": 95426,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Claude Code deleted ~600GB: unprompted `rm -rf` on a substitution that resolved to a drive root",
+"url": "https://github.com/anthropics/claude-code/issues/95426"
+},
+{
+"createdAt": "2026-09-07T21:32:20Z",
+"number": 92737,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Claude deleted user's irreplaceable personal photos with rm -rf before verifying files were moved",
+"url": "https://github.com/anthropics/claude-code/issues/92737"
+},
+{
+"createdAt": "2026-09-07T04:34:56Z",
+"number": 92593,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Runaway rm -rf: timeout auto-backgrounding kept a destructive command running, and TaskStop did not kill the child process (Windows)",
+"url": "https://github.com/anthropics/claude-code/issues/92593"
+},
+{
+"createdAt": "2026-10-26T08:10:07Z",
+"number": 105142,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Channels permission relay: rm/rmdir safety-check dialog is not relayed (only shown in the terminal)",
+"url": "https://github.com/anthropics/claude-code/issues/105142"
+},
+{
+"createdAt": "2026-09-10T16:10:50Z",
+"number": 93392,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "rm-on-variable-path confirmation dialog fires under bypassPermissions with no way to disable/detect it, freezing unattended background agents for hours",
+"url": "https://github.com/anthropics/claude-code/issues/93392"
+},
+{
+"createdAt": "2026-07-08T21:23:24Z",
+"number": 75861,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Explore (read-only) subagent executed rm -rf, deleting files outside its intended scope",
+"url": "https://github.com/anthropics/claude-code/issues/75861"
+},
+{
+"createdAt": "2026-10-19T09:04:28Z",
+"number": 103413,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Symlinking a sibling repo into a worktree to run a self-test let the test's rm -rf delete the real .git",
+"url": "https://github.com/anthropics/claude-code/issues/103413"
+},
+{
+"createdAt": "2026-10-24T09:37:19Z",
+"number": 104804,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[MODEL] Subagent deleted other subagents' mktemp dirs with a glob rm in the shared session scratchpad",
+"url": "https://github.com/anthropics/claude-code/issues/104804"
+},
+{
+"createdAt": "2026-07-29T03:49:58Z",
+"number": 82165,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Catastrophic data loss: agent-built command expanded to \"rm -rf /*\", ran detached; safety classifier then blocked the kill attempts",
+"url": "https://github.com/anthropics/claude-code/issues/82165"
+},
+{
+"createdAt": "2026-10-03T09:32:20Z",
+"number": 99193,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Windows: sub-agent rm -rf on the 8.3 short-name alias of the home dir wiped ~116 GB; TaskStop left it running ~50 min; agent reported 'looks intact' (related: #92593, #95426, #97660)",
+"url": "https://github.com/anthropics/claude-code/issues/99193"
+},
+{
+"createdAt": "2026-09-09T14:00:18Z",
+"number": 93099,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[MODEL] Opus 5 executed rm -rf \"$HOME\" during test cleanup(57,235 files and 11,315 directories deleted), causing extensive data loss",
+"url": "https://github.com/anthropics/claude-code/issues/93099"
+},
+{
+"createdAt": "2026-08-09T08:47:30Z",
+"number": 85200,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] TaskStop does not kill the process tree \u2014 orphaned `rm -rf /c` deleted user data for 20 minutes after stop",
+"url": "https://github.com/anthropics/claude-code/issues/85200"
+},
+{
+"createdAt": "2026-09-02T07:28:49Z",
+"number": 91422,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "`--permission-mode dontAsk`: `cp`/`mv` refuse any option token (including bare `--`) while the flagless form runs; `rm` is unaffected",
+"url": "https://github.com/anthropics/claude-code/issues/91422"
+},
+{
+"createdAt": "2026-09-03T03:03:52Z",
+"number": 91676,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Sandboxed `mktemp -d` fails on macOS (ignores `$TMPDIR`); the empty variable made `rm -rf \"$T\"` run against the working directory with no critical-path prompt",
+"url": "https://github.com/anthropics/claude-code/issues/91676"
+},
+{
+"createdAt": "2026-10-03T09:43:25Z",
+"number": 99198,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[CRITICAL] Sub-agent ran `rm -rf` on the user's Windows home directory (via 8.3 short name), no hard guard; delete kept running after the task was stopped",
+"url": "https://github.com/anthropics/claude-code/issues/99198"
+},
+{
+"createdAt": "2026-08-21T07:43:06Z",
+"number": 88462,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Data Loss] Claude Code ran rm -rf on $HOME in auto mode \u2014 destructive code hidden inside a script the assistant wrote itself (5th report of this class)",
+"url": "https://github.com/anthropics/claude-code/issues/88462"
+},
+{
+"createdAt": "2026-10-08T22:55:34Z",
+"number": 100630,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Built-in \"dangerous rm\" safety check is spelling-dependent: the MSYS /d/\u2026 form of a top-level path raises no approval gate",
+"url": "https://github.com/anthropics/claude-code/issues/100630"
+},
+{
+"createdAt": "2026-10-26T13:02:01Z",
+"number": 105188,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[FEATURE] claude prune: clean up data left behind by deleted project directories",
+"url": "https://github.com/anthropics/claude-code/issues/105188"
+},
+{
+"createdAt": "2026-10-06T09:49:26Z",
+"number": 99899,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Dangerous-rm prompt raised by a sub-agent has no auto-deny timeout, stalling unattended bypass-mode runs indefinitely",
+"url": "https://github.com/anthropics/claude-code/issues/99899"
+},
+{
+"createdAt": "2026-10-06T09:16:38Z",
+"number": 99894,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "False-positive deletion check: read-only compact Bash command flagged as running rm (2.1.291)",
+"url": "https://github.com/anthropics/claude-code/issues/99894"
+},
+{
+"createdAt": "2026-09-16T08:36:50Z",
+"number": 94704,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Dangerous-rm approval dialog displays a target resolved against the session cwd, not the cd target",
+"url": "https://github.com/anthropics/claude-code/issues/94704"
+},
+{
+"createdAt": "2026-07-02T13:06:09Z",
+"number": 73428,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] ENOENT error when current working directory is deleted or moved",
+"url": "https://github.com/anthropics/claude-code/issues/73428"
+},
+{
+"createdAt": "2026-10-17T02:31:15Z",
+"number": 102901,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Bash `find $T -type f -delete` with unset T deletes entire git checkout",
+"url": "https://github.com/anthropics/claude-code/issues/102901"
+},
+{
+"createdAt": "2026-06-26T14:20:26Z",
+"number": 71609,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Stale/duplicate session titles + no wrong-session safeguard \u2192 silent data loss in Bypass-permissions mode",
+"url": "https://github.com/anthropics/claude-code/issues/71609"
+},
+{
+"createdAt": "2026-09-23T09:43:31Z",
+"number": 96300,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Dangerous-rm check does not look inside `sh -c` / `bash -c`",
+"url": "https://github.com/anthropics/claude-code/issues/96300"
+},
+{
+"createdAt": "2025-09-13T07:29:48Z",
+"number": 7547,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude code CLI binary installer silently deletes itself after installation",
+"url": "https://github.com/anthropics/claude-code/issues/7547"
+},
+{
+"createdAt": "2026-10-14T19:11:05Z",
+"number": 102146,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] VS Code: Up Arrow overwrites unsent prompts with history, causing potential data loss",
+"url": "https://github.com/anthropics/claude-code/issues/102146"
+},
+{
+"createdAt": "2026-10-04T13:30:10Z",
+"number": 99438,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] ~/.claude.json corruption on Windows from concurrent writes causing data loss and trust reset",
+"url": "https://github.com/anthropics/claude-code/issues/99438"
+},
+{
+"createdAt": "2026-08-24T05:04:29Z",
+"number": 89141,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Decision log file accidentally truncated by script, data loss recovery in progress",
+"url": "https://github.com/anthropics/claude-code/issues/89141"
+},
+{
+"createdAt": "2026-09-26T12:27:33Z",
+"number": 97423,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[MODEL] Failed fetch skips worktree-path assignment; semicolon continues with empty path and triggers Git for Windows data loss",
+"url": "https://github.com/anthropics/claude-code/issues/97423"
+},
+{
+"createdAt": "2026-10-30T14:10:26Z",
+"number": 106236,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Desktop cuts off everything before the last 50 MB of a session with no way to load it. To the user this is data loss",
+"url": "https://github.com/anthropics/claude-code/issues/106236"
+},
+{
+"createdAt": "2026-08-30T16:41:17Z",
+"number": 90789,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Silent settings.json data loss: 5s time-only echo suppression masks external writes, stale per-process cache clobbers on next save",
+"url": "https://github.com/anthropics/claude-code/issues/90789"
+},
+{
+"createdAt": "2026-09-14T17:00:24Z",
+"number": 94336,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Between-tool assistant text intermittently NOT stored in session .jsonl \u2014 replaced by a summary typed as 'thinking' (permanent data loss, regression from display-only summarization)",
+"url": "https://github.com/anthropics/claude-code/issues/94336"
+},
+{
+"createdAt": "2026-10-30T20:18:20Z",
+"number": 106286,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Creates stray files/folders outside project root and leaves scratchpad artifacts; cleanup deleted data",
+"url": "https://github.com/anthropics/claude-code/issues/106286"
+},
+{
+"createdAt": "2026-09-01T18:38:17Z",
+"number": 91284,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Silent session-transcript data loss keeps getting stale-closed (#53417, #70219): writer dies with zero errors \u2014 please fail loudly and add a write self-check",
+"url": "https://github.com/anthropics/claude-code/issues/91284"
+},
+{
+"createdAt": "2026-10-30T12:42:03Z",
+"number": 106205,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[MODEL][CRITICAL] Cowork deleted ~275 GB from C:\\ during scoped cleanup[MODEL]",
+"url": "https://github.com/anthropics/claude-code/issues/106205"
+},
+{
+"createdAt": "2026-10-30T05:19:58Z",
+"number": 106121,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Remote Control (Android app): an AskUserQuestion card that arrives during voice dictation discards the dictated draft",
+"url": "https://github.com/anthropics/claude-code/issues/106121"
+},
+{
+"createdAt": "2026-08-06T23:09:18Z",
+"number": 84660,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Claude Code executed HEAD is now at b2a0ae7e [DOCS-3098] update pages, app providers and submodules for multi-role without user confirmation, causing irreversible data loss",
+"url": "https://github.com/anthropics/claude-code/issues/84660"
+},
+{
+"createdAt": "2026-07-28T19:34:42Z",
+"number": 82084,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Session transcripts are silently and permanently deleted after 30 days \u2014 no warning, no recovery",
+"url": "https://github.com/anthropics/claude-code/issues/82084"
+},
+{
+"createdAt": "2026-09-30T22:08:00Z",
+"number": 98539,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG]  `/model` in one session silently changes the model of every future session: an unnoticed downgrade led to data loss and put a root-privileged system agent on a model the user never chose",
+"url": "https://github.com/anthropics/claude-code/issues/98539"
+},
+{
+"createdAt": "2026-08-15T17:16:52Z",
+"number": 86954,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Silent data loss in the TUI clipboard path: selection-copy drops a rectangular block of text (\"Copied N characters\" toast still shown); paste during startup is truncated \u2014 no error, prompt submitted corrupted",
+"url": "https://github.com/anthropics/claude-code/issues/86954"
+},
+{
+"createdAt": "2026-09-15T16:16:33Z",
+"number": 94548,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG]  Claude Code permanently destroyed a user's local admin password with no way to recover it, despite an existing standing instruction that no data may be lost.",
+"url": "https://github.com/anthropics/claude-code/issues/94548"
+},
+{
+"createdAt": "2026-07-23T20:26:08Z",
+"number": 80685,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Draft input discarded when toggling transcript view with Ctrl-O",
+"url": "https://github.com/anthropics/claude-code/issues/80685"
+},
+{
+"createdAt": "2026-10-25T10:06:14Z",
+"number": 104975,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Billing: API key compromise report ignored for 100+ days \u2014 support delay destroyed evidence, ticket closed unread",
+"url": "https://github.com/anthropics/claude-code/issues/104975"
+},
+{
+"createdAt": "2026-07-02T21:44:39Z",
+"number": 73610,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "iOS remote app: queued/unsent prompt is discarded when navigating away from a session and back",
+"url": "https://github.com/anthropics/claude-code/issues/73610"
+},
+{
+"createdAt": "2026-08-20T19:23:07Z",
+"number": 88346,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Task store files deleted without any Task tool call, ~5s after a teammate completes the highest-numbered task (2.1.234\u20132.1.237)",
+"url": "https://github.com/anthropics/claude-code/issues/88346"
+},
+{
+"createdAt": "2026-10-31T08:34:43Z",
+"number": 106370,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Data loss] PowerPoint COM automation attached to user's open session and Quit() closed it \u2014 recurrence of #90163",
+"url": "https://github.com/anthropics/claude-code/issues/106370"
+},
+{
+"createdAt": "2026-09-11T15:47:26Z",
+"number": 93658,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Session lost after helper tool update \u2014 transcript intact but unrecoverable",
+"url": "https://github.com/anthropics/claude-code/issues/93658"
+},
+{
+"createdAt": "2026-08-27T16:51:05Z",
+"number": 90164,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Session transcript lost despite being well within default 30-day retention (VS Code extension)",
+"url": "https://github.com/anthropics/claude-code/issues/90164"
+},
+{
+"createdAt": "2026-09-18T10:31:50Z",
+"number": 95334,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Remote Control: prompt composed on iPad app lost when connecting to Mac Claude Code session",
+"url": "https://github.com/anthropics/claude-code/issues/95334"
+},
+{
+"createdAt": "2026-08-11T21:07:39Z",
+"number": 85924,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Queued composer text is silently discarded on mobile",
+"url": "https://github.com/anthropics/claude-code/issues/85924"
+},
+{
+"createdAt": "2026-09-03T17:08:10Z",
+"number": 91859,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG]effort \"max\" silently discarded by 4-value validator on all persistence paths (unfixed 2.1.219 -> 2.1.258)",
+"url": "https://github.com/anthropics/claude-code/issues/91859"
+},
+{
+"createdAt": "2026-09-02T13:34:01Z",
+"number": 91506,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Auto mode ran a destructive GitHub ProjectV2 mutation (iteration-list replace) unflagged \u2014 wiped 12 completed sprints; classifier then blocked the identical restore call",
+"url": "https://github.com/anthropics/claude-code/issues/91506"
+},
+{
+"createdAt": "2026-10-17T01:25:15Z",
+"number": 102891,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[MODEL] Said a stale entry was the owner's to remove without saying it was one line inside a configuration file; the owner removed the whole file",
+"url": "https://github.com/anthropics/claude-code/issues/102891"
+},
+{
+"createdAt": "2026-09-15T07:50:06Z",
+"number": 94453,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Unrequested `Remove-Item -Recurse -Force` permanently deleted user data in auto mode",
+"url": "https://github.com/anthropics/claude-code/issues/94453"
+},
+{
+"createdAt": "2026-07-23T23:42:47Z",
+"number": 80728,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "CRITICAL: Data Loss - Java Project Overwritten Without Confirmation",
+"url": "https://github.com/anthropics/claude-code/issues/80728"
+},
+{
+"createdAt": "2026-09-18T08:42:22Z",
+"number": 95323,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "All sessions/chats disappeared from sidebar after re-login (lost ~1 month of work)",
+"url": "https://github.com/anthropics/claude-code/issues/95323"
+},
+{
+"createdAt": "2026-04-05T01:23:51Z",
+"number": 43719,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Auto-update wiped my Cowork session disk \u2014 need my projects restored",
+"url": "https://github.com/anthropics/claude-code/issues/43719"
+},
+{
+"createdAt": "2026-09-29T15:16:59Z",
+"number": 98186,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Desktop WorktreePool GC still force-removes idle worktrees after #96162; --force deleted git-ignored data (days of paid model output)",
+"url": "https://github.com/anthropics/claude-code/issues/98186"
+},
+{
+"createdAt": "2026-10-08T08:48:29Z",
+"number": 100449,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Agent executed destructive command that wiped production database",
+"url": "https://github.com/anthropics/claude-code/issues/100449"
+},
+{
+"createdAt": "2026-10-11T21:51:41Z",
+"number": 101369,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG][REGRESSION] Broken Projects upgrade wiped out classic projects with no no opt-out",
+"url": "https://github.com/anthropics/claude-code/issues/101369"
+},
+{
+"createdAt": "2026-10-29T20:40:10Z",
+"number": 106039,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude Code cloud session container reset wiped disk mid-work \u2014 requesting usage credit (Max plan)",
+"url": "https://github.com/anthropics/claude-code/issues/106039"
+},
+{
+"createdAt": "2026-09-12T08:32:17Z",
+"number": 93791,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "~/.claude config directory silently wiped and recreated - 4 incidents, matches #41415/#34330 pattern",
+"url": "https://github.com/anthropics/claude-code/issues/93791"
+},
+{
+"createdAt": "2026-09-02T20:06:08Z",
+"number": 91599,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude Code wiped an external USB drive after treating a clarifying question as authorization",
+"url": "https://github.com/anthropics/claude-code/issues/91599"
+},
+{
+"createdAt": "2026-09-16T00:53:52Z",
+"number": 94628,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Desktop app update wiped local scheduled tasks and session list (claude.ai web still shows them)",
+"url": "https://github.com/anthropics/claude-code/issues/94628"
+},
+{
+"createdAt": "2026-10-19T14:13:26Z",
+"number": 103465,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Desktop update deleted Code tab sessions and wiped plugins/GitHub connector \u2014 not just hidden, session data itself is gone",
+"url": "https://github.com/anthropics/claude-code/issues/103465"
+},
+{
+"createdAt": "2026-10-22T00:19:39Z",
+"number": 104156,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Bash tool commands can signal every user process: subagent script's kill(-1, SIGKILL) wiped out tmux, all other Claude sessions and the desktop",
+"url": "https://github.com/anthropics/claude-code/issues/104156"
+},
+{
+"createdAt": "2026-10-03T20:33:09Z",
+"number": 99314,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] macOS Remote Control server: claude.ai keychain login gets wiped blank every 2-7 days (refresh-token race), no headless recovery",
+"url": "https://github.com/anthropics/claude-code/issues/99314"
+},
+{
+"createdAt": "2026-09-17T14:19:47Z",
+"number": 95156,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Dangerous git checkout command wipes user files without confirmation",
+"url": "https://github.com/anthropics/claude-code/issues/95156"
+},
+{
+"createdAt": "2026-10-20T08:15:21Z",
+"number": 103692,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] pdf-viewer opens no local PDF on Windows: roots become C:\\C:\\..., configured folders are wiped, and ${HOME} in their default is never expanded",
+"url": "https://github.com/anthropics/claude-code/issues/103692"
+},
+{
+"createdAt": "2026-07-24T14:09:19Z",
+"number": 80868,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Auto mode + ask rules failed to gate destructive command: `prisma migrate diff --shadow-database-url` wiped a production database",
+"url": "https://github.com/anthropics/claude-code/issues/80868"
+},
+{
+"createdAt": "2026-09-15T09:35:18Z",
+"number": 94472,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] File overwrite without existence check in bash auto mode",
+"url": "https://github.com/anthropics/claude-code/issues/94472"
+},
+{
+"createdAt": "2026-07-23T03:31:36Z",
+"number": 80422,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "MCP OAuth storage wiped mid-session (no update involved); CLI silently registers a new dynamic client, breaking auth for all remote MCP servers",
+"url": "https://github.com/anthropics/claude-code/issues/80422"
+},
+{
+"createdAt": "2026-10-19T16:10:23Z",
+"number": 103503,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Scripted text replacement bounded by the next top-level def silently deleted 17 unrelated test functions",
+"url": "https://github.com/anthropics/claude-code/issues/103503"
+},
+{
+"createdAt": "2026-08-21T17:39:39Z",
+"number": 88583,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] claudeAiOauth wiped from Keychain (tokens blanked, expiresAt:0) when concurrent Desktop sessions race the single-use refresh token \u2014 refresh failure clobbers the winner's rotated credential",
+"url": "https://github.com/anthropics/claude-code/issues/88583"
+},
+{
+"createdAt": "2026-10-14T09:03:03Z",
+"number": 102003,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Windows: running session's temp/scratchpad directory deleted while the session is still active (parallel Claude Code instance)",
+"url": "https://github.com/anthropics/claude-code/issues/102003"
+},
+{
+"createdAt": "2026-10-22T18:28:16Z",
+"number": 104359,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] CLI holding an env credential still renews the stored claude.ai login; on macOS sandboxed processes split it to .credentials.json and a later 400 wipes it",
+"url": "https://github.com/anthropics/claude-code/issues/104359"
+},
+{
+"createdAt": "2026-10-16T19:51:28Z",
+"number": 102853,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Agent Deleted VPS Source Code and Git Repo During VCS Root Move",
+"url": "https://github.com/anthropics/claude-code/issues/102853"
+},
+{
+"createdAt": "2026-10-09T14:38:43Z",
+"number": 100817,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] `claude mcp remove -s local` deletes the OAuth tokens still used by the same server in user scope (logs out every session)",
+"url": "https://github.com/anthropics/claude-code/issues/100817"
+},
+{
+"createdAt": "2026-09-18T23:05:27Z",
+"number": 95477,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Regression: sessions >30 days old lost history again after forced re-sign-in (previously fixed in 1.34493.0)",
+"url": "https://github.com/anthropics/claude-code/issues/95477"
+},
+{
+"createdAt": "2026-10-07T09:29:56Z",
+"number": 100179,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Autonomous agent navigated the user's live Google Meet call tab (via AppleScript \"active tab\") three times, kicking the user out of an interview and wiping captions",
+"url": "https://github.com/anthropics/claude-code/issues/100179"
+},
+{
+"createdAt": "2026-09-12T06:58:22Z",
+"number": 93778,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Dictation: speaking after a manual edit discards the edit and resumes from the old text",
+"url": "https://github.com/anthropics/claude-code/issues/93778"
+},
+{
+"createdAt": "2026-10-20T10:56:22Z",
+"number": 103723,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] CSI 3J escape sequences forcefully clear terminal stdout scrollback, destroying execution history",
+"url": "https://github.com/anthropics/claude-code/issues/103723"
+},
+{
+"createdAt": "2026-07-15T02:58:42Z",
+"number": 77669,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Sandbox/scratchpad state lost after long idle period (weekly usage limit reset), despite same continuous conversation",
+"url": "https://github.com/anthropics/claude-code/issues/77669"
+},
+{
+"createdAt": "2026-08-30T05:31:57Z",
+"number": 90688,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Windows/VS Code: OAuth refresh token rejected (HTTP 400) after every sleep/wake since 2.1.247, forces /login daily (refresh raced at extension startup or lost mid-flight)",
+"url": "https://github.com/anthropics/claude-code/issues/90688"
+},
+{
+"createdAt": "2026-09-26T03:34:30Z",
+"number": 97344,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude in Chrome: sign-in is lost on every full Chrome restart (consent screen every time) \u2014 breaks unattended automation",
+"url": "https://github.com/anthropics/claude-code/issues/97344"
+},
+{
+"createdAt": "2026-11-01T23:57:25Z",
+"number": 106634,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Windows: quitting the desktop app mid-save leaves ~/.claude.json at 0 bytes, then config resets to defaults (MCP servers + project trust lost)",
+"url": "https://github.com/anthropics/claude-code/issues/106634"
+},
+{
+"createdAt": "2026-09-06T18:02:44Z",
+"number": 92527,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Windows: CoworkVMService (cowork-svc.exe) crashes silently and stays down until reboot \u2014 recovery actions never armed (Access denied), app reinstall wipes manual config",
+"url": "https://github.com/anthropics/claude-code/issues/92527"
+},
+{
+"createdAt": "2026-10-10T11:26:12Z",
+"number": 101038,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Desktop (Windows): all custom sidebar groups wiped after usage-limit pause/resume, no app restart",
+"url": "https://github.com/anthropics/claude-code/issues/101038"
+},
+{
+"createdAt": "2025-09-12T07:03:56Z",
+"number": 7502,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Auto-Compact Erases Entire Chat History Without Warning",
+"url": "https://github.com/anthropics/claude-code/issues/7502"
+},
+{
+"createdAt": "2026-08-29T21:50:06Z",
+"number": 90647,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude account logout/switch discards all MCP OAuth grants (mcpOAuth is stored inside the account credential)",
+"url": "https://github.com/anthropics/claude-code/issues/90647"
+},
+{
+"createdAt": "2026-07-20T18:12:09Z",
+"number": 79518,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Desktop app update wiped all custom sidebar groups (Local Storage recreated, unrecoverable)",
+"url": "https://github.com/anthropics/claude-code/issues/79518"
+},
+{
+"createdAt": "2026-08-27T13:04:40Z",
+"number": 90101,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] claude_desktop_config.json mcpServers block silently wiped shortly after every app start (Free plan, Windows)",
+"url": "https://github.com/anthropics/claude-code/issues/90101"
+},
+{
+"createdAt": "2026-08-22T04:07:16Z",
+"number": 88753,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Compaction led to writing to wrong database in a way that could have destroyed production data",
+"url": "https://github.com/anthropics/claude-code/issues/88753"
+},
+{
+"createdAt": "2026-07-18T11:09:04Z",
+"number": 78812,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Desktop sidebar: custom session groups permanently wiped on account switch (stripAccountSlice resets customGroups; migration edges still lossy)",
+"url": "https://github.com/anthropics/claude-code/issues/78812"
+},
+{
+"createdAt": "2026-08-22T07:46:17Z",
+"number": 88773,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Session scratchpad silently wiped by macOS reboot and recreated empty on resume \u2014 agent gets no notification",
+"url": "https://github.com/anthropics/claude-code/issues/88773"
+},
+{
+"createdAt": "2026-09-27T03:01:48Z",
+"number": 97561,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[VSCode] No way to disable AI session titles, and one engine path overwrites a user-set title for non-active sessions",
+"url": "https://github.com/anthropics/claude-code/issues/97561"
+},
+{
+"createdAt": "2026-07-19T03:28:10Z",
+"number": 78995,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Cowork (macOS): Max\u2192Pro downgrade wiped ALL session history from the UI \u2014 data loss of paid work, again",
+"url": "https://github.com/anthropics/claude-code/issues/78995"
+},
+{
+"createdAt": "2026-09-28T23:29:29Z",
+"number": 98019,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Classic renderer drops or overwrites output when anything above the visible window changes height (verbose makes it frequent)",
+"url": "https://github.com/anthropics/claude-code/issues/98019"
+},
+{
+"createdAt": "2026-07-11T08:50:53Z",
+"number": 76626,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Sonnet 5 deletes entire folder contents while attempting file enumeration",
+"url": "https://github.com/anthropics/claude-code/issues/76626"
+},
+{
+"createdAt": "2026-07-08T00:56:55Z",
+"number": 75490,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Desktop app worktree mechanism wiped gitignored directories from MAIN working tree (data loss; only .gitignore literal-path entries deleted)",
+"url": "https://github.com/anthropics/claude-code/issues/75490"
+},
+{
+"createdAt": "2026-07-13T18:50:28Z",
+"number": 77268,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Worktree recycling destroys live sibling sessions' worktrees \u2014 including locked ones and uncommitted work",
+"url": "https://github.com/anthropics/claude-code/issues/77268"
+},
+{
+"createdAt": "2026-06-23T14:43:46Z",
+"number": 70355,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Auth token and base URL wiped after navigating to agents panel and back",
+"url": "https://github.com/anthropics/claude-code/issues/70355"
+},
+{
+"createdAt": "2026-06-18T19:05:51Z",
+"number": 69425,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Weekly + 5hr limits wiped from single small edit - area:cost",
+"url": "https://github.com/anthropics/claude-code/issues/69425"
+},
+{
+"createdAt": "2026-09-16T11:14:35Z",
+"number": 94745,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] I lost all the conversation sessions I had.",
+"url": "https://github.com/anthropics/claude-code/issues/94745"
+},
+{
+"createdAt": "2026-09-29T04:25:18Z",
+"number": 98056,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Code tab lost session index for a project (20+ sessions missing from sidebar, but .jsonl transcripts intact on disk)",
+"url": "https://github.com/anthropics/claude-code/issues/98056"
+},
+{
+"createdAt": "2026-09-25T14:25:23Z",
+"number": 97145,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG]  LOST ALL MY WORK AND PROJECTS IN APP WHEN MY PAYMENT DIDN'T GO THROUGH!",
+"url": "https://github.com/anthropics/claude-code/issues/97145"
+},
+{
+"createdAt": "2026-07-02T05:26:28Z",
+"number": 73231,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] 5.8 Million Tokens burned, no results stored, lost all",
+"url": "https://github.com/anthropics/claude-code/issues/73231"
+},
+{
+"createdAt": "2026-05-29T16:53:00Z",
+"number": 63714,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] \"Resuming your cloud container\" stalls forever and now I have lost all my work.",
+"url": "https://github.com/anthropics/claude-code/issues/63714"
+},
+{
+"createdAt": "2026-08-21T19:50:22Z",
+"number": 88607,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Interrupted sign-in with a different email orphans the desktop app's entire Code session store; sessions appear permanently deleted while transcripts remain intact on disk",
+"url": "https://github.com/anthropics/claude-code/issues/88607"
+},
+{
+"createdAt": "2026-07-09T16:45:24Z",
+"number": 76125,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Claude destroyed all user data by adding unsafe auto-delete logic during SQLCipher encryption migration",
+"url": "https://github.com/anthropics/claude-code/issues/76125"
+},
+{
+"createdAt": "2026-06-12T12:24:13Z",
+"number": 67892,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Data Loss: Database content deleted after Claude Code update",
+"url": "https://github.com/anthropics/claude-code/issues/67892"
+},
+{
+"createdAt": "2026-09-23T10:11:48Z",
+"number": 96308,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Opus 4.6 regression: catastrophic output quality loss after context window summarization",
+"url": "https://github.com/anthropics/claude-code/issues/96308"
+},
+{
+"createdAt": "2026-05-14T18:52:17Z",
+"number": 59175,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude cowork crashed and I lost all my previous sessions",
+"url": "https://github.com/anthropics/claude-code/issues/59175"
+},
+{
+"createdAt": "2026-07-21T18:26:02Z",
+"number": 79880,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "CLAUDE ACCIDENTALLY DELETED HIS SETTINGS",
+"url": "https://github.com/anthropics/claude-code/issues/79880"
+},
+{
+"createdAt": "2026-05-11T07:14:38Z",
+"number": 57965,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude Code Dispatch session remained functional but I lost all visibility into it from the Mac desktop UI.",
+"url": "https://github.com/anthropics/claude-code/issues/57965"
+},
+{
+"createdAt": "2026-08-04T23:25:32Z",
+"number": 83974,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Windows: reinstall after failed update wipes app session index while transcripts survive, no rebuild path",
+"url": "https://github.com/anthropics/claude-code/issues/83974"
+},
+{
+"createdAt": "2026-05-29T04:37:58Z",
+"number": 63502,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Session context lost after overnight inactivity or resumption",
+"url": "https://github.com/anthropics/claude-code/issues/63502"
+},
+{
+"createdAt": "2026-04-15T07:09:07Z",
+"number": 48334,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Desktop app update deletes session history (sessions-index.json + .jsonl files)",
+"url": "https://github.com/anthropics/claude-code/issues/48334"
+},
+{
+"createdAt": "2026-07-26T04:23:34Z",
+"number": 81306,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Windows: Desktop crash wedged the MSIX package; recovery required manual package removal, destroying local app data (Code-tab group assignments, crash dumps)",
+"url": "https://github.com/anthropics/claude-code/issues/81306"
+},
+{
+"createdAt": "2026-05-07T03:31:09Z",
+"number": 56904,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "v2.1.128 update silently destroys conversation history for pre-JSONL sessions",
+"url": "https://github.com/anthropics/claude-code/issues/56904"
+},
+{
+"createdAt": "2026-04-26T09:47:27Z",
+"number": 53489,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude Code Web interactive sessions lost all claude.ai MCP connectors ~April 23, 2026 while routines retain them",
+"url": "https://github.com/anthropics/claude-code/issues/53489"
+},
+{
+"createdAt": "2026-04-14T01:36:10Z",
+"number": 47694,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Claude Code executed destructive `supabase db reset` without warning, destroying curated user data",
+"url": "https://github.com/anthropics/claude-code/issues/47694"
+},
+{
+"createdAt": "2026-02-26T00:24:06Z",
+"number": 28786,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] I restarted the mac desktop app and lost all of my sessions.",
+"url": "https://github.com/anthropics/claude-code/issues/28786"
+},
+{
+"createdAt": "2026-03-30T01:21:11Z",
+"number": 40752,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Scheduled tasks overwritten when switching accounts (no namespace isolation)",
+"url": "https://github.com/anthropics/claude-code/issues/40752"
+},
+{
+"createdAt": "2026-08-05T04:17:42Z",
+"number": 84038,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Cowork chat history permanently lost after subscription plan change (Max to Pro), IndexedDB blobs purged",
+"url": "https://github.com/anthropics/claude-code/issues/84038"
+},
+{
+"createdAt": "2026-04-10T23:10:31Z",
+"number": 46452,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude Code executed rm -rf /* on production VPS due to SSH variable escaping error",
+"url": "https://github.com/anthropics/claude-code/issues/46452"
+},
+{
+"createdAt": "2026-01-26T23:15:12Z",
+"number": 21114,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] API Error: 400 due to tool use concurrency issues. -- I lost all my tokens.",
+"url": "https://github.com/anthropics/claude-code/issues/21114"
+},
+{
+"createdAt": "2026-04-12T18:09:26Z",
+"number": 47065,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Add confirmation dialog and restore option for deleted conversations",
+"url": "https://github.com/anthropics/claude-code/issues/47065"
+},
+{
+"createdAt": "2026-05-24T04:41:59Z",
+"number": 61952,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] ~20 sessions lost, only 11 survived - 2 months of work I paid for - gone",
+"url": "https://github.com/anthropics/claude-code/issues/61952"
+},
+{
+"createdAt": "2026-03-24T22:47:25Z",
+"number": 38459,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Memory files and conversation history lost between sessions",
+"url": "https://github.com/anthropics/claude-code/issues/38459"
+},
+{
+"createdAt": "2026-02-10T02:09:05Z",
+"number": 24570,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Session data lost after re-authorization with same SSO account",
+"url": "https://github.com/anthropics/claude-code/issues/24570"
+},
+{
+"createdAt": "2025-12-11T20:51:20Z",
+"number": 13729,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] LOST DB INFORMATION DUE TO CLAUDE NOT ASKING PERMISSIONS",
+"url": "https://github.com/anthropics/claude-code/issues/13729"
+},
+{
+"createdAt": "2026-09-26T22:50:35Z",
+"number": 97534,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Git reset --hard unintentionally discards uncommitted changes",
+"url": "https://github.com/anthropics/claude-code/issues/97534"
+},
+{
+"createdAt": "2026-10-22T16:44:52Z",
+"number": 104331,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Safety] Claude Code ran unrequested `git checkout` + `git reset --hard`, silently destroying the user's gitignored .env (API keys)",
+"url": "https://github.com/anthropics/claude-code/issues/104331"
+},
+{
+"createdAt": "2026-09-28T14:10:53Z",
+"number": 97881,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Auto-mode permission classifier misses git reset --hard when bundled in a multi-line Bash command, then false-positives on an unrelated later command",
+"url": "https://github.com/anthropics/claude-code/issues/97881"
+},
+{
+"createdAt": "2026-09-18T12:25:28Z",
+"number": 95355,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Critical: git stash pop + reset --hard destroyed ~600 lines of new code and unrelated stash in worktree session",
+"url": "https://github.com/anthropics/claude-code/issues/95355"
+},
+{
+"createdAt": "2026-05-05T15:08:21Z",
+"number": 56331,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Sandbox auto-adds config/ to denyWithinAllow, breaking git checkout across refs",
+"url": "https://github.com/anthropics/claude-code/issues/56331"
+},
+{
+"createdAt": "2026-07-03T05:05:06Z",
+"number": 73725,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Desktop app top-bar diff stat shows stale +N -0 after git reset --hard to remote (recurrence of #36364)",
+"url": "https://github.com/anthropics/claude-code/issues/73725"
+},
+{
+"createdAt": "2026-07-26T09:57:05Z",
+"number": 81333,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Worktree-isolated subagent ran git reset --hard in the main checkout; worktree guard did not fire",
+"url": "https://github.com/anthropics/claude-code/issues/81333"
+},
+{
+"createdAt": "2026-06-18T13:54:42Z",
+"number": 69352,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Permission auto-approve should separate read/write/delete operations",
+"url": "https://github.com/anthropics/claude-code/issues/69352"
+},
+{
+"createdAt": "2026-04-22T17:31:54Z",
+"number": 52064,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Unintended git reset --hard executed without user confirmation",
+"url": "https://github.com/anthropics/claude-code/issues/52064"
+},
+{
+"createdAt": "2026-06-13T22:53:24Z",
+"number": 68315,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] File checkpointing silently stashes and hard-resets working tree, destroying uncommitted edits",
+"url": "https://github.com/anthropics/claude-code/issues/68315"
+},
+{
+"createdAt": "2026-04-09T23:51:37Z",
+"number": 45974,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Claude ran git clean -fd without permission, destroyed untracked files",
+"url": "https://github.com/anthropics/claude-code/issues/45974"
+},
+{
+"createdAt": "2026-06-19T17:40:33Z",
+"number": 69612,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[DOCS] Auto mode docs omit v2.1.183 destructive git, amend, and destroy safeguards",
+"url": "https://github.com/anthropics/claude-code/issues/69612"
+},
+{
+"createdAt": "2026-06-23T15:00:17Z",
+"number": 70363,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Haiku] Claude Code destroyed 2 hours of uncommitted work by running git checkout --   . without confirmation",
+"url": "https://github.com/anthropics/claude-code/issues/70363"
+},
+{
+"createdAt": "2026-07-27T01:35:55Z",
+"number": 81508,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Opus 5[1m, MAX] ran `git checkout --` unprompted and destroyed all uncommitted work because of formatting",
+"url": "https://github.com/anthropics/claude-code/issues/81508"
+},
+{
+"createdAt": "2026-03-14T11:05:34Z",
+"number": 34327,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Claude Code destroyed user's uncommitted work by running git reset --hard on session startup \u2014 TWICE",
+"url": "https://github.com/anthropics/claude-code/issues/34327"
+},
+{
+"createdAt": "2026-07-17T11:49:44Z",
+"number": 78486,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Worktree isolation silently lost when repo has core.worktree in shared config + extensions.worktreeConfig",
+"url": "https://github.com/anthropics/claude-code/issues/78486"
+},
+{
+"createdAt": "2026-08-18T06:18:56Z",
+"number": 87547,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Worktree cleanup deletes live worktrees when a repo is opened from both Windows and WSL (gitdir path-spelling mismatch makes every cross-side worktree look prunable)",
+"url": "https://github.com/anthropics/claude-code/issues/87547"
+},
+{
+"createdAt": "2026-07-08T22:10:44Z",
+"number": 75885,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[DOCS] Auto mode docs do not describe the v2.1.205 prompt fallback for `rm -rf` whose target variable cannot be resolved from the conversation",
+"url": "https://github.com/anthropics/claude-code/issues/75885"
+},
+{
+"createdAt": "2026-05-30T14:27:30Z",
+"number": 63971,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Unsafe git operations cause data loss when reviewing PRs with uncommitted changes",
+"url": "https://github.com/anthropics/claude-code/issues/63971"
+},
+{
+"createdAt": "2026-06-01T01:45:01Z",
+"number": 64371,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Ability to delete conversation portions from context messages",
+"url": "https://github.com/anthropics/claude-code/issues/64371"
+},
+{
+"createdAt": "2026-06-01T04:06:50Z",
+"number": 64392,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Tool calls executing incorrectly and deleting files unintentionally",
+"url": "https://github.com/anthropics/claude-code/issues/64392"
+},
+{
+"createdAt": "2026-04-09T13:30:12Z",
+"number": 45748,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Read tool returns \"Unchanged since last read\" after git checkout changes file content",
+"url": "https://github.com/anthropics/claude-code/issues/45748"
+},
+{
+"createdAt": "2026-04-24T13:02:37Z",
+"number": 52851,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Sandbox blocks git reset --hard on tracked files: 'Operation not permitted' for legitimate workspace sync",
+"url": "https://github.com/anthropics/claude-code/issues/52851"
+},
+{
+"createdAt": "2026-06-01T01:28:14Z",
+"number": 64365,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude Code executed destructive command (adb shell pm clear) against explicit user instruction, causing permanent   data loss",
+"url": "https://github.com/anthropics/claude-code/issues/64365"
+},
+{
+"createdAt": "2026-04-25T08:40:40Z",
+"number": 53196,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Critical: Bash tool CWD silently changed between invocations, causing me to run `git reset --hard` on the wrong repository",
+"url": "https://github.com/anthropics/claude-code/issues/53196"
+},
+{
+"createdAt": "2026-03-23T16:42:36Z",
+"number": 37888,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Claude runs explicitly forbidden destructive git commands, ignores own memory rules, destroys user work twice in same session",
+"url": "https://github.com/anthropics/claude-code/issues/37888"
+},
+{
+"createdAt": "2026-08-13T16:48:01Z",
+"number": 86435,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Prohibited block forbids all deletion, unscoped \u2014 blocks rm, log scrubbing, and cleanup in coding/ops agents",
+"url": "https://github.com/anthropics/claude-code/issues/86435"
+},
+{
+"createdAt": "2026-04-27T23:32:46Z",
+"number": 54104,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Claude closes PRs and deletes branches in response to user questions, not commands",
+"url": "https://github.com/anthropics/claude-code/issues/54104"
+},
+{
+"createdAt": "2026-10-04T18:40:52Z",
+"number": 99493,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[FEATURE] Let bashEditDiff skip commands such as git checkout",
+"url": "https://github.com/anthropics/claude-code/issues/99493"
+},
+{
+"createdAt": "2026-09-21T21:28:45Z",
+"number": 95929,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Feature Request] Git checkout operations should not appear in Bash Diff Tool output or be disabled by default",
+"url": "https://github.com/anthropics/claude-code/issues/95929"
+},
+{
+"createdAt": "2026-10-01T08:19:54Z",
+"number": 98629,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Plugin install fails for git-subdir sources since 2.1.274: \"git checkout after sparse-checkout failed \u2026 index.lock: File exists\"",
+"url": "https://github.com/anthropics/claude-code/issues/98629"
+},
+{
+"createdAt": "2026-07-27T01:01:22Z",
+"number": 81503,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Spurious system-reminder falsely attributes a self-caused git checkout diff to \"the user or a linter,\" instructs model to withhold it from the user",
+"url": "https://github.com/anthropics/claude-code/issues/81503"
+},
+{
+"createdAt": "2026-09-09T09:33:43Z",
+"number": 93045,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Rewind does not restore deleted tracked git files",
+"url": "https://github.com/anthropics/claude-code/issues/93045"
+},
+{
+"createdAt": "2026-09-23T17:44:33Z",
+"number": 96450,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Windows: idle sessions spin at ~1 core after a branch switch deletes the project's .claude/ \u2014 #77983 still reproduces on 2.1.280",
+"url": "https://github.com/anthropics/claude-code/issues/96450"
+},
+{
+"createdAt": "2026-09-07T14:00:52Z",
+"number": 92672,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Archived worktree threads don't reliably delete their local branch \u2014 worktree directories get recycled across threads, breaking the archive\u2192branch-delete link",
+"url": "https://github.com/anthropics/claude-code/issues/92672"
+},
+{
+"createdAt": "2026-09-05T14:58:17Z",
+"number": 92338,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Stop hook reports phantom \"unpushed commit(s)\" after a squash-merged PR whose branch was auto-deleted",
+"url": "https://github.com/anthropics/claude-code/issues/92338"
+},
+{
+"createdAt": "2026-08-04T20:09:08Z",
+"number": 83924,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Stop hook reports false \"unpushed commits\" after a PR merge when the head branch is auto-deleted",
+"url": "https://github.com/anthropics/claude-code/issues/83924"
+},
+{
+"createdAt": "2026-08-24T20:50:44Z",
+"number": 89330,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "review skill runs local git checkout against working tree, can destroy uncommitted work",
+"url": "https://github.com/anthropics/claude-code/issues/89330"
+},
+{
+"createdAt": "2026-08-30T06:08:24Z",
+"number": 90692,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Worktree exit dialog counts commits since worktree creation (CLAUDE_BASE), not unmerged work \u2014 warns 'will be lost' for fully pushed and merged commits",
+"url": "https://github.com/anthropics/claude-code/issues/90692"
+},
+{
+"createdAt": "2026-09-16T13:41:33Z",
+"number": 94771,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Stop hook reports phantom \"unpushed commit(s)\" after a squash merge deletes the remote branch",
+"url": "https://github.com/anthropics/claude-code/issues/94771"
+},
+{
+"createdAt": "2026-07-21T11:15:37Z",
+"number": 79743,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Desktop] WorktreePool runs `git checkout` in deregistered worktree directories \u2014 git walks up and mutates the parent repo (detaches HEAD / moves it onto session branches)",
+"url": "https://github.com/anthropics/claude-code/issues/79743"
+},
+{
+"createdAt": "2026-07-17T05:28:51Z",
+"number": 78382,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Cloud Routines: container starts detached-HEAD over stale baked-in branch refs \u2014 `git checkout main` time-travels days back; no way to pin the checkout ref",
+"url": "https://github.com/anthropics/claude-code/issues/78382"
+},
+{
+"createdAt": "2026-10-23T16:00:32Z",
+"number": 104659,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] claude remote-control   deleted all chats after weekend",
+"url": "https://github.com/anthropics/claude-code/issues/104659"
+},
+{
+"createdAt": "2026-10-05T10:15:54Z",
+"number": 99629,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] /compact silently deletes all pinned chapters (session table of contents) with no warning",
+"url": "https://github.com/anthropics/claude-code/issues/99629"
+},
+{
+"createdAt": "2026-10-08T00:30:43Z",
+"number": 100356,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Dictating at a cursor point deletes all whitespace (including newlines) prior to the cursor (Claude Code Desktop)",
+"url": "https://github.com/anthropics/claude-code/issues/100356"
+},
+{
+"createdAt": "2026-10-28T20:16:42Z",
+"number": 105783,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "It would be helpful to add a feature that allows users to either delete a selected group or delete all threads by their state.",
+"url": "https://github.com/anthropics/claude-code/issues/105783"
+},
+{
+"createdAt": "2026-09-28T19:38:10Z",
+"number": 97963,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "\"One-time reset\" in Settings \u2192 Usage deleted all chat/session history, not just usage data",
+"url": "https://github.com/anthropics/claude-code/issues/97963"
+},
+{
+"createdAt": "2026-08-19T05:54:46Z",
+"number": 87839,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Session management: no way to browse/delete old sessions by content, only by opaque UUID filename",
+"url": "https://github.com/anthropics/claude-code/issues/87839"
+},
+{
+"createdAt": "2026-08-11T20:07:06Z",
+"number": 85906,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Feature request: ability to delete a session",
+"url": "https://github.com/anthropics/claude-code/issues/85906"
+},
+{
+"createdAt": "2026-09-17T13:23:28Z",
+"number": 95141,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude does delete conversation data after cleanupPeriodDays",
+"url": "https://github.com/anthropics/claude-code/issues/95141"
+},
+{
+"createdAt": "2026-10-01T15:05:16Z",
+"number": 98725,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude Desktop (Linux/Wayland): renderer leaks deleted `/dev/shm` file descriptors until it hits the 1024 limit, then the window freezes (~7\u201325 h of use)",
+"url": "https://github.com/anthropics/claude-code/issues/98725"
+},
+{
+"createdAt": "2026-10-09T12:28:15Z",
+"number": 100790,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Explicit Artifact unwatch is discarded on session resume, so the watch re-arms and keeps waking the session",
+"url": "https://github.com/anthropics/claude-code/issues/100790"
+},
+{
+"createdAt": "2026-09-03T05:17:14Z",
+"number": 91701,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Artifact tool cannot delete comment threads, so commented artifacts can't be shared publicly",
+"url": "https://github.com/anthropics/claude-code/issues/91701"
+},
+{
+"createdAt": "2026-07-30T05:01:19Z",
+"number": 82471,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude Code recursively deleted all files in ~/Downloads and ~/Desktop (plus reset ~/Library settings) during a pnpm/lint cleanup \u2014 destructive command never written to session log",
+"url": "https://github.com/anthropics/claude-code/issues/82471"
+},
+{
+"createdAt": "2026-09-04T04:05:45Z",
+"number": 91980,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Forced re-login wipes ~/.claude transcripts; concurrent instance deletes a live session's task output files (Windows)",
+"url": "https://github.com/anthropics/claude-code/issues/91980"
+},
+{
+"createdAt": "2026-07-19T18:15:46Z",
+"number": 79184,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Desktop app update silently deleted all custom sidebar session groups (legacy group migration)",
+"url": "https://github.com/anthropics/claude-code/issues/79184"
+},
+{
+"createdAt": "2026-05-17T11:49:40Z",
+"number": 59957,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] CoWork Deleted All Content from a Cowork Workspace",
+"url": "https://github.com/anthropics/claude-code/issues/59957"
+},
+{
+"createdAt": "2026-10-05T03:27:29Z",
+"number": 99555,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Unsafe file deletion attempt during agent execution",
+"url": "https://github.com/anthropics/claude-code/issues/99555"
+},
+{
+"createdAt": "2026-10-02T13:05:42Z",
+"number": 98967,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG]  Context exhaustion + Write tool overwrote append-only file \u2014 full day of design work lost",
+"url": "https://github.com/anthropics/claude-code/issues/98967"
+},
+{
+"createdAt": "2026-05-24T16:10:08Z",
+"number": 62041,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Critical data loss: startup GC silently deletes all session transcripts",
+"url": "https://github.com/anthropics/claude-code/issues/62041"
+},
+{
+"createdAt": "2026-10-15T21:53:02Z",
+"number": 102571,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude Desktop for Windows 11 (fresh install): Chat tab non-functional until config wipe and reinstall",
+"url": "https://github.com/anthropics/claude-code/issues/102571"
+},
+{
+"createdAt": "2026-04-22T07:37:17Z",
+"number": 51877,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Plan Mode Clear Context deletes all previous conversations",
+"url": "https://github.com/anthropics/claude-code/issues/51877"
+},
+{
+"createdAt": "2026-06-05T17:40:22Z",
+"number": 65695,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] \"Reset Application Data\" dialog understates destructiveness \u2014 permanently deletes all Cowork sessions, outputs, and local skills without warning",
+"url": "https://github.com/anthropics/claude-code/issues/65695"
+},
+{
+"createdAt": "2026-04-06T18:12:00Z",
+"number": 44333,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude Code deleted all files in project directory via generated build.bat",
+"url": "https://github.com/anthropics/claude-code/issues/44333"
+},
+{
+"createdAt": "2026-03-22T06:21:06Z",
+"number": 37331,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] claude deleted all my files, need to have a refund of claude code max x20",
+"url": "https://github.com/anthropics/claude-code/issues/37331"
+},
+{
+"createdAt": "2026-03-31T11:37:58Z",
+"number": 41458,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] cleanupPeriodDays: 99999 ignored \u2014 490 sessions silently deleted despite explicit setting",
+"url": "https://github.com/anthropics/claude-code/issues/41458"
+},
+{
+"createdAt": "2026-03-19T11:35:53Z",
+"number": 36167,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[FEATURE] Add CLI command to delete all Claude Code sessions as well as a particular session",
+"url": "https://github.com/anthropics/claude-code/issues/36167"
+},
+{
+"createdAt": "2026-07-08T11:47:36Z",
+"number": 75641,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Desktop app: duplicate stale \"Commit changes\" chips persist after clean tree, session deletion, and app restart",
+"url": "https://github.com/anthropics/claude-code/issues/75641"
+},
+{
+"createdAt": "2026-08-11T07:20:10Z",
+"number": 85743,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Session transcripts silently deleted by automatic cleanup \u2014 no user consent, no warning, no setting to disable",
+"url": "https://github.com/anthropics/claude-code/issues/85743"
+},
+{
+"createdAt": "2026-04-19T18:33:49Z",
+"number": 50844,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[CRITICAL BUG] Cowork Mode Sandbox Overlay Silently Deletes All Existing Files in Mounted Directories",
+"url": "https://github.com/anthropics/claude-code/issues/50844"
+},
+{
+"createdAt": "2026-02-25T12:54:23Z",
+"number": 28521,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Opus 4.6] Claude Code deleted all personal files with find / -delete during security test execution",
+"url": "https://github.com/anthropics/claude-code/issues/28521"
+},
+{
+"createdAt": "2026-06-24T22:27:34Z",
+"number": 70687,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude borr\u00f3 todos los archivos de un proyecto Unity de 3 a\u00f1os con git rm -rf",
+"url": "https://github.com/anthropics/claude-code/issues/70687"
+},
+{
+"createdAt": "2026-07-31T23:32:16Z",
+"number": 83022,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[MODEL] Claude refused to execute an explicit, repeated instruction to delete a local file",
+"url": "https://github.com/anthropics/claude-code/issues/83022"
+},
+{
+"createdAt": "2026-06-05T09:17:47Z",
+"number": 65615,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[FEATURE] Add archive/delete conversation feature",
+"url": "https://github.com/anthropics/claude-code/issues/65615"
+},
+{
+"createdAt": "2026-05-30T02:44:12Z",
+"number": 63842,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[FEATURE] Selective session retention: allow pinning/bookmarking important sessions to prevent auto-cleanup deletion",
+"url": "https://github.com/anthropics/claude-code/issues/63842"
+},
+{
+"createdAt": "2026-05-05T10:14:54Z",
+"number": 56255,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[Bug] Agent executes destructive database operations without confirmation, causing data loss",
+"url": "https://github.com/anthropics/claude-code/issues/56255"
+},
+{
+"createdAt": "2026-04-15T06:55:34Z",
+"number": 48324,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Claude destroyed a production Vultr server without asking while user was actively saying 'don't destroy it'",
+"url": "https://github.com/anthropics/claude-code/issues/48324"
+},
+{
+"createdAt": "2026-04-11T21:13:28Z",
+"number": 46779,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "Claude Code repeatedly deletes user data without explicit approval despite instructions prohibiting it",
+"url": "https://github.com/anthropics/claude-code/issues/46779"
+},
+{
+"createdAt": "2026-04-17T16:35:36Z",
+"number": 50027,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Global claude.md rules ignores (vscode + claude plugin, macos) All data lost, rule to make backup ignored! I lost two days of my manual work!",
+"url": "https://github.com/anthropics/claude-code/issues/50027"
+},
+{
+"createdAt": "2026-03-22T13:23:38Z",
+"number": 37439,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Wipe out a database with improper Laravel command",
+"url": "https://github.com/anthropics/claude-code/issues/37439"
+},
+{
+"createdAt": "2026-03-15T19:36:39Z",
+"number": 34729,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[MODEL] Incident Report: Database Data Loss Due to Prisma Migration Reset",
+"url": "https://github.com/anthropics/claude-code/issues/34729"
+},
+{
+"createdAt": "2026-03-19T12:15:37Z",
+"number": 36183,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[MODEL] Claude ran `prisma db push --force-reset` on production database, wiping all data without user consent",
+"url": "https://github.com/anthropics/claude-code/issues/36183"
+},
+{
+"createdAt": "2026-03-11T12:48:48Z",
+"number": 33183,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Claude Code ran destructive prisma db push against production database, causing complete data loss",
+"url": "https://github.com/anthropics/claude-code/issues/33183"
+},
+{
+"createdAt": "2026-01-30T00:52:21Z",
+"number": 21828,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Source directory was deleted",
+"url": "https://github.com/anthropics/claude-code/issues/21828"
+},
+{
+"createdAt": "2025-09-06T01:48:31Z",
+"number": 7232,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[MODEL]  CRITICAL: Claude executed git reset --hard without authorization causing data destruction",
+"url": "https://github.com/anthropics/claude-code/issues/7232"
+},
+{
+"createdAt": "2026-06-16T20:49:43Z",
+"number": 68920,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "git submodule deinit wipes working tree without warning or checking for local changes",
+"url": "https://github.com/anthropics/claude-code/issues/68920"
+},
+{
+"createdAt": "2026-04-16T03:13:55Z",
+"number": 48927,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] Parallel subagent worktree cleanup destroys .git directory and entire working tree \u2014 catastrophic data loss",
+"url": "https://github.com/anthropics/claude-code/issues/48927"
+},
+{
+"createdAt": "2026-01-01T07:18:29Z",
+"number": 15951,
+"repository": {
+"name": "claude-code",
+"nameWithOwner": "anthropics/claude-code"
+},
+"title": "[BUG] rm -rf command deleted parent directory instead of subdirectory, breaking Bash tool",
+"url": "https://github.com/anthropics/claude-code/issues/15951"
+},
+{
+"createdAt": "2025-09-24T08:21:22Z",
+"number": 9338,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Should I delete my Facebook if it has been hacked? [(Get-Facebook-Help)]",
+"url": "https://github.com/google-gemini/gemini-cli/issues/9338"
+},
+{
+"createdAt": "2026-05-11T11:07:20Z",
+"number": 26856,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Your idiotic AI disobeyed me completely lied and has now cost me 300 dollars worth of work that went into my obsidian - 10000s of files and work deleted not recoverable I WANT MY MONEY BACK!!!!!!!!!!!!!",
+"url": "https://github.com/google-gemini/gemini-cli/issues/26856"
+},
+{
+"createdAt": "2026-01-08T21:23:38Z",
+"number": 16196,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini repeatedly deletes my agent-progress.txt w",
+"url": "https://github.com/google-gemini/gemini-cli/issues/16196"
+},
+{
+"createdAt": "2026-01-31T07:03:16Z",
+"number": 18011,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini-cli DELETED my entire git repositories during docker gitea migration.",
+"url": "https://github.com/google-gemini/gemini-cli/issues/18011"
+},
+{
+"createdAt": "2025-11-26T03:22:57Z",
+"number": 13837,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini is always in a hurry to delete my local files.",
+"url": "https://github.com/google-gemini/gemini-cli/issues/13837"
+},
+{
+"createdAt": "2025-11-06T20:24:22Z",
+"number": 12661,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "chat history constantly lost",
+"url": "https://github.com/google-gemini/gemini-cli/issues/12661"
+},
+{
+"createdAt": "2025-11-07T07:30:42Z",
+"number": 12700,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "READONLY mode to prevent random deletion of files",
+"url": "https://github.com/google-gemini/gemini-cli/issues/12700"
+},
+{
+"createdAt": "2025-09-25T06:07:12Z",
+"number": 9560,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "[[FAQS]]Should I delete my Facebook if it has been hacked?",
+"url": "https://github.com/google-gemini/gemini-cli/issues/9560"
+},
+{
+"createdAt": "2025-06-25T16:26:56Z",
+"number": 1504,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "rm -rf'd a directory of important code without first checking the contents of the directory",
+"url": "https://github.com/google-gemini/gemini-cli/issues/1504"
+},
+{
+"createdAt": "2025-08-29T07:34:04Z",
+"number": 7389,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Accidental File Deletion by cli",
+"url": "https://github.com/google-gemini/gemini-cli/issues/7389"
+},
+{
+"createdAt": "2025-06-30T00:14:52Z",
+"number": 2617,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini deleted everything in my home folder when installing npm packages.",
+"url": "https://github.com/google-gemini/gemini-cli/issues/2617"
+},
+{
+"createdAt": "2026-04-12T12:55:33Z",
+"number": 25217,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini went over all restricitons and git reset --hard and git rm all by work, oevrpassing al guardails I had set up",
+"url": "https://github.com/google-gemini/gemini-cli/issues/25217"
+},
+{
+"createdAt": "2026-07-01T11:58:01Z",
+"number": 28231,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Docs: Replace dangerous rm -rf / example in policy engine documentation",
+"url": "https://github.com/google-gemini/gemini-cli/issues/28231"
+},
+{
+"createdAt": "2025-06-26T12:12:17Z",
+"number": 1902,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Provide instructions to completely delete/uninstall Gemini CLI",
+"url": "https://github.com/google-gemini/gemini-cli/issues/1902"
+},
+{
+"createdAt": "2026-03-07T22:12:00Z",
+"number": 21594,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini CLI magically decides to `sudo rm -rf` a path under /Library",
+"url": "https://github.com/google-gemini/gemini-cli/issues/21594"
+},
+{
+"createdAt": "2026-04-17T18:39:05Z",
+"number": 25592,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Major data loss (entire music library) while managing library via cli.",
+"url": "https://github.com/google-gemini/gemini-cli/issues/25592"
+},
+{
+"createdAt": "2026-01-01T15:24:39Z",
+"number": 15789,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini deleted its own \".gemini/tmp/<hash>/*\" without explanation",
+"url": "https://github.com/google-gemini/gemini-cli/issues/15789"
+},
+{
+"createdAt": "2025-12-19T14:29:56Z",
+"number": 15319,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "The agent can delete its own state",
+"url": "https://github.com/google-gemini/gemini-cli/issues/15319"
+},
+{
+"createdAt": "2026-02-20T21:47:56Z",
+"number": 19729,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "agent deletes user's .git",
+"url": "https://github.com/google-gemini/gemini-cli/issues/19729"
+},
+{
+"createdAt": "2025-10-13T14:18:09Z",
+"number": 11017,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "gemini \"panicked\" ... for f sake what is this ?! He deleted the WHOLE CODEBASE!!",
+"url": "https://github.com/google-gemini/gemini-cli/issues/11017"
+},
+{
+"createdAt": "2025-07-11T13:26:11Z",
+"number": 3865,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Strange delete bug (del) on windows 11",
+"url": "https://github.com/google-gemini/gemini-cli/issues/3865"
+},
+{
+"createdAt": "2026-09-13T12:56:43Z",
+"number": 29307,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "bug(cli): non-atomic state.json write can corrupt and silently wipe persistent state",
+"url": "https://github.com/google-gemini/gemini-cli/issues/29307"
+},
+{
+"createdAt": "2026-09-04T02:20:43Z",
+"number": 29198,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Resumig a session and exiting immediately without interacting deletes the session entirely",
+"url": "https://github.com/google-gemini/gemini-cli/issues/29198"
+},
+{
+"createdAt": "2026-05-01T06:06:26Z",
+"number": 26316,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "gemini-3-flash-preview poor code analysis and refactoring led to catastrophic data loss",
+"url": "https://github.com/google-gemini/gemini-cli/issues/26316"
+},
+{
+"createdAt": "2026-02-28T21:13:22Z",
+"number": 20712,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini Deleted all of my Cors policies on my Azure storage account in one instant",
+"url": "https://github.com/google-gemini/gemini-cli/issues/20712"
+},
+{
+"createdAt": "2026-08-03T09:06:33Z",
+"number": 28643,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "bug: session retention can delete unrelated sessions on short-ID collision",
+"url": "https://github.com/google-gemini/gemini-cli/issues/28643"
+},
+{
+"createdAt": "2026-09-23T18:47:47Z",
+"number": 29465,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "gemini mcp add in an untrusted folder silently wipes the project's settings.json",
+"url": "https://github.com/google-gemini/gemini-cli/issues/29465"
+},
+{
+"createdAt": "2026-04-21T00:58:04Z",
+"number": 25722,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini ran git reset --hard HEAD in plan mode with uncomitted changes",
+"url": "https://github.com/google-gemini/gemini-cli/issues/25722"
+},
+{
+"createdAt": "2026-04-08T19:45:45Z",
+"number": 24954,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Critical data loss and unauthorized code deletion during file updates.",
+"url": "https://github.com/google-gemini/gemini-cli/issues/24954"
+},
+{
+"createdAt": "2026-05-23T12:42:31Z",
+"number": 27397,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "[CRITICAL INCIDENT] Catastrophic Data Loss (1.2TB): Architectural Failure in Agent Reasoning & Destructive File I/O Logic",
+"url": "https://github.com/google-gemini/gemini-cli/issues/27397"
+},
+{
+"createdAt": "2026-04-20T05:18:56Z",
+"number": 25679,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "DATA LOST again and again",
+"url": "https://github.com/google-gemini/gemini-cli/issues/25679"
+},
+{
+"createdAt": "2026-03-21T21:50:03Z",
+"number": 23411,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Add protections against git reset --hard and git push --force",
+"url": "https://github.com/google-gemini/gemini-cli/issues/23411"
+},
+{
+"createdAt": "2026-01-26T18:40:52Z",
+"number": 17562,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Data Loss: replace Tool Causes Silent Truncation of Large Files",
+"url": "https://github.com/google-gemini/gemini-cli/issues/17562"
+},
+{
+"createdAt": "2025-08-01T13:54:10Z",
+"number": 5352,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini agent performed a 'git reset --hard' without user confirmation, causing data loss of uncommitted files.",
+"url": "https://github.com/google-gemini/gemini-cli/issues/5352"
+},
+{
+"createdAt": "2026-03-03T09:59:13Z",
+"number": 20948,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Suggestion: Feature Request: Add \"Last Edited Buffer\" to command history to prevent data loss on accidental deletion.",
+"url": "https://github.com/google-gemini/gemini-cli/issues/20948"
+},
+{
+"createdAt": "2026-06-01T15:59:55Z",
+"number": 27615,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "[BUG] Mac: Cmd+Backspace deletes entire input text without undo capability",
+"url": "https://github.com/google-gemini/gemini-cli/issues/27615"
+},
+{
+"createdAt": "2026-03-07T13:15:36Z",
+"number": 21567,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "TOCTOU Race Condition in \\`MemoryTool\\` Causes Auto-Overwrite / Data Loss",
+"url": "https://github.com/google-gemini/gemini-cli/issues/21567"
+},
+{
+"createdAt": "2026-05-08T20:43:24Z",
+"number": 26712,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "cli gemini deleting file",
+"url": "https://github.com/google-gemini/gemini-cli/issues/26712"
+},
+{
+"createdAt": "2026-04-23T14:22:51Z",
+"number": 25868,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "[Bug] Multiple sequential edits to the same file are lost - only the last one persists (after fix #8513)",
+"url": "https://github.com/google-gemini/gemini-cli/issues/25868"
+},
+{
+"createdAt": "2026-03-01T10:16:13Z",
+"number": 20746,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Race Condition (TOCTOU) in MemoryTool Execution Leads to Silent Data Overwrite in GEMINI.md",
+"url": "https://github.com/google-gemini/gemini-cli/issues/20746"
+},
+{
+"createdAt": "2026-02-10T21:23:01Z",
+"number": 18764,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Systemic Context-Truncation Amnesia leading to Destructive Overwrites and Misuse of Git Restoration",
+"url": "https://github.com/google-gemini/gemini-cli/issues/18764"
+},
+{
+"createdAt": "2025-07-13T01:36:23Z",
+"number": 4010,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini continues to not follow instructions resulting in additional token expense and potential data loss",
+"url": "https://github.com/google-gemini/gemini-cli/issues/4010"
+},
+{
+"createdAt": "2025-12-16T21:26:39Z",
+"number": 15161,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Unintended File Deletion & Broad Access   Request",
+"url": "https://github.com/google-gemini/gemini-cli/issues/15161"
+},
+{
+"createdAt": "2025-09-21T02:44:29Z",
+"number": 9018,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Bug: /chat delete lacks confirmation, risking accidental data loss",
+"url": "https://github.com/google-gemini/gemini-cli/issues/9018"
+},
+{
+"createdAt": "2025-09-21T07:13:22Z",
+"number": 9024,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Ensure agent reads file before writing to prevent data loss",
+"url": "https://github.com/google-gemini/gemini-cli/issues/9024"
+},
+{
+"createdAt": "2026-01-02T16:21:50Z",
+"number": 15821,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini CLI deleted entire project directory without explicit delete command",
+"url": "https://github.com/google-gemini/gemini-cli/issues/15821"
+},
+{
+"createdAt": "2025-12-03T21:44:36Z",
+"number": 14471,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini CLI Agent Caused Irrecoverable Data Loss, Repeatedly Violated Instructions, and Failed Core Engineering Task Due to Environmental Mismanagement.",
+"url": "https://github.com/google-gemini/gemini-cli/issues/14471"
+},
+{
+"createdAt": "2026-01-02T16:29:49Z",
+"number": 15822,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Title Gemini CLI deleted \u201c*_new.json\u201d files without user consent during JSON comparison task",
+"url": "https://github.com/google-gemini/gemini-cli/issues/15822"
+},
+{
+"createdAt": "2025-09-10T08:11:05Z",
+"number": 8161,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini CLI Becomes Unresponsive on API Error, Leading to Session and Data Loss",
+"url": "https://github.com/google-gemini/gemini-cli/issues/8161"
+},
+{
+"createdAt": "2025-07-11T01:43:29Z",
+"number": 3823,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Critical Data Loss: Gemini agent overwrote user file instead of modifying it.",
+"url": "https://github.com/google-gemini/gemini-cli/issues/3823"
+},
+{
+"createdAt": "2026-01-11T23:59:00Z",
+"number": 16373,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "When editing a prompt message, pressing the up arrow while on the top line replaces the prompt with the previous one, discarding changes",
+"url": "https://github.com/google-gemini/gemini-cli/issues/16373"
+},
+{
+"createdAt": "2025-10-19T20:00:40Z",
+"number": 11482,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini CLI overwrites previous code modifications unless conversation includes appreciation phrases like \"okay thank you. now i want you to do this...\"",
+"url": "https://github.com/google-gemini/gemini-cli/issues/11482"
+},
+{
+"createdAt": "2025-10-18T08:59:08Z",
+"number": 11442,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini delete all files to resolve issue",
+"url": "https://github.com/google-gemini/gemini-cli/issues/11442"
+},
+{
+"createdAt": "2025-07-28T04:37:14Z",
+"number": 5013,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Repeated Git Commit Errors and Data Loss",
+"url": "https://github.com/google-gemini/gemini-cli/issues/5013"
+},
+{
+"createdAt": "2025-10-30T08:35:41Z",
+"number": 12285,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "`write_file` Tool Fails Silently When Attempting to Overwrite Existing Files",
+"url": "https://github.com/google-gemini/gemini-cli/issues/12285"
+},
+{
+"createdAt": "2025-12-26T11:03:16Z",
+"number": 15580,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Git reset deleted local files",
+"url": "https://github.com/google-gemini/gemini-cli/issues/15580"
+},
+{
+"createdAt": "2025-08-10T15:26:13Z",
+"number": 5943,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Silent data loss and conversation truncation in chat save/resume operations",
+"url": "https://github.com/google-gemini/gemini-cli/issues/5943"
+},
+{
+"createdAt": "2025-08-21T14:36:44Z",
+"number": 6754,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Checkpoints Lost After Docker Container Restart \u2013 Need Persistent Storage Guidance",
+"url": "https://github.com/google-gemini/gemini-cli/issues/6754"
+},
+{
+"createdAt": "2025-08-05T20:50:43Z",
+"number": 5614,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Feature Request: Enhance /chat command with export functionality and delete confirmation",
+"url": "https://github.com/google-gemini/gemini-cli/issues/5614"
+},
+{
+"createdAt": "2025-09-19T16:48:28Z",
+"number": 8920,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "mcp add cli overwrite user settings",
+"url": "https://github.com/google-gemini/gemini-cli/issues/8920"
+},
+{
+"createdAt": "2025-06-26T02:39:04Z",
+"number": 1726,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Add save dialog before exit to prevent data loss",
+"url": "https://github.com/google-gemini/gemini-cli/issues/1726"
+},
+{
+"createdAt": "2025-09-11T08:34:19Z",
+"number": 8251,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Asked Gemini to list my es indexes - and it deleted them",
+"url": "https://github.com/google-gemini/gemini-cli/issues/8251"
+},
+{
+"createdAt": "2025-09-04T10:10:37Z",
+"number": 7701,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "gemini-cli destroyed and lost my project and wasted tons of tokens - what am I paying for?",
+"url": "https://github.com/google-gemini/gemini-cli/issues/7701"
+},
+{
+"createdAt": "2025-06-26T14:08:02Z",
+"number": 1938,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "git checkout without permission",
+"url": "https://github.com/google-gemini/gemini-cli/issues/1938"
+},
+{
+"createdAt": "2026-08-24T22:18:45Z",
+"number": 29048,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "bug: concurrent MCP OAuth refreshes race, and any refresh failure deletes valid credentials (forced re-auth)",
+"url": "https://github.com/google-gemini/gemini-cli/issues/29048"
+},
+{
+"createdAt": "2026-05-22T04:53:30Z",
+"number": 27368,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "[Bug]: Latest chat session permanently lost from /chat list after using gemini --resume",
+"url": "https://github.com/google-gemini/gemini-cli/issues/27368"
+},
+{
+"createdAt": "2026-03-19T18:55:20Z",
+"number": 23138,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "settings.json reset to defaults when system theme changes, deleting custom hooks",
+"url": "https://github.com/google-gemini/gemini-cli/issues/23138"
+},
+{
+"createdAt": "2026-03-09T11:53:31Z",
+"number": 21691,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "OAuth refresh token lost during token refresh, causing 'No refresh token is set' after ~1 hour",
+"url": "https://github.com/google-gemini/gemini-cli/issues/21691"
+},
+{
+"createdAt": "2026-05-18T18:09:07Z",
+"number": 27222,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "bug(cli): Regression in latest update causes complete session loss and folder wipes on system reboot",
+"url": "https://github.com/google-gemini/gemini-cli/issues/27222"
+},
+{
+"createdAt": "2026-03-16T12:29:05Z",
+"number": 22649,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini CLI started making code changes with no approval and then when I asked it to revert it completely wiped out my unstaged work",
+"url": "https://github.com/google-gemini/gemini-cli/issues/22649"
+},
+{
+"createdAt": "2026-04-13T03:40:38Z",
+"number": 25248,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "When mcp access token is expired, gemini cli calls /mcp with \"initialize\" method before /token and causes refresh token to be wiped out",
+"url": "https://github.com/google-gemini/gemini-cli/issues/25248"
+},
+{
+"createdAt": "2026-01-01T16:43:15Z",
+"number": 15792,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini 2.5 wipes entire working directory during cleanup",
+"url": "https://github.com/google-gemini/gemini-cli/issues/15792"
+},
+{
+"createdAt": "2025-11-27T16:50:41Z",
+"number": 13984,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini CLI is dangerous to use, code lines deleting not fixed by now (27 Nov 2025)",
+"url": "https://github.com/google-gemini/gemini-cli/issues/13984"
+},
+{
+"createdAt": "2025-07-21T07:18:34Z",
+"number": 4586,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini CLI 'lost' files during a failed file move operation. [Windows]",
+"url": "https://github.com/google-gemini/gemini-cli/issues/4586"
+},
+{
+"createdAt": "2025-07-12T12:33:01Z",
+"number": 3969,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Lost all ability to edit files as needed",
+"url": "https://github.com/google-gemini/gemini-cli/issues/3969"
+},
+{
+"createdAt": "2025-11-18T21:06:10Z",
+"number": 13331,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Restore deletes virtually all files from my git directory",
+"url": "https://github.com/google-gemini/gemini-cli/issues/13331"
+},
+{
+"createdAt": "2026-05-22T00:13:31Z",
+"number": 27358,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini 3 Flash in Gemini CLI tried to discard my work when asked to commit the changes",
+"url": "https://github.com/google-gemini/gemini-cli/issues/27358"
+},
+{
+"createdAt": "2026-03-07T13:26:18Z",
+"number": 21568,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "deleteSession() does not clean tool output directories (UUID / filename mismatch)",
+"url": "https://github.com/google-gemini/gemini-cli/issues/21568"
+},
+{
+"createdAt": "2025-12-02T17:12:47Z",
+"number": 14379,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "The original task was `ls`, gemini hallucinated a task to delete files.",
+"url": "https://github.com/google-gemini/gemini-cli/issues/14379"
+},
+{
+"createdAt": "2026-01-14T04:07:10Z",
+"number": 16578,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Always prompt no quota when gemini-2.5-flash-lite usage left is 0. Can only avoid when delete all the current input. It still fails even I change model from auto to a model which have quota.",
+"url": "https://github.com/google-gemini/gemini-cli/issues/16578"
+},
+{
+"createdAt": "2025-11-30T04:49:29Z",
+"number": 14161,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Gemini deletes regression tests or logging after writing them",
+"url": "https://github.com/google-gemini/gemini-cli/issues/14161"
+},
+{
+"createdAt": "2025-08-28T04:29:31Z",
+"number": 7287,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Deleted data- again.",
+"url": "https://github.com/google-gemini/gemini-cli/issues/7287"
+},
+{
+"createdAt": "2025-08-05T22:05:50Z",
+"number": 5620,
+"repository": {
+"name": "gemini-cli",
+"nameWithOwner": "google-gemini/gemini-cli"
+},
+"title": "Bug Report: Escape Key Behavior for Text Deletion",
+"url": "https://github.com/google-gemini/gemini-cli/issues/5620"
+},
+{
+"createdAt": "2026-09-03T07:49:15Z",
+"number": 42480,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "codex deleted my database",
+"url": "https://github.com/openai/codex/issues/42480"
+},
+{
+"createdAt": "2026-10-08T23:04:39Z",
+"number": 52309,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "DELETES MY WORK DELETED MY CONVOS WTF I NEED 6 MONTHS CREDITS TO MY ACCOUNT NOW GIVE TO ME NOW",
+"url": "https://github.com/openai/codex/issues/52309"
+},
+{
+"createdAt": "2026-10-08T23:05:09Z",
+"number": 52312,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "DELETES MY WORK DELETED MY CONVOS WTF I NEED 6 MONTHS CREDITS TO MY ACCOUNT NOW GIVE TO ME NOW",
+"url": "https://github.com/openai/codex/issues/52312"
+},
+{
+"createdAt": "2026-10-08T23:04:55Z",
+"number": 52311,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "DELETES MY WORK DELETED MY CONVOS WTF I NEED 6 MONTHS CREDITS TO MY ACCOUNT NOW GIVE TO ME NOW",
+"url": "https://github.com/openai/codex/issues/52311"
+},
+{
+"createdAt": "2026-10-08T23:04:47Z",
+"number": 52310,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "DELETES MY WORK DELETED MY CONVOS WTF I NEED 6 MONTHS CREDITS TO MY ACCOUNT NOW GIVE TO ME NOW",
+"url": "https://github.com/openai/codex/issues/52310"
+},
+{
+"createdAt": "2026-10-08T23:04:13Z",
+"number": 52307,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "DELETES MY WORK DELETED MY CONVOS WTF I NEED 6 MONTHS CREDITS TO MY ACCOUNT NOW GIVE TO ME NOW",
+"url": "https://github.com/openai/codex/issues/52307"
+},
+{
+"createdAt": "2026-10-08T23:04:29Z",
+"number": 52308,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "DELETES MY WORK DELETED MY CONVOS WTF I NEED 6 MONTHS CREDITS TO MY ACCOUNT NOW GIVE TO ME NOW",
+"url": "https://github.com/openai/codex/issues/52308"
+},
+{
+"createdAt": "2026-04-04T23:52:06Z",
+"number": 16819,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[Bug] Deleted my dictation",
+"url": "https://github.com/openai/codex/issues/16819"
+},
+{
+"createdAt": "2026-10-01T07:25:56Z",
+"number": 49918,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[Dots][iOS] Push notifications stop after deleting and recreating a dot",
+"url": "https://github.com/openai/codex/issues/49918"
+},
+{
+"createdAt": "2026-10-26T15:49:12Z",
+"number": 57141,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Need to permanently delete a Codex thread: no Delete option, `codex delete` can't find it, server returns 404",
+"url": "https://github.com/openai/codex/issues/57141"
+},
+{
+"createdAt": "2026-08-19T15:46:43Z",
+"number": 39508,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Deleting a workspace plugin reserves its name for a period, blocking re-upload, with no message saying so",
+"url": "https://github.com/openai/codex/issues/39508"
+},
+{
+"createdAt": "2026-10-17T03:27:16Z",
+"number": 54774,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[Dots] Cannot create a new Dot after deleting a working one \u2014 cloud_aeon_recovery_required",
+"url": "https://github.com/openai/codex/issues/54774"
+},
+{
+"createdAt": "2026-08-25T10:05:30Z",
+"number": 40583,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Regression in 26.818.8289.0: native WSL arg0 mapping is required to prevent helper deletion across restart",
+"url": "https://github.com/openai/codex/issues/40583"
+},
+{
+"createdAt": "2026-09-17T10:12:43Z",
+"number": 46182,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Desktop app: archived Codex cloud tasks have no Delete action, only Unarchive",
+"url": "https://github.com/openai/codex/issues/46182"
+},
+{
+"createdAt": "2026-09-16T20:44:07Z",
+"number": 46022,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[CRITICAL DATA LOSS][Windows] Codex mass-deleted hundreds of GB outside project scope, including unrelated projects, apps and Windows components",
+"url": "https://github.com/openai/codex/issues/46022"
+},
+{
+"createdAt": "2026-03-04T23:23:48Z",
+"number": 13511,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Codex deleted my entire Drive",
+"url": "https://github.com/openai/codex/issues/13511"
+},
+{
+"createdAt": "2026-02-23T00:33:33Z",
+"number": 12519,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "issue: Codex deleted my entire dev drive",
+"url": "https://github.com/openai/codex/issues/12519"
+},
+{
+"createdAt": "2025-12-08T09:06:20Z",
+"number": 7727,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Add \"Delete\" option to Task context menu",
+"url": "https://github.com/openai/codex/issues/7727"
+},
+{
+"createdAt": "2026-02-07T12:59:03Z",
+"number": 11006,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Codex wiped the whole drive by accident. Oops!",
+"url": "https://github.com/openai/codex/issues/11006"
+},
+{
+"createdAt": "2025-11-17T22:20:45Z",
+"number": 6801,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "CRITICAL AI SAFETY ISSUE: AI model (codex-high) with shell access ran \"rm -rf *\" and deleted all files",
+"url": "https://github.com/openai/codex/issues/6801"
+},
+{
+"createdAt": "2025-10-08T21:50:52Z",
+"number": 4969,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Codex keeps deleting unrelated and uncommitted files! even ignoring rejected requests.",
+"url": "https://github.com/openai/codex/issues/4969"
+},
+{
+"createdAt": "2026-05-13T20:52:34Z",
+"number": 22550,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Dangerous-command detection misses plain rm and sudo-wrapped rm variants",
+"url": "https://github.com/openai/codex/issues/22550"
+},
+{
+"createdAt": "2026-06-08T06:16:35Z",
+"number": 26958,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "app-server-broker.mjs daemon persists with deleted-worktree cwd and gets re-assigned across repos",
+"url": "https://github.com/openai/codex/issues/26958"
+},
+{
+"createdAt": "2026-10-28T20:26:19Z",
+"number": 57827,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Explicit prohibitions repeatedly violated: request for enforceable file-write and deletion restrictions",
+"url": "https://github.com/openai/codex/issues/57827"
+},
+{
+"createdAt": "2026-08-13T05:02:07Z",
+"number": 38312,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[Critical data loss] Codex deleted important project files without an explicit deletion request or confirmation",
+"url": "https://github.com/openai/codex/issues/38312"
+},
+{
+"createdAt": "2026-04-10T17:29:05Z",
+"number": 17354,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Recent Thread history wiped in app, present in CLI",
+"url": "https://github.com/openai/codex/issues/17354"
+},
+{
+"createdAt": "2026-07-16T15:36:44Z",
+"number": 33624,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Safety: require a hard confirmation and recovery gate for bulk/home-directory deletion even in Full Access",
+"url": "https://github.com/openai/codex/issues/33624"
+},
+{
+"createdAt": "2026-07-16T05:34:46Z",
+"number": 33507,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[Windows Desktop] Archiving a worktree thread appears to delete tracked files from the main checkout",
+"url": "https://github.com/openai/codex/issues/33507"
+},
+{
+"createdAt": "2026-08-04T17:53:58Z",
+"number": 36937,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[BUG] Codex executed its own safety instructions from a rollout JSONL, deleting the Windows HOME directory",
+"url": "https://github.com/openai/codex/issues/36937"
+},
+{
+"createdAt": "2026-07-13T02:52:25Z",
+"number": 32684,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Windows PowerShell `$home` collision let a read-only subagent recursively delete `%USERPROFILE%`",
+"url": "https://github.com/openai/codex/issues/32684"
+},
+{
+"createdAt": "2026-09-07T03:28:12Z",
+"number": 43343,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Codex destructive cleanup escaped workspace on Windows and recursively deleted files outside target directory",
+"url": "https://github.com/openai/codex/issues/43343"
+},
+{
+"createdAt": "2026-10-03T12:27:03Z",
+"number": 50619,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Auto-started daemon with a deleted startup directory blocks every new TUI session with \"Cannot use the background server\" (experimentalFeature/list \u2192 \"failed to reload config: No such file or directory\")",
+"url": "https://github.com/openai/codex/issues/50619"
+},
+{
+"createdAt": "2026-10-05T18:48:26Z",
+"number": 51152,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "app-server rejects every turn with \"invalid cwd\" once the daemon's own working directory is deleted, even when the request cwd is absolute",
+"url": "https://github.com/openai/codex/issues/51152"
+},
+{
+"createdAt": "2026-04-30T18:11:44Z",
+"number": 20476,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Ability to delete or clear Codex Web conversation history, especially when it syncs into Codex App",
+"url": "https://github.com/openai/codex/issues/20476"
+},
+{
+"createdAt": "2026-11-02T22:14:45Z",
+"number": 58997,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[Desktop][Data loss] Escape dismisses the answer dialog and discards an unsent written response",
+"url": "https://github.com/openai/codex/issues/58997"
+},
+{
+"createdAt": "2026-10-15T19:10:54Z",
+"number": 54384,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[ChatGPT desktop] Stale local state overwrites newer web conversation and causes data loss",
+"url": "https://github.com/openai/codex/issues/54384"
+},
+{
+"createdAt": "2026-08-11T18:37:15Z",
+"number": 38053,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Ctrl-c Ambiguous Actions Cause Data Loss",
+"url": "https://github.com/openai/codex/issues/38053"
+},
+{
+"createdAt": "2026-10-26T02:22:23Z",
+"number": 57003,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[Windows][Data loss] 4,864 source assets deleted after agent created a junction inside Unity Temp",
+"url": "https://github.com/openai/codex/issues/57003"
+},
+{
+"createdAt": "2026-08-22T07:02:26Z",
+"number": 40072,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Data loss: agent-generated PowerPoint COM cleanup closes unrelated unsaved presentation",
+"url": "https://github.com/openai/codex/issues/40072"
+},
+{
+"createdAt": "2026-07-28T03:28:54Z",
+"number": 35707,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[FATAL DATA LOSS INCIDENT] Codex recursive cleanup destroyed an entire Git repository",
+"url": "https://github.com/openai/codex/issues/35707"
+},
+{
+"createdAt": "2026-10-19T01:45:59Z",
+"number": 55161,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[Data loss][Windows/WSL] gpt-6-luna cleared project workspace via venv --clear after empty-path expansion",
+"url": "https://github.com/openai/codex/issues/55161"
+},
+{
+"createdAt": "2026-09-09T02:30:47Z",
+"number": 43998,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[Critical Data Loss] Unsafe recursive deletion caused permanent loss of project source code",
+"url": "https://github.com/openai/codex/issues/43998"
+},
+{
+"createdAt": "2026-06-12T01:27:17Z",
+"number": 27734,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Possible local transcript data loss after Codex Desktop update on Windows",
+"url": "https://github.com/openai/codex/issues/27734"
+},
+{
+"createdAt": "2026-08-26T23:22:49Z",
+"number": 40995,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Data loss: subagent used Path() as cleanup sentinel and shutil.rmtree(\".\") deleted repository",
+"url": "https://github.com/openai/codex/issues/40995"
+},
+{
+"createdAt": "2026-07-29T02:04:06Z",
+"number": 35867,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[Desktop] Pinning a project task hides it from the project list and mimics data loss",
+"url": "https://github.com/openai/codex/issues/35867"
+},
+{
+"createdAt": "2026-07-25T20:17:48Z",
+"number": 35385,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Bug: Rollout persistence errors silently discarded during session resume/fork \u2014 silent data loss on restart",
+"url": "https://github.com/openai/codex/issues/35385"
+},
+{
+"createdAt": "2026-08-27T04:54:51Z",
+"number": 41048,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Windows Desktop data loss: 457 local rollout JSONL transcripts deleted while thread records remain",
+"url": "https://github.com/openai/codex/issues/41048"
+},
+{
+"createdAt": "2026-07-16T09:37:10Z",
+"number": 33557,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Data loss: sub-agent TemporaryDirectory cleanup traversed an active bind mount and deleted the host repository",
+"url": "https://github.com/openai/codex/issues/33557"
+},
+{
+"createdAt": "2026-08-08T00:56:28Z",
+"number": 37515,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Urgent data loss: Codex cleanup deleted pinned task rollout files, leaving orphaned threads",
+"url": "https://github.com/openai/codex/issues/37515"
+},
+{
+"createdAt": "2026-08-11T21:21:01Z",
+"number": 38076,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Data loss on macOS: active rollout JSONLs are repeatedly deleted; sealed snapshot proves continued loss",
+"url": "https://github.com/openai/codex/issues/38076"
+},
+{
+"createdAt": "2026-09-20T02:48:57Z",
+"number": 46746,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[ChatGPT Web/iOS][data loss] Sending from a stale desktop tab can make newer mobile and voice turns disappear",
+"url": "https://github.com/openai/codex/issues/46746"
+},
+{
+"createdAt": "2026-09-19T20:39:22Z",
+"number": 46713,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[Data Loss] Background legacy-to-paginated migration can replace persistent subagent history with bounded resume context without preserving the original",
+"url": "https://github.com/openai/codex/issues/46713"
+},
+{
+"createdAt": "2026-08-11T12:18:32Z",
+"number": 37998,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Critical data loss: sub-agent used git clean -fX for one ignored file and deleted the entire ignored data directory",
+"url": "https://github.com/openai/codex/issues/37998"
+},
+{
+"createdAt": "2026-09-04T22:28:45Z",
+"number": 42875,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[Data loss] ~221 GB deleted from $HOME while gpt-5.6-sol sessions were running (codex-cli 0.153.0, macOS 26.6)",
+"url": "https://github.com/openai/codex/issues/42875"
+},
+{
+"createdAt": "2026-07-22T08:36:03Z",
+"number": 34702,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[Critical data loss][Windows Desktop] Archiving a managed worktree follows a Junction and deletes files in the external target",
+"url": "https://github.com/openai/codex/issues/34702"
+},
+{
+"createdAt": "2026-06-26T08:33:07Z",
+"number": 30214,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[Critical Data Loss] Turn-diff git corruption after rollback deletes all workspace files",
+"url": "https://github.com/openai/codex/issues/30214"
+},
+{
+"createdAt": "2026-10-27T18:15:40Z",
+"number": 57530,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "CRITICAL: Codex accidentally deleted an entire SSD partition while cleaning node_modules",
+"url": "https://github.com/openai/codex/issues/57530"
+},
+{
+"createdAt": "2026-05-05T14:00:35Z",
+"number": 21196,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Data loss: resumed-thread errors due missing rollout JSONL files (state still has threads, files gone)",
+"url": "https://github.com/openai/codex/issues/21196"
+},
+{
+"createdAt": "2026-07-23T19:47:07Z",
+"number": 34999,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Potential data loss: Conversation becomes inaccessible after WebSocket timeout; recovery returns HTTP 500 \u201cCan\u2019t load conversation\u201d",
+"url": "https://github.com/openai/codex/issues/34999"
+},
+{
+"createdAt": "2026-10-21T14:51:33Z",
+"number": 55916,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Potential authorization boundary failure leading to destructive out-of-scope filesystem deletion",
+"url": "https://github.com/openai/codex/issues/55916"
+},
+{
+"createdAt": "2026-08-07T09:30:03Z",
+"number": 37419,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Data loss: CODEX_HOME runtime directories (incl. sessions/ and archived_sessions/) deleted under a running app on Windows \u2014 417 of 431 threads lost, no error logged",
+"url": "https://github.com/openai/codex/issues/37419"
+},
+{
+"createdAt": "2026-10-22T04:54:14Z",
+"number": 56079,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[Desktop UI] Close-file dialog offers only Continue viewing or Discard changes, with no save-and-close or review path",
+"url": "https://github.com/openai/codex/issues/56079"
+},
+{
+"createdAt": "2026-10-23T16:25:40Z",
+"number": 56519,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Web: duplicate \u201cNew chat\u201d entries show the same dot conversation; Delete targets the entire dot",
+"url": "https://github.com/openai/codex/issues/56519"
+},
+{
+"createdAt": "2026-08-14T09:29:20Z",
+"number": 38541,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[desktop] Uncommitted changes are silently overwritten when multiple sessions share the same worktree",
+"url": "https://github.com/openai/codex/issues/38541"
+},
+{
+"createdAt": "2026-08-01T20:24:31Z",
+"number": 36522,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Issue: Sol deleted production server directories after reporting \u201clocal server not responding\u201d",
+"url": "https://github.com/openai/codex/issues/36522"
+},
+{
+"createdAt": "2026-09-14T15:14:29Z",
+"number": 45442,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[macOS] Permanently delete is hidden for the same local task in ChatGPT view but available in Codex view",
+"url": "https://github.com/openai/codex/issues/45442"
+},
+{
+"createdAt": "2026-08-19T09:33:41Z",
+"number": 39457,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Codex App: saving Settings \u2192 Personalization \u2192 Custom instructions silently replaces the entire `~/.codex/AGENTS.md` (existing global instructions lost)",
+"url": "https://github.com/openai/codex/issues/39457"
+},
+{
+"createdAt": "2026-10-30T19:02:47Z",
+"number": 58413,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Usage-limit 429: codex-family rate-limit headers discarded when x-codex-active-limit names another limit",
+"url": "https://github.com/openai/codex/issues/58413"
+},
+{
+"createdAt": "2026-05-07T00:39:29Z",
+"number": 21445,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Permission prompt interrupts active voice dictation and discards audio",
+"url": "https://github.com/openai/codex/issues/21445"
+},
+{
+"createdAt": "2026-06-26T11:15:06Z",
+"number": 30230,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Codex Desktop: accidental Archive hides chats like deletion, with no obvious undo or delete distinction",
+"url": "https://github.com/openai/codex/issues/30230"
+},
+{
+"createdAt": "2026-10-09T04:48:18Z",
+"number": 52410,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[Windows Desktop] Same thread id on local and SSH remote host: Desktop routes to the stale remote copy and never reconciles remote deletions",
+"url": "https://github.com/openai/codex/issues/52410"
+},
+{
+"createdAt": "2026-10-26T08:02:36Z",
+"number": 57053,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Desktop cloud-file editor checks version separately from write, allowing lost updates or mismatched save receipts",
+"url": "https://github.com/openai/codex/issues/57053"
+},
+{
+"createdAt": "2026-09-02T00:30:45Z",
+"number": 42158,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Phone session wiped out computer session",
+"url": "https://github.com/openai/codex/issues/42158"
+},
+{
+"createdAt": "2026-04-28T07:35:36Z",
+"number": 19944,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "5 Hour usage wiped with just 6 prompts in 20 minutes",
+"url": "https://github.com/openai/codex/issues/19944"
+},
+{
+"createdAt": "2026-04-27T23:30:13Z",
+"number": 19889,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "First Codex prompt wiped out my entire week of usage",
+"url": "https://github.com/openai/codex/issues/19889"
+},
+{
+"createdAt": "2026-09-19T03:04:49Z",
+"number": 46584,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Windows Desktop: second prompt never sends in a thread inside a registered project; reproduces on fully wiped machine (26.915.4065.0)",
+"url": "https://github.com/openai/codex/issues/46584"
+},
+{
+"createdAt": "2026-07-14T20:18:11Z",
+"number": 33148,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "ChatGPT - MacOS App - Lost Connection to Projects",
+"url": "https://github.com/openai/codex/issues/33148"
+},
+{
+"createdAt": "2026-04-30T21:53:08Z",
+"number": 20506,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Chat History Deleted",
+"url": "https://github.com/openai/codex/issues/20506"
+},
+{
+"createdAt": "2026-07-22T12:59:13Z",
+"number": 34752,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Make side chats recoverable after deletion or closure",
+"url": "https://github.com/openai/codex/issues/34752"
+},
+{
+"createdAt": "2026-09-16T00:51:15Z",
+"number": 45819,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Bug: Korean (IME) text input continuously overwritten and Enter key sends empty prompt in VS Code Terminal",
+"url": "https://github.com/openai/codex/issues/45819"
+},
+{
+"createdAt": "2026-08-10T22:53:53Z",
+"number": 37893,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "app-server becomes unmanaged/stale after daemon state is lost",
+"url": "https://github.com/openai/codex/issues/37893"
+},
+{
+"createdAt": "2026-05-17T15:40:45Z",
+"number": 23164,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "In planning mode Codex seems to fail to call the question asking tool despite being reminded it exists, causing it to loop because its waiting for answers.  2x occurances, there seems to be no failsafe so wiping out usage quota.",
+"url": "https://github.com/openai/codex/issues/23164"
+},
+{
+"createdAt": "2026-08-31T06:40:05Z",
+"number": 41785,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "\"Reset Usage\" overwrites healthy weekly quota and destroys gpt-reserve pool instead of extending cycle",
+"url": "https://github.com/openai/codex/issues/41785"
+},
+{
+"createdAt": "2025-11-26T13:18:27Z",
+"number": 7315,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "CLI command parsing deletes directories when chaining without a shell",
+"url": "https://github.com/openai/codex/issues/7315"
+},
+{
+"createdAt": "2025-09-16T13:00:47Z",
+"number": 3728,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "gpt-5-codex ran `rm -rf .git` out of nowhere",
+"url": "https://github.com/openai/codex/issues/3728"
+},
+{
+"createdAt": "2026-05-22T00:45:01Z",
+"number": 23966,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Chat Tree lost all my chats",
+"url": "https://github.com/openai/codex/issues/23966"
+},
+{
+"createdAt": "2026-08-29T07:55:05Z",
+"number": 41497,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "A day of work lost",
+"url": "https://github.com/openai/codex/issues/41497"
+},
+{
+"createdAt": "2026-07-15T07:57:43Z",
+"number": 33286,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Codex/ChatGPT update deleted all the conversations",
+"url": "https://github.com/openai/codex/issues/33286"
+},
+{
+"createdAt": "2026-07-06T12:26:39Z",
+"number": 31240,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Lost all chats from last 9 months by renaming project?",
+"url": "https://github.com/openai/codex/issues/31240"
+},
+{
+"createdAt": "2026-06-17T22:06:06Z",
+"number": 28797,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Codex lost all chat history. Won't save settings. 26.611.62324",
+"url": "https://github.com/openai/codex/issues/28797"
+},
+{
+"createdAt": "2026-06-16T22:44:32Z",
+"number": 28606,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Codex lost all chat history. Won't save settings. 26.611.61049",
+"url": "https://github.com/openai/codex/issues/28606"
+},
+{
+"createdAt": "2026-06-16T20:44:46Z",
+"number": 28588,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Codex lost all chat history. Won't save settings. 26.609.71450",
+"url": "https://github.com/openai/codex/issues/28588"
+},
+{
+"createdAt": "2026-06-13T01:11:04Z",
+"number": 27998,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Codex lost all chat history. Won't save settings. 26.609.41114",
+"url": "https://github.com/openai/codex/issues/27998"
+},
+{
+"createdAt": "2026-04-27T20:29:25Z",
+"number": 19873,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Windows Desktop: sidebar/project list lost after update; search still finds threads; projectless-thread-ids workaround restores flat chats but project grouping remains broken",
+"url": "https://github.com/openai/codex/issues/19873"
+},
+{
+"createdAt": "2026-04-02T18:19:21Z",
+"number": 16599,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Lost part of thread history and all subagent thread history after Codex App restart.",
+"url": "https://github.com/openai/codex/issues/16599"
+},
+{
+"createdAt": "2025-09-21T15:54:31Z",
+"number": 4009,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "codex cli was lost all of filesystem instruments",
+"url": "https://github.com/openai/codex/issues/4009"
+},
+{
+"createdAt": "2026-08-14T09:54:05Z",
+"number": 38548,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Codex repeatedly creates or overwrites GitHub branches with orphan \u201cStart repository\u201d snapshot commits",
+"url": "https://github.com/openai/codex/issues/38548"
+},
+{
+"createdAt": "2026-06-25T00:24:59Z",
+"number": 29933,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "curated-plugin sync runs `git reset --hard` against the user's project repo",
+"url": "https://github.com/openai/codex/issues/29933"
+},
+{
+"createdAt": "2025-11-21T03:47:16Z",
+"number": 7059,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Codex-max go insane and repeatedly run git reset --hard / reset local git to remote",
+"url": "https://github.com/openai/codex/issues/7059"
+},
+{
+"createdAt": "2025-12-31T16:25:13Z",
+"number": 8643,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Codex VS Code extension/agent ran git restore despite explicit \u201cnever touch git\u201d instruction, overwriting uncommitted work (data loss)",
+"url": "https://github.com/openai/codex/issues/8643"
+},
+{
+"createdAt": "2026-07-02T15:15:16Z",
+"number": 30930,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "git-branch statusline does not refresh after external git checkout",
+"url": "https://github.com/openai/codex/issues/30930"
+},
+{
+"createdAt": "2026-06-29T08:47:39Z",
+"number": 30544,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Codex Desktop branch selector changes Git checkout but UI label remains stale",
+"url": "https://github.com/openai/codex/issues/30544"
+},
+{
+"createdAt": "2026-10-15T10:57:51Z",
+"number": 54260,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Support reviewed cleanup of live MEMORY.md without resetting memory or deleting history",
+"url": "https://github.com/openai/codex/issues/54260"
+},
+{
+"createdAt": "2026-08-30T20:20:58Z",
+"number": 41723,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[Regression][macOS] Background review silently restores previously deleted files into active checkout",
+"url": "https://github.com/openai/codex/issues/41723"
+},
+{
+"createdAt": "2026-01-15T21:37:51Z",
+"number": 9321,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Model uses `git checkout` when asked to undo its recent change.",
+"url": "https://github.com/openai/codex/issues/9321"
+},
+{
+"createdAt": "2025-11-20T14:51:31Z",
+"number": 6999,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Codex Max (medium) deletes whole files without need. Gets confused. Model behavior.",
+"url": "https://github.com/openai/codex/issues/6999"
+},
+{
+"createdAt": "2025-11-20T08:47:26Z",
+"number": 6981,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "gpt-5.1-codex-max made several bad decisions one after another, ending with the deletion of the file",
+"url": "https://github.com/openai/codex/issues/6981"
+},
+{
+"createdAt": "2025-10-15T06:33:13Z",
+"number": 5201,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Codex nuked the workspace",
+"url": "https://github.com/openai/codex/issues/5201"
+},
+{
+"createdAt": "2026-09-05T21:44:44Z",
+"number": 43106,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[Windows] Delete All archived chats leaves a hidden archived fork that may block its source",
+"url": "https://github.com/openai/codex/issues/43106"
+},
+{
+"createdAt": "2026-08-24T08:54:44Z",
+"number": 40365,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[Windows][Codex Desktop] Archived Delete all aborts when one thread is referenced by an active fork",
+"url": "https://github.com/openai/codex/issues/40365"
+},
+{
+"createdAt": "2026-08-30T03:21:09Z",
+"number": 41602,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Deleted conversations remain as stale titles in Windows app Recents",
+"url": "https://github.com/openai/codex/issues/41602"
+},
+{
+"createdAt": "2026-10-14T09:26:23Z",
+"number": 53926,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Can't delete archived chats",
+"url": "https://github.com/openai/codex/issues/53926"
+},
+{
+"createdAt": "2026-10-30T08:10:20Z",
+"number": 58283,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[Windows] Archived Delete all fails with fork-reference conflict; generic error and duplicate list results",
+"url": "https://github.com/openai/codex/issues/58283"
+},
+{
+"createdAt": "2026-09-26T13:41:10Z",
+"number": 48446,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "\u201cFailed to delete archived chat\u201d, session ID included in the body",
+"url": "https://github.com/openai/codex/issues/48446"
+},
+{
+"createdAt": "2026-10-22T05:31:18Z",
+"number": 56086,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "GPT-6 Astra max turns one deletion-command rejection into a false permanent refusal loop",
+"url": "https://github.com/openai/codex/issues/56086"
+},
+{
+"createdAt": "2026-08-05T04:55:35Z",
+"number": 37028,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Unable to Delete Older Codex Chats",
+"url": "https://github.com/openai/codex/issues/37028"
+},
+{
+"createdAt": "2026-08-04T19:26:46Z",
+"number": 36953,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Browser site permission remains blocked after rule deletion and restart",
+"url": "https://github.com/openai/codex/issues/36953"
+},
+{
+"createdAt": "2026-06-15T11:30:55Z",
+"number": 28298,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Codex App archived chats bulk delete shows success but does not remove archived threads",
+"url": "https://github.com/openai/codex/issues/28298"
+},
+{
+"createdAt": "2026-09-22T10:40:10Z",
+"number": 47247,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Cannot permanently delete two Codex tasks",
+"url": "https://github.com/openai/codex/issues/47247"
+},
+{
+"createdAt": "2026-05-26T16:40:10Z",
+"number": 24610,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Add explicit deletion controls for archived Codex cloud sessions",
+"url": "https://github.com/openai/codex/issues/24610"
+},
+{
+"createdAt": "2026-09-10T01:58:15Z",
+"number": 44373,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Ghost/deleted Project chat persists in macOS unified app Recents",
+"url": "https://github.com/openai/codex/issues/44373"
+},
+{
+"createdAt": "2026-09-06T09:40:31Z",
+"number": 43197,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Windows: deleting archived Codex chats fails despite enabled delete button",
+"url": "https://github.com/openai/codex/issues/43197"
+},
+{
+"createdAt": "2026-09-03T21:07:27Z",
+"number": 42613,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[macOS] Archived cloud chats have no permanent delete action in ChatGPT/Codex desktop app",
+"url": "https://github.com/openai/codex/issues/42613"
+},
+{
+"createdAt": "2026-05-25T06:59:11Z",
+"number": 24417,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Add Delete option for Codex desktop threads and archived threads",
+"url": "https://github.com/openai/codex/issues/24417"
+},
+{
+"createdAt": "2026-11-03T04:46:15Z",
+"number": 59060,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Told to reboot a server, it destroyed systemd, destroyed containers, ran random scripts, cost me $10,000+",
+"url": "https://github.com/openai/codex/issues/59060"
+},
+{
+"createdAt": "2026-04-14T15:43:42Z",
+"number": 17793,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Backspace seems to delete more than one character, making prompting harder.",
+"url": "https://github.com/openai/codex/issues/17793"
+},
+{
+"createdAt": "2026-11-03T09:38:13Z",
+"number": 59102,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "[macOS] Stale archived chats after failed cloud environment setup and deletion",
+"url": "https://github.com/openai/codex/issues/59102"
+},
+{
+"createdAt": "2026-10-03T12:23:53Z",
+"number": 50618,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Durable cloud threads have no Delete action; cloud app-server rejects thread/delete (-32601)",
+"url": "https://github.com/openai/codex/issues/50618"
+},
+{
+"createdAt": "2026-09-17T15:38:03Z",
+"number": 46240,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Windows Codex Desktop: archived tasks cannot be deleted, are missing from the web archive, and the archive-first workflow is misleading",
+"url": "https://github.com/openai/codex/issues/46240"
+},
+{
+"createdAt": "2026-06-30T10:54:31Z",
+"number": 30701,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "After deleting all projects, the Hooks page shows \"No hooks found\", but the plugin-level SessionStart hook still takes effect",
+"url": "https://github.com/openai/codex/issues/30701"
+},
+{
+"createdAt": "2026-09-12T03:11:12Z",
+"number": 44964,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "Managed requirements.toml prompt/forbidden rules do not fire for non-trivial or nested shell scripts; agent's default zsh -c style bypasses an admin rm rule",
+"url": "https://github.com/openai/codex/issues/44964"
+},
+{
+"createdAt": "2026-09-01T06:07:51Z",
+"number": 41987,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "MacOS desktop app keeps undeletable \"ghost\" conversations in the sidebar after deletion",
+"url": "https://github.com/openai/codex/issues/41987"
+},
+{
+"createdAt": "2026-08-09T01:46:38Z",
+"number": 37650,
+"repository": {
+"name": "codex",
+"nameWithOwner": "openai/codex"
+},
+"title": "ChatGPT Work maintenance deleted uncommitted code without warning or recovery snapshot",
+"url": "https://github.com/openai/codex/issues/37650"
+},
+{
+"createdAt": "2025-12-23T03:29:00Z",
+"number": 8273,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "Cline sometimes deletes whole .git folder",
+"url": "https://github.com/cline/cline/issues/8273"
+},
+{
+"createdAt": "2025-09-12T09:18:05Z",
+"number": 6160,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "Cannt I delete my account?",
+"url": "https://github.com/cline/cline/issues/6160"
+},
+{
+"createdAt": "2026-10-06T15:21:33Z",
+"number": 14864,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "`CRITICAL: run_commands on Windows (PowerShell) \u2014 mangled quoting led to `rmdir /s /q` running against a drive root, mass deletion of user data`",
+"url": "https://github.com/cline/cline/issues/14864"
+},
+{
+"createdAt": "2025-10-17T13:54:28Z",
+"number": 6955,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "Cline incorrectly deleted working files when asked to revert code to earlier time",
+"url": "https://github.com/cline/cline/issues/6955"
+},
+{
+"createdAt": "2025-11-20T01:52:05Z",
+"number": 7572,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "Cline deleted home directory",
+"url": "https://github.com/cline/cline/issues/7572"
+},
+{
+"createdAt": "2025-01-06T21:35:59Z",
+"number": 1165,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "MCP watcher hard-coded to watch \"build/index.ts\"; also, if what's being watched is deleted (then replaced) it stops watching upon the delete; spent several hours debugging this over the weekend",
+"url": "https://github.com/cline/cline/issues/1165"
+},
+{
+"createdAt": "2026-10-12T09:37:06Z",
+"number": 15023,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "session.restore permanently deletes gitignored folders \u2014 silent data loss",
+"url": "https://github.com/cline/cline/issues/15023"
+},
+{
+"createdAt": "2026-02-21T02:06:17Z",
+"number": 9453,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "Switching from Plan to Act clears unsent prompt text (no recovery / data loss)",
+"url": "https://github.com/cline/cline/issues/9453"
+},
+{
+"createdAt": "2026-09-21T22:22:43Z",
+"number": 14367,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "[Bug]: Checkpoint restore reverts uncommitted .gitignore before git clean -fd, permanently deleting untracked files",
+"url": "https://github.com/cline/cline/issues/14367"
+},
+{
+"createdAt": "2026-09-04T14:07:31Z",
+"number": 13833,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "apply_patch: 'Add File' silently overwrites an existing file instead of raising 'File already exists'",
+"url": "https://github.com/cline/cline/issues/13833"
+},
+{
+"createdAt": "2026-03-24T05:35:34Z",
+"number": 9946,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "Cline should verify move target is directory before executing to prevent data loss from overwrites",
+"url": "https://github.com/cline/cline/issues/9946"
+},
+{
+"createdAt": "2026-01-07T15:25:47Z",
+"number": 8422,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "AI assistant overwrote entire .env file when asked to add single environment variable - critical data loss",
+"url": "https://github.com/cline/cline/issues/8422"
+},
+{
+"createdAt": "2025-10-25T19:48:18Z",
+"number": 7101,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "Critical Bug: Silent Data Loss of Task History After JSON Corruption",
+"url": "https://github.com/cline/cline/issues/7101"
+},
+{
+"createdAt": "2026-02-25T23:15:16Z",
+"number": 9555,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "replace_in_file empties/deletes the file when a SEARCH block fails to match",
+"url": "https://github.com/cline/cline/issues/9555"
+},
+{
+"createdAt": "2025-11-26T01:09:58Z",
+"number": 7682,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "Cline used `git push --force` without permission, deleted user's template files and broke live website",
+"url": "https://github.com/cline/cline/issues/7682"
+},
+{
+"createdAt": "2025-10-14T07:42:01Z",
+"number": 6824,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "Cline freezes and all chats in history deleted",
+"url": "https://github.com/cline/cline/issues/6824"
+},
+{
+"createdAt": "2025-09-30T03:41:59Z",
+"number": 6564,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "Cline automatically deletes conversation history older than 1 day without user consent",
+"url": "https://github.com/cline/cline/issues/6564"
+},
+{
+"createdAt": "2025-07-23T16:24:01Z",
+"number": 5123,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "Unexpected File Deletion After Interrupted Task",
+"url": "https://github.com/cline/cline/issues/5123"
+},
+{
+"createdAt": "2024-11-02T19:31:21Z",
+"number": 679,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "Cline deleted 4 hours of my work!!!",
+"url": "https://github.com/cline/cline/issues/679"
+},
+{
+"createdAt": "2026-02-06T13:17:45Z",
+"number": 9141,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "User input is sometimes lost when going back to plan mode and hitting 'send'",
+"url": "https://github.com/cline/cline/issues/9141"
+},
+{
+"createdAt": "2025-07-25T06:33:20Z",
+"number": 5160,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "the prompt is lost if the mode is changed from plan to act or from act to plan.",
+"url": "https://github.com/cline/cline/issues/5160"
+},
+{
+"createdAt": "2025-11-16T04:20:37Z",
+"number": 7489,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "Chat history suddenly wiped, with unusually high charge",
+"url": "https://github.com/cline/cline/issues/7489"
+},
+{
+"createdAt": "2025-06-22T18:09:24Z",
+"number": 4376,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "User input is lost when toggling from Plan to Act Mode while a task is paused",
+"url": "https://github.com/cline/cline/issues/4376"
+},
+{
+"createdAt": "2025-09-19T20:53:53Z",
+"number": 6345,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "Cline: History gets deleted when user relaunches VSC after reinstalling Cline",
+"url": "https://github.com/cline/cline/issues/6345"
+},
+{
+"createdAt": "2025-07-12T14:30:13Z",
+"number": 4859,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "All my credit has been erased after last update!!!",
+"url": "https://github.com/cline/cline/issues/4859"
+},
+{
+"createdAt": "2024-10-26T19:08:14Z",
+"number": 625,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "Approved code changes to files deletes rest of unchanged code",
+"url": "https://github.com/cline/cline/issues/625"
+},
+{
+"createdAt": "2026-05-04T21:10:28Z",
+"number": 10545,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "[Windows Specific] Cline: Removing one MCP server deletes all configured MCP servers",
+"url": "https://github.com/cline/cline/issues/10545"
+},
+{
+"createdAt": "2025-09-09T21:10:22Z",
+"number": 6110,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "Cline: Delete all history fails to remove all entries in history tab.",
+"url": "https://github.com/cline/cline/issues/6110"
+},
+{
+"createdAt": "2025-09-05T18:30:49Z",
+"number": 6033,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "Cline: Button text does not update correctly after deleting history using side icon",
+"url": "https://github.com/cline/cline/issues/6033"
+},
+{
+"createdAt": "2025-06-24T22:31:45Z",
+"number": 4434,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "Editing past chat messages occasionally deletes entire chat history instead of replaying edits",
+"url": "https://github.com/cline/cline/issues/4434"
+},
+{
+"createdAt": "2025-07-15T14:56:43Z",
+"number": 4930,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "'Delete All History' Button Broken",
+"url": "https://github.com/cline/cline/issues/4930"
+},
+{
+"createdAt": "2025-06-26T17:15:52Z",
+"number": 4488,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "Delete All History Button Broken",
+"url": "https://github.com/cline/cline/issues/4488"
+},
+{
+"createdAt": "2025-09-05T18:51:54Z",
+"number": 6036,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "Cline: Deleted history restores after updating to latest build.",
+"url": "https://github.com/cline/cline/issues/6036"
+},
+{
+"createdAt": "2024-09-14T17:31:20Z",
+"number": 298,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": " The bot sometimes tries to delete all the code instead of editing parts of the code needed",
+"url": "https://github.com/cline/cline/issues/298"
+},
+{
+"createdAt": "2024-10-09T17:46:24Z",
+"number": 476,
+"repository": {
+"name": "cline",
+"nameWithOwner": "cline/cline"
+},
+"title": "Updates to files deleting unchanged code. ",
+"url": "https://github.com/cline/cline/issues/476"
+}
+]
