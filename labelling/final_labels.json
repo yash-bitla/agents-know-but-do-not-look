@@ -1,0 +1,402 @@
+{
+"https://github.com/anthropics/claude-code/issues/103692": {
+"n": 1,
+"final": "N"
+},
+"https://github.com/openai/codex/issues/23164": {
+"n": 2,
+"final": "N"
+},
+"https://github.com/openai/codex/issues/46182": {
+"n": 3,
+"final": "N"
+},
+"https://github.com/anthropics/claude-code/issues/98019": {
+"n": 4,
+"final": "N"
+},
+"https://github.com/google-gemini/gemini-cli/issues/11017": {
+"n": 5,
+"final": "U"
+},
+"https://github.com/google-gemini/gemini-cli/issues/14471": {
+"n": 6,
+"final": "M"
+},
+"https://github.com/anthropics/claude-code/issues/13729": {
+"n": 7,
+"final": "M"
+},
+"https://github.com/openai/codex/issues/27998": {
+"n": 8,
+"final": "N"
+},
+"https://github.com/openai/codex/issues/43106": {
+"n": 9,
+"final": "N"
+},
+"https://github.com/anthropics/claude-code/issues/97534": {
+"n": 10,
+"final": "M"
+},
+"https://github.com/anthropics/claude-code/issues/75771": {
+"n": 11,
+"final": "M"
+},
+"https://github.com/openai/codex/issues/19889": {
+"n": 12,
+"final": "N"
+},
+"https://github.com/anthropics/claude-code/issues/94548": {
+"n": 13,
+"final": "M"
+},
+"https://github.com/anthropics/claude-code/issues/95323": {
+"n": 14,
+"final": "N"
+},
+"https://github.com/anthropics/claude-code/issues/91422": {
+"n": 15,
+"final": "N"
+},
+"https://github.com/anthropics/claude-code/issues/77268": {
+"n": 16,
+"final": "N"
+},
+"https://github.com/google-gemini/gemini-cli/issues/15580": {
+"n": 17,
+"final": "M"
+},
+"https://github.com/anthropics/claude-code/issues/76626": {
+"n": 18,
+"final": "M"
+},
+"https://github.com/anthropics/claude-code/issues/91599": {
+"n": 19,
+"final": "I"
+},
+"https://github.com/openai/codex/issues/7315": {
+"n": 20,
+"final": "M"
+},
+"https://github.com/google-gemini/gemini-cli/issues/5620": {
+"n": 21,
+"final": "N"
+},
+"https://github.com/anthropics/claude-code/issues/81508": {
+"n": 22,
+"final": "M"
+},
+"https://github.com/anthropics/claude-code/issues/80728": {
+"n": 23,
+"final": "M"
+},
+"https://github.com/google-gemini/gemini-cli/issues/25722": {
+"n": 24,
+"final": "I"
+},
+"https://github.com/google-gemini/gemini-cli/issues/23411": {
+"n": 25,
+"final": "I"
+},
+"https://github.com/anthropics/claude-code/issues/104975": {
+"n": 26,
+"final": "N"
+},
+"https://github.com/openai/codex/issues/42158": {
+"n": 27,
+"final": "N"
+},
+"https://github.com/openai/codex/issues/19944": {
+"n": 28,
+"final": "N"
+},
+"https://github.com/anthropics/claude-code/issues/85200": {
+"n": 29,
+"final": "M"
+},
+"https://github.com/cline/cline/issues/8422": {
+"n": 30,
+"final": "M"
+},
+"https://github.com/openai/codex/issues/41048": {
+"n": 31,
+"final": "N"
+},
+"https://github.com/openai/codex/issues/35867": {
+"n": 32,
+"final": "N"
+},
+"https://github.com/anthropics/claude-code/issues/95156": {
+"n": 33,
+"final": "M"
+},
+"https://github.com/anthropics/claude-code/issues/106286": {
+"n": 34,
+"final": "I"
+},
+"https://github.com/anthropics/claude-code/issues/92737": {
+"n": 35,
+"final": "M"
+},
+"https://github.com/google-gemini/gemini-cli/issues/24954": {
+"n": 36,
+"final": "M"
+},
+"https://github.com/anthropics/claude-code/issues/59535": {
+"n": 37,
+"final": "I"
+},
+"https://github.com/anthropics/claude-code/issues/62476": {
+"n": 38,
+"final": "N"
+},
+"https://github.com/anthropics/claude-code/issues/93099": {
+"n": 39,
+"final": "M"
+},
+"https://github.com/anthropics/claude-code/issues/37888": {
+"n": 40,
+"final": "M"
+},
+"https://github.com/openai/codex/issues/56519": {
+"n": 41,
+"final": "N"
+},
+"https://github.com/anthropics/claude-code/issues/29082": {
+"n": 42,
+"final": "M"
+},
+"https://github.com/anthropics/claude-code/issues/21114": {
+"n": 43,
+"final": "N"
+},
+"https://github.com/google-gemini/gemini-cli/issues/18764": {
+"n": 44,
+"final": "M"
+},
+"https://github.com/anthropics/claude-code/issues/15951": {
+"n": 45,
+"final": "M"
+},
+"https://github.com/google-gemini/gemini-cli/issues/27358": {
+"n": 46,
+"final": "N"
+},
+"https://github.com/anthropics/claude-code/issues/50027": {
+"n": 47,
+"final": "I"
+},
+"https://github.com/anthropics/claude-code/issues/100179": {
+"n": 48,
+"final": "M"
+},
+"https://github.com/openai/codex/issues/42480": {
+"n": 49,
+"final": "W"
+},
+"https://github.com/google-gemini/gemini-cli/issues/8251": {
+"n": 50,
+"final": "I"
+},
+"https://github.com/google-gemini/gemini-cli/issues/13984": {
+"n": 51,
+"final": "M"
+},
+"https://github.com/anthropics/claude-code/issues/69352": {
+"n": 52,
+"final": "N"
+},
+"https://github.com/google-gemini/gemini-cli/issues/25592": {
+"n": 53,
+"final": "M"
+},
+"https://github.com/anthropics/claude-code/issues/98967": {
+"n": 54,
+"final": "M"
+},
+"https://github.com/anthropics/claude-code/issues/90789": {
+"n": 55,
+"final": "N"
+},
+"https://github.com/anthropics/claude-code/issues/21828": {
+"n": 56,
+"final": "U"
+},
+"https://github.com/anthropics/claude-code/issues/84660": {
+"n": 57,
+"final": "M"
+},
+"https://github.com/anthropics/claude-code/issues/28521": {
+"n": 58,
+"final": "M"
+},
+"https://github.com/google-gemini/gemini-cli/issues/7389": {
+"n": 59,
+"final": "U"
+},
+"https://github.com/anthropics/claude-code/issues/87839": {
+"n": 60,
+"final": "N"
+},
+"https://github.com/openai/codex/issues/37028": {
+"n": 61,
+"final": "N"
+},
+"https://github.com/anthropics/claude-code/issues/93791": {
+"n": 62,
+"final": "N"
+},
+"https://github.com/anthropics/claude-code/issues/95414": {
+"n": 63,
+"final": "M"
+},
+"https://github.com/anthropics/claude-code/issues/31277": {
+"n": 64,
+"final": "I"
+},
+"https://github.com/google-gemini/gemini-cli/issues/20712": {
+"n": 65,
+"final": "M"
+},
+"https://github.com/anthropics/claude-code/issues/89330": {
+"n": 66,
+"final": "M"
+},
+"https://github.com/anthropics/claude-code/issues/7547": {
+"n": 67,
+"final": "N"
+},
+"https://github.com/google-gemini/gemini-cli/issues/26316": {
+"n": 68,
+"final": "M"
+},
+"https://github.com/openai/codex/issues/13511": {
+"n": 69,
+"final": "I"
+},
+"https://github.com/anthropics/claude-code/issues/102901": {
+"n": 70,
+"final": "M"
+},
+"https://github.com/openai/codex/issues/57141": {
+"n": 71,
+"final": "N"
+},
+"https://github.com/google-gemini/gemini-cli/issues/19729": {
+"n": 72,
+"final": "M"
+},
+"https://github.com/openai/codex/issues/30930": {
+"n": 73,
+"final": "N"
+},
+"https://github.com/anthropics/claude-code/issues/106370": {
+"n": 74,
+"final": "M"
+},
+"https://github.com/google-gemini/gemini-cli/issues/26712": {
+"n": 75,
+"final": "U"
+},
+"https://github.com/anthropics/claude-code/issues/64056": {
+"n": 76,
+"final": "W"
+},
+"https://github.com/google-gemini/gemini-cli/issues/15161": {
+"n": 77,
+"final": "M"
+},
+"https://github.com/anthropics/claude-code/issues/99193": {
+"n": 78,
+"final": "M"
+},
+"https://github.com/google-gemini/gemini-cli/issues/2617": {
+"n": 79,
+"final": "U"
+},
+"https://github.com/anthropics/claude-code/issues/101038": {
+"n": 80,
+"final": "N"
+},
+"https://github.com/google-gemini/gemini-cli/issues/6754": {
+"n": 81,
+"final": "N"
+},
+"https://github.com/google-gemini/gemini-cli/issues/11442": {
+"n": 82,
+"final": "U"
+},
+"https://github.com/google-gemini/gemini-cli/issues/18011": {
+"n": 83,
+"final": "M"
+},
+"https://github.com/anthropics/claude-code/issues/88753": {
+"n": 84,
+"final": "W"
+},
+"https://github.com/openai/codex/issues/4969": {
+"n": 85,
+"final": "I"
+},
+"https://github.com/google-gemini/gemini-cli/issues/25217": {
+"n": 86,
+"final": "I"
+},
+"https://github.com/google-gemini/gemini-cli/issues/5013": {
+"n": 87,
+"final": "M"
+},
+"https://github.com/openai/codex/issues/40583": {
+"n": 88,
+"final": "N"
+},
+"https://github.com/anthropics/claude-code/issues/71609": {
+"n": 89,
+"final": "N"
+},
+"https://github.com/anthropics/claude-code/issues/2452": {
+"n": 90,
+"final": "U"
+},
+"https://github.com/google-gemini/gemini-cli/issues/3969": {
+"n": 91,
+"final": "N"
+},
+"https://github.com/openai/codex/issues/27734": {
+"n": 92,
+"final": "N"
+},
+"https://github.com/anthropics/claude-code/issues/81333": {
+"n": 93,
+"final": "N"
+},
+"https://github.com/openai/codex/issues/52307": {
+"n": 94,
+"final": "N"
+},
+"https://github.com/anthropics/claude-code/issues/99493": {
+"n": 95,
+"final": "N"
+},
+"https://github.com/openai/codex/issues/57530": {
+"n": 96,
+"final": "M"
+},
+"https://github.com/openai/codex/issues/35707": {
+"n": 97,
+"final": "M"
+},
+"https://github.com/cline/cline/issues/6955": {
+"n": 98,
+"final": "I"
+},
+"https://github.com/anthropics/claude-code/issues/94704": {
+"n": 99,
+"final": "N"
+},
+"https://github.com/openai/codex/issues/34752": {
+"n": 100,
+"final": "N"
+}
+}

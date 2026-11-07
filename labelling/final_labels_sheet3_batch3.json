@@ -1,0 +1,3192 @@
+[
+ {
+  "n": "3-001",
+  "url": "https://github.com/anthropics/claude-code/issues/47987",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-002",
+  "url": "https://github.com/microsoft/vscode/issues/315035",
+  "agent": "vscode",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-003",
+  "url": "https://github.com/anthropics/claude-code/issues/25273",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Compaction fabricated pending steps, but no actual user data destruction described."
+ },
+ {
+  "n": "3-004",
+  "url": "https://github.com/anthropics/claude-code/issues/32938",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-005",
+  "url": "https://github.com/anthropics/claude-code/issues/60078",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Data loss reported, but edit/command responsible not specified."
+ },
+ {
+  "n": "3-006",
+  "url": "https://github.com/anomalyco/opencode/issues/32080",
+  "agent": "opencode",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Loss/changes alleged; exact destructive action not established."
+ },
+ {
+  "n": "3-007",
+  "url": "https://github.com/microsoft/vscode/issues/271229",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-008",
+  "url": "https://github.com/anthropics/claude-code/issues/56603",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "P",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-009",
+  "url": "https://github.com/kirodotdev/Kiro/issues/5031",
+  "agent": "Kiro",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-010",
+  "url": "https://github.com/anthropics/claude-code/issues/11821",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": "Git checkout meant to undo one change also discarded user edits."
+ },
+ {
+  "n": "3-011",
+  "url": "https://github.com/anthropics/claude-code/issues/29249",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "F",
+  "duplicate_of": "",
+  "notes": "NTFS junction path followed into user folder outside intended target."
+ },
+ {
+  "n": "3-012",
+  "url": "https://github.com/google-gemini/gemini-cli/issues/2101",
+  "agent": "gemini-cli",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-013",
+  "url": "https://github.com/anthropics/claude-code/issues/107655",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "T",
+  "duplicate_of": "",
+  "notes": "Docker cleanup/prune affected additional stored volumes unexpectedly."
+ },
+ {
+  "n": "3-014",
+  "url": "https://github.com/anthropics/claude-code/issues/46638",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-015",
+  "url": "https://github.com/microsoft/vscode/issues/257606",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-016",
+  "url": "https://github.com/anthropics/claude-code/issues/29787",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "User reported loss of app session, not files/data deleted by assistant."
+ },
+ {
+  "n": "3-017",
+  "url": "https://github.com/kirodotdev/Kiro/issues/1193",
+  "agent": "Kiro",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Destructive command was supplied as text and executed by the human user, rather than the assistant itself."
+ },
+ {
+  "n": "3-018",
+  "url": "https://github.com/openai/codex/issues/19943",
+  "agent": "codex",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-019",
+  "url": "https://github.com/anthropics/claude-code/issues/42335",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Work lost in unusable worktree despite user instruction; no definite deletion mechanism."
+ },
+ {
+  "n": "3-020",
+  "url": "https://github.com/anthropics/claude-code/issues/22638",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-021",
+  "url": "https://github.com/anthropics/claude-code/issues/45393",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-022",
+  "url": "https://github.com/anthropics/claude-code/issues/11584",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "54GB reportedly deleted; no executed command or rationale provided."
+ },
+ {
+  "n": "3-023",
+  "url": "https://github.com/kirodotdev/Kiro/issues/6049",
+  "agent": "Kiro",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-024",
+  "url": "https://github.com/microsoft/vscode/issues/334178",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "P",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-025",
+  "url": "https://github.com/microsoft/vscode/issues/256975",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "S",
+  "duplicate_of": "",
+  "notes": "Model-written VS Code task auto-run corrupted 46+ files; script/test mechanism."
+ },
+ {
+  "n": "3-026",
+  "url": "https://github.com/anthropics/claude-code/issues/102050",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "X",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-027",
+  "url": "https://github.com/anthropics/claude-code/issues/81834",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-028",
+  "url": "https://github.com/anthropics/claude-code/issues/51570",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Praising the model; selected impact field is inconsistent with report."
+ },
+ {
+  "n": "3-029",
+  "url": "https://github.com/anthropics/claude-code/issues/48653",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Faulty database reasoning, no documented destructive action."
+ },
+ {
+  "n": "3-030",
+  "url": "https://github.com/microsoft/vscode/issues/284806",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-031",
+  "url": "https://github.com/anthropics/claude-code/issues/14964",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-032",
+  "url": "https://github.com/anthropics/claude-code/issues/48313",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-033",
+  "url": "https://github.com/anthropics/claude-code/issues/15796",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-034",
+  "url": "https://github.com/anthropics/claude-code/issues/43473",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-035",
+  "url": "https://github.com/google-gemini/gemini-cli/issues/11688",
+  "agent": "gemini-cli",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-036",
+  "url": "https://github.com/anthropics/claude-code/issues/35527",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-037",
+  "url": "https://github.com/openai/codex/issues/6358",
+  "agent": "codex",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "T",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-038",
+  "url": "https://github.com/anthropics/claude-code/issues/103805",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant deleted 209 paths outside project after promising an inspection; deliberate cleanup beyond scope."
+ },
+ {
+  "n": "3-039",
+  "url": "https://github.com/anomalyco/opencode/issues/34311",
+  "agent": "opencode",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Partial-failure reproduction concerns disposable test files, not the user's real repository."
+ },
+ {
+  "n": "3-040",
+  "url": "https://github.com/microsoft/vscode/issues/269890",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "X",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-041",
+  "url": "https://github.com/anthropics/claude-code/issues/81674",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Gitignored directory emptied while concurrent agents worked, but report says cause could not be attributed."
+ },
+ {
+  "n": "3-042",
+  "url": "https://github.com/aws/amazon-q-developer-cli/issues/3401",
+  "agent": "amazon-q-developer-cli",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Reset to git original during agent editing; user-existing work not identified as lost."
+ },
+ {
+  "n": "3-043",
+  "url": "https://github.com/anthropics/claude-code/issues/3609",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "SQLite file converted into empty directory; command/intent unexplained."
+ },
+ {
+  "n": "3-044",
+  "url": "https://github.com/aaif-goose/goose/issues/11399",
+  "agent": "goose",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": "Approval classifier allowed git reset of user working tree; lost several hours of work."
+ },
+ {
+  "n": "3-045",
+  "url": "https://github.com/anthropics/claude-code/issues/62713",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Line-ending normalization without content loss; file data not destroyed."
+ },
+ {
+  "n": "3-046",
+  "url": "https://github.com/anomalyco/opencode/issues/55650",
+  "agent": "opencode",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-047",
+  "url": "https://github.com/anthropics/claude-code/issues/45777",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-048",
+  "url": "https://github.com/anthropics/claude-code/issues/102741",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-049",
+  "url": "https://github.com/microsoft/vscode-copilot-release/issues/10089",
+  "agent": "vscode-copilot-release",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-050",
+  "url": "https://github.com/anthropics/claude-code/issues/45152",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Agent deleted a 7.5 GB Claude VM bundle during permissions test; no real user content loss established."
+ },
+ {
+  "n": "3-051",
+  "url": "https://github.com/microsoft/vscode-copilot-release/issues/9966",
+  "agent": "vscode-copilot-release",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-052",
+  "url": "https://github.com/anthropics/claude-code/issues/27448",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Claude deleted production SQLite database to resolve migration constraints."
+ },
+ {
+  "n": "3-053",
+  "url": "https://github.com/openai/codex/issues/56380",
+  "agent": "codex",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Agent recursively deleted a shared scratch directory while intentionally cleaning PDF renders; unrelated artifacts lost."
+ },
+ {
+  "n": "3-054",
+  "url": "https://github.com/openai/codex/issues/23251",
+  "agent": "codex",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Codex data migration failed before editing live session database."
+ },
+ {
+  "n": "3-055",
+  "url": "https://github.com/anthropics/claude-code/issues/62402",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Explicit exclusion of a project ignored for nested archive subfolder."
+ },
+ {
+  "n": "3-056",
+  "url": "https://github.com/anthropics/claude-code/issues/80729",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "T",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-057",
+  "url": "https://github.com/anthropics/claude-code/issues/17135",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Unauthorized remote rm commands, but no real lost user content identified."
+ },
+ {
+  "n": "3-058",
+  "url": "https://github.com/anthropics/claude-code/issues/69045",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-059",
+  "url": "https://github.com/openai/codex/issues/52157",
+  "agent": "codex",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-060",
+  "url": "https://github.com/anthropics/claude-code/issues/62122",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": "Concurrent subagents operated in the parent working tree; git branch switches wiped sibling files."
+ },
+ {
+  "n": "3-061",
+  "url": "https://github.com/anthropics/claude-code/issues/34922",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-062",
+  "url": "https://github.com/microsoft/vscode/issues/264544",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-063",
+  "url": "https://github.com/microsoft/vscode-copilot-release/issues/4773",
+  "agent": "vscode-copilot-release",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-064",
+  "url": "https://github.com/anthropics/claude-code/issues/46054",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "S",
+  "duplicate_of": "",
+  "notes": "Model-authored import script deleted 61 previously functioning LUREM documents."
+ },
+ {
+  "n": "3-065",
+  "url": "https://github.com/anthropics/claude-code/issues/44314",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-066",
+  "url": "https://github.com/google-gemini/gemini-cli/issues/3262",
+  "agent": "gemini-cli",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-067",
+  "url": "https://github.com/microsoft/vscode-copilot-release/issues/2910",
+  "agent": "vscode-copilot-release",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-068",
+  "url": "https://github.com/cline/cline/issues/5133",
+  "agent": "cline",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-069",
+  "url": "https://github.com/anthropics/claude-code/issues/43716",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-070",
+  "url": "https://github.com/anthropics/claude-code/issues/80416",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Predictable /tmp collision transiently overwrote file; restored from git, no enduring work loss indicated."
+ },
+ {
+  "n": "3-071",
+  "url": "https://github.com/anthropics/claude-code/issues/93260",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "T",
+  "duplicate_of": "",
+  "notes": "Two sessions wrote same project doc concurrently; updates were lost due whole-document replacement."
+ },
+ {
+  "n": "3-072",
+  "url": "https://github.com/anthropics/claude-code/issues/7439",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-073",
+  "url": "https://github.com/microsoft/vscode-copilot-release/issues/11678",
+  "agent": "vscode-copilot-release",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-074",
+  "url": "https://github.com/microsoft/vscode/issues/273545",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-075",
+  "url": "https://github.com/anthropics/claude-code/issues/94626",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Branches restored to original commit SHA; report states no permanent damage."
+ },
+ {
+  "n": "3-076",
+  "url": "https://github.com/anthropics/claude-code/issues/50232",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "T",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-077",
+  "url": "https://github.com/anthropics/claude-code/issues/30274",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-078",
+  "url": "https://github.com/anthropics/claude-code/issues/86044",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Agent intentionally deleted third-party review verdict to suppress unfavorable finding; not just worktree read issue."
+ },
+ {
+  "n": "3-079",
+  "url": "https://github.com/anthropics/claude-code/issues/12323",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-080",
+  "url": "https://github.com/anthropics/claude-code/issues/27756",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant decided to rm inner slash-commands folder to fix duplicate commands, then CLI hung."
+ },
+ {
+  "n": "3-081",
+  "url": "https://github.com/google-gemini/gemini-cli/issues/12975",
+  "agent": "gemini-cli",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-082",
+  "url": "https://github.com/microsoft/vscode-copilot-release/issues/14108",
+  "agent": "vscode-copilot-release",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-083",
+  "url": "https://github.com/anthropics/claude-code/issues/71433",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-084",
+  "url": "https://github.com/anthropics/claude-code/issues/6953",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-085",
+  "url": "https://github.com/anthropics/claude-code/issues/30153",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-086",
+  "url": "https://github.com/Aider-AI/aider/issues/5201",
+  "agent": "aider",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "AWS management account lost, but no exact Terraform command, target mechanism, or motive provided."
+ },
+ {
+  "n": "3-087",
+  "url": "https://github.com/anthropics/claude-code/issues/83297",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-088",
+  "url": "https://github.com/anthropics/claude-code/issues/85948",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "T",
+  "duplicate_of": "",
+  "notes": "Writing while file was open with unsaved Xcode buffer caused Xcode crash and unsaved edits lost."
+ },
+ {
+  "n": "3-089",
+  "url": "https://github.com/anthropics/claude-code/issues/54979",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-090",
+  "url": "https://github.com/openai/codex/issues/42355",
+  "agent": "codex",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": "git clean removed ignored config parent directory containing unrelated secrets and scripts."
+ },
+ {
+  "n": "3-091",
+  "url": "https://github.com/anthropics/claude-code/issues/21993",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-092",
+  "url": "https://github.com/anthropics/claude-code/issues/107879",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "T",
+  "duplicate_of": "",
+  "notes": "Assistant overwrote .gitignore without reading existing patterns, losing previous entries."
+ },
+ {
+  "n": "3-093",
+  "url": "https://github.com/anthropics/claude-code/issues/22858",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-094",
+  "url": "https://github.com/microsoft/vscode/issues/255480",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "X",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-095",
+  "url": "https://github.com/anthropics/claude-code/issues/80830",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant chose to delete existing checkout to clone again; uncommitted work lost."
+ },
+ {
+  "n": "3-096",
+  "url": "https://github.com/anthropics/claude-code/issues/57463",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-097",
+  "url": "https://github.com/google-gemini/gemini-cli/issues/5800",
+  "agent": "gemini-cli",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-098",
+  "url": "https://github.com/anthropics/claude-code/issues/67324",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-099",
+  "url": "https://github.com/zed-industries/zed/issues/37714",
+  "agent": "zed",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "T",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-100",
+  "url": "https://github.com/openai/codex/issues/14487",
+  "agent": "codex",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "P",
+  "duplicate_of": "",
+  "notes": "Windows cleanup deleted outside D: project; exact nested command details not fully visible."
+ },
+ {
+  "n": "3-101",
+  "url": "https://github.com/anthropics/claude-code/issues/62109",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-102",
+  "url": "https://github.com/anthropics/claude-code/issues/50110",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-103",
+  "url": "https://github.com/anthropics/claude-code/issues/46947",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Wrong on-chain transfer moved user funds but does not match loss of stored files, databases, server or history in guide."
+ },
+ {
+  "n": "3-104",
+  "url": "https://github.com/microsoft/vscode/issues/258339",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-105",
+  "url": "https://github.com/anthropics/claude-code/issues/33833",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-106",
+  "url": "https://github.com/anthropics/claude-code/issues/70378",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-107",
+  "url": "https://github.com/google-gemini/gemini-cli/issues/17455",
+  "agent": "gemini-cli",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-108",
+  "url": "https://github.com/microsoft/vscode-copilot-release/issues/11393",
+  "agent": "vscode-copilot-release",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-109",
+  "url": "https://github.com/anthropics/claude-code/issues/19874",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "General plan-mode safety critique; specific destroyed user file not established."
+ },
+ {
+  "n": "3-110",
+  "url": "https://github.com/kirodotdev/Kiro/issues/8757",
+  "agent": "Kiro",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-111",
+  "url": "https://github.com/anomalyco/opencode/issues/33911",
+  "agent": "opencode",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-112",
+  "url": "https://github.com/anthropics/claude-code/issues/30700",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Mac desktop directory gone while agent ran, but no assistant tool call or command identified as cause."
+ },
+ {
+  "n": "3-113",
+  "url": "https://github.com/openai/codex/issues/31599",
+  "agent": "codex",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-114",
+  "url": "https://github.com/kirodotdev/Kiro/issues/7825",
+  "agent": "Kiro",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-115",
+  "url": "https://github.com/microsoft/vscode/issues/297079",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "X",
+  "duplicate_of": "",
+  "notes": "Deleted videos/photos alleged without command or motive."
+ },
+ {
+  "n": "3-116",
+  "url": "https://github.com/anthropics/claude-code/issues/59053",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-117",
+  "url": "https://github.com/anthropics/claude-code/issues/49102",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "F",
+  "duplicate_of": "",
+  "notes": "Case-insensitive APFS resolved miscapitalized directory to live home subtree."
+ },
+ {
+  "n": "3-118",
+  "url": "https://github.com/anthropics/claude-code/issues/39514",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-119",
+  "url": "https://github.com/anthropics/claude-code/issues/80224",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-120",
+  "url": "https://github.com/openai/codex/issues/22796",
+  "agent": "codex",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Session sidebar indexing failure, saved session files still present."
+ },
+ {
+  "n": "3-121",
+  "url": "https://github.com/QwenLM/qwen-code/issues/2499",
+  "agent": "qwen-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-122",
+  "url": "https://github.com/anomalyco/opencode/issues/33062",
+  "agent": "opencode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "T",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-123",
+  "url": "https://github.com/anomalyco/opencode/issues/36992",
+  "agent": "opencode",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-124",
+  "url": "https://github.com/anthropics/claude-code/issues/24196",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "F",
+  "duplicate_of": "",
+  "notes": "NTFS case-insensitive paths made cleanup remove intended directory and its data."
+ },
+ {
+  "n": "3-125",
+  "url": "https://github.com/anthropics/claude-code/issues/44641",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant reviewed/wrapped an existing rsync --delete bug; user-run program, not assistant itself executing destructive command."
+ },
+ {
+  "n": "3-126",
+  "url": "https://github.com/anthropics/claude-code/issues/74539",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Home-directory loss contemporaneous with Claude session, but transcript lost and specific assistant command unconfirmed."
+ },
+ {
+  "n": "3-127",
+  "url": "https://github.com/anthropics/claude-code/issues/21217",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "X",
+  "duplicate_of": "",
+  "notes": "Unexpected parent-folder loss from command targeting one subfolder; exact mechanism unresolved."
+ },
+ {
+  "n": "3-128",
+  "url": "https://github.com/anthropics/claude-code/issues/107183",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "S",
+  "duplicate_of": "",
+  "notes": "Agent-created script replaced 66 handover entries with placeholders; later restored."
+ },
+ {
+  "n": "3-129",
+  "url": "https://github.com/anthropics/claude-code/issues/90097",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-130",
+  "url": "https://github.com/microsoft/vscode/issues/261983",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-131",
+  "url": "https://github.com/anthropics/claude-code/issues/47074",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-132",
+  "url": "https://github.com/anthropics/claude-code/issues/51774",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-133",
+  "url": "https://github.com/anthropics/claude-code/issues/81633",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-134",
+  "url": "https://github.com/anthropics/claude-code/issues/8454",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-135",
+  "url": "https://github.com/microsoft/vscode/issues/293515",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-136",
+  "url": "https://github.com/anomalyco/opencode/issues/45353",
+  "agent": "opencode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-137",
+  "url": "https://github.com/cline/cline/issues/43",
+  "agent": "cline",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Cursor Interpreter mode erased file; report requests logging for different editor, not current agent."
+ },
+ {
+  "n": "3-138",
+  "url": "https://github.com/microsoft/vscode/issues/285848",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "X",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-139",
+  "url": "https://github.com/anthropics/claude-code/issues/7787",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-140",
+  "url": "https://github.com/aaif-goose/goose/issues/1960",
+  "agent": "goose",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-141",
+  "url": "https://github.com/anomalyco/opencode/issues/38356",
+  "agent": "opencode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-142",
+  "url": "https://github.com/anthropics/claude-code/issues/61528",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-143",
+  "url": "https://github.com/anthropics/claude-code/issues/45932",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-144",
+  "url": "https://github.com/anthropics/claude-code/issues/77419",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-145",
+  "url": "https://github.com/anthropics/claude-code/issues/27128",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Agent fabricated team-management human message; only task/team cleanup shown, no user-created data loss."
+ },
+ {
+  "n": "3-146",
+  "url": "https://github.com/anthropics/claude-code/issues/62377",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-147",
+  "url": "https://github.com/anthropics/claude-code/issues/106033",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "T",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-148",
+  "url": "https://github.com/microsoft/vscode-copilot-release/issues/5730",
+  "agent": "vscode-copilot-release",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-149",
+  "url": "https://github.com/microsoft/vscode/issues/287854",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-150",
+  "url": "https://github.com/anthropics/claude-code/issues/43833",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "P",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-151",
+  "url": "https://github.com/anthropics/claude-code/issues/37115",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-152",
+  "url": "https://github.com/microsoft/vscode/issues/279066",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-153",
+  "url": "https://github.com/anomalyco/opencode/issues/48676",
+  "agent": "opencode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-154",
+  "url": "https://github.com/anthropics/claude-code/issues/1669",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": "Git hard reset in wrong folder reported; mechanism identified in different referenced issue."
+ },
+ {
+  "n": "3-155",
+  "url": "https://github.com/anthropics/claude-code/issues/60672",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-156",
+  "url": "https://github.com/anthropics/claude-code/issues/29023",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Windows user-profile deletion blamed on Claude, but no executed assistant command/tool trace established."
+ },
+ {
+  "n": "3-157",
+  "url": "https://github.com/anomalyco/opencode/issues/12841",
+  "agent": "opencode",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-158",
+  "url": "https://github.com/anthropics/claude-code/issues/55812",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-159",
+  "url": "https://github.com/anthropics/claude-code/issues/44953",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-160",
+  "url": "https://github.com/anomalyco/opencode/issues/45966",
+  "agent": "opencode",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-161",
+  "url": "https://github.com/anthropics/claude-code/issues/11416",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "S",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-162",
+  "url": "https://github.com/openai/codex/issues/40378",
+  "agent": "codex",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-163",
+  "url": "https://github.com/anthropics/claude-code/issues/84701",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "One unattended agent previously ran destructive rm -rf; this issue primarily tests deny-rule bypass."
+ },
+ {
+  "n": "3-164",
+  "url": "https://github.com/microsoft/vscode-copilot-release/issues/1555",
+  "agent": "vscode-copilot-release",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-165",
+  "url": "https://github.com/google-gemini/gemini-cli/issues/6930",
+  "agent": "gemini-cli",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-166",
+  "url": "https://github.com/anthropics/claude-code/issues/20214",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "T",
+  "duplicate_of": "",
+  "notes": "macOS sfltool resetbtm deleted ALL login items, not only target app."
+ },
+ {
+  "n": "3-167",
+  "url": "https://github.com/anthropics/claude-code/issues/35435",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-168",
+  "url": "https://github.com/anthropics/claude-code/issues/6778",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-169",
+  "url": "https://github.com/anthropics/claude-code/issues/45210",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-170",
+  "url": "https://github.com/anthropics/claude-code/issues/50546",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant concluded lib was dead code and chose to delete it, despite no confirmation."
+ },
+ {
+  "n": "3-171",
+  "url": "https://github.com/anthropics/claude-code/issues/92328",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "P",
+  "duplicate_of": "",
+  "notes": "Windows .cmd encoding/line endings caused variable/command misparse and mass deletion."
+ },
+ {
+  "n": "3-172",
+  "url": "https://github.com/anthropics/claude-code/issues/27507",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-173",
+  "url": "https://github.com/anthropics/claude-code/issues/35097",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-174",
+  "url": "https://github.com/anthropics/claude-code/issues/14261",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-175",
+  "url": "https://github.com/microsoft/vscode-copilot-release/issues/8210",
+  "agent": "vscode-copilot-release",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-176",
+  "url": "https://github.com/openai/codex/issues/1736",
+  "agent": "codex",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-177",
+  "url": "https://github.com/kirodotdev/Kiro/issues/5520",
+  "agent": "Kiro",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-178",
+  "url": "https://github.com/anthropics/claude-code/issues/32149",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Agent deleted working files but command and intent not identified."
+ },
+ {
+  "n": "3-179",
+  "url": "https://github.com/microsoft/vscode/issues/340829",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-180",
+  "url": "https://github.com/anthropics/claude-code/issues/60583",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-181",
+  "url": "https://github.com/anthropics/claude-code/issues/23010",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-182",
+  "url": "https://github.com/anthropics/claude-code/issues/106515",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Meta advertising performance worsened; real user files/resources not erased or reset as in guide."
+ },
+ {
+  "n": "3-183",
+  "url": "https://github.com/microsoft/vscode/issues/290654",
+  "agent": "vscode",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-184",
+  "url": "https://github.com/anomalyco/opencode/issues/43745",
+  "agent": "opencode",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Agent knowingly deleted corrupted production database without checking invalid backups."
+ },
+ {
+  "n": "3-185",
+  "url": "https://github.com/anthropics/claude-code/issues/33850",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-186",
+  "url": "https://github.com/anthropics/claude-code/issues/107475",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-187",
+  "url": "https://github.com/anomalyco/opencode/issues/17949",
+  "agent": "opencode",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant intentionally deleted Downloads to free space for installation."
+ },
+ {
+  "n": "3-188",
+  "url": "https://github.com/anthropics/claude-code/issues/95201",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-189",
+  "url": "https://github.com/anthropics/claude-code/issues/63644",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-190",
+  "url": "https://github.com/anthropics/claude-code/issues/90808",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "W",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Laravel testing command targeted real database because missing testing environment config."
+ },
+ {
+  "n": "3-191",
+  "url": "https://github.com/anthropics/claude-code/issues/89403",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Plan-mode gate potentially bypassed after rejection; no actual destructive operation established in report."
+ },
+ {
+  "n": "3-192",
+  "url": "https://github.com/openai/codex/issues/8564",
+  "agent": "codex",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-193",
+  "url": "https://github.com/anthropics/claude-code/issues/15863",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-194",
+  "url": "https://github.com/anthropics/claude-code/issues/43160",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-195",
+  "url": "https://github.com/anthropics/claude-code/issues/401",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "W",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Project test command used real database due shell/.env contamination, not model-chosen destination."
+ },
+ {
+  "n": "3-196",
+  "url": "https://github.com/kirodotdev/Kiro/issues/5896",
+  "agent": "Kiro",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-197",
+  "url": "https://github.com/anthropics/claude-code/issues/84146",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-198",
+  "url": "https://github.com/anthropics/claude-code/issues/34849",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-199",
+  "url": "https://github.com/anthropics/claude-code/issues/47700",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-200",
+  "url": "https://github.com/QwenLM/qwen-code/issues/427",
+  "agent": "qwen-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-201",
+  "url": "https://github.com/microsoft/vscode-copilot-release/issues/8985",
+  "agent": "vscode-copilot-release",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-202",
+  "url": "https://github.com/anthropics/claude-code/issues/12602",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "S",
+  "duplicate_of": "",
+  "notes": "Generated migration dropped production tables unexpectedly while adding a form field."
+ },
+ {
+  "n": "3-203",
+  "url": "https://github.com/kirodotdev/Kiro/issues/3574",
+  "agent": "Kiro",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-204",
+  "url": "https://github.com/anthropics/claude-code/issues/46723",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-205",
+  "url": "https://github.com/anthropics/claude-code/issues/63668",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-206",
+  "url": "https://github.com/microsoft/vscode/issues/295318",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-207",
+  "url": "https://github.com/anthropics/claude-code/issues/79400",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-208",
+  "url": "https://github.com/anthropics/claude-code/issues/36640",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "F",
+  "duplicate_of": "",
+  "notes": "rm -rf followed mounted NFS share into production NAS data."
+ },
+ {
+  "n": "3-209",
+  "url": "https://github.com/anthropics/claude-code/issues/37405",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "S",
+  "duplicate_of": "",
+  "notes": "Existing full_index.py script deleted completed SQLite index when Claude started it; script was not necessarily authored by agent."
+ },
+ {
+  "n": "3-210",
+  "url": "https://github.com/cline/cline/issues/950",
+  "agent": "cline",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-211",
+  "url": "https://github.com/microsoft/vscode/issues/303390",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-212",
+  "url": "https://github.com/anthropics/claude-code/issues/77030",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "T",
+  "duplicate_of": "",
+  "notes": "rsync --delete with several sources flattened paths and deleted production files unexpectedly."
+ },
+ {
+  "n": "3-213",
+  "url": "https://github.com/anthropics/claude-code/issues/18891",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-214",
+  "url": "https://github.com/anthropics/claude-code/issues/53900",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-215",
+  "url": "https://github.com/microsoft/vscode/issues/255560",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-216",
+  "url": "https://github.com/anthropics/claude-code/issues/95378",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-217",
+  "url": "https://github.com/microsoft/vscode/issues/298828",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-218",
+  "url": "https://github.com/anthropics/claude-code/issues/23871",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-219",
+  "url": "https://github.com/anthropics/claude-code/issues/56418",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-220",
+  "url": "https://github.com/anthropics/claude-code/issues/72467",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "T",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-221",
+  "url": "https://github.com/anthropics/claude-code/issues/6463",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "E",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-222",
+  "url": "https://github.com/openai/codex/issues/33591",
+  "agent": "codex",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Persistent bash history truncation tied to terminal/shell tool default, not an assistant-chosen cleanup."
+ },
+ {
+  "n": "3-223",
+  "url": "https://github.com/microsoft/vscode/issues/266384",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "S",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-224",
+  "url": "https://github.com/anthropics/claude-code/issues/41109",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-225",
+  "url": "https://github.com/microsoft/vscode/issues/264379",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-226",
+  "url": "https://github.com/anthropics/claude-code/issues/80660",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "P",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-227",
+  "url": "https://github.com/anthropics/claude-code/issues/9033",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-228",
+  "url": "https://github.com/anthropics/claude-code/issues/33132",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "X",
+  "duplicate_of": "",
+  "notes": "rm.exe apparently deleted outside sandbox; exact command/path conversion is not established."
+ },
+ {
+  "n": "3-229",
+  "url": "https://github.com/microsoft/vscode/issues/258085",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-230",
+  "url": "https://github.com/anthropics/claude-code/issues/72714",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-231",
+  "url": "https://github.com/anthropics/claude-code/issues/49740",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-232",
+  "url": "https://github.com/anomalyco/opencode/issues/2821",
+  "agent": "opencode",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-233",
+  "url": "https://github.com/anthropics/claude-code/issues/21307",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-234",
+  "url": "https://github.com/anthropics/claude-code/issues/72893",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "User work destroyed, but no executed command specified in report."
+ },
+ {
+  "n": "3-235",
+  "url": "https://github.com/anthropics/claude-code/issues/49129",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "X",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-236",
+  "url": "https://github.com/microsoft/vscode/issues/277386",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-237",
+  "url": "https://github.com/anthropics/claude-code/issues/6639",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-238",
+  "url": "https://github.com/anthropics/claude-code/issues/41681",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "T",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-239",
+  "url": "https://github.com/anomalyco/opencode/issues/27657",
+  "agent": "opencode",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-240",
+  "url": "https://github.com/anthropics/claude-code/issues/75097",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "T",
+  "duplicate_of": "",
+  "notes": "Skill injection stripped $2 from awk snippet and malformed command deleted changelog entries."
+ },
+ {
+  "n": "3-241",
+  "url": "https://github.com/anthropics/claude-code/issues/38499",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-242",
+  "url": "https://github.com/openai/codex/issues/47282",
+  "agent": "codex",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "User explicitly requested cleanup of this specific clone; issue concerns guardrails, not unintended content loss."
+ },
+ {
+  "n": "3-243",
+  "url": "https://github.com/openai/codex/issues/44964",
+  "agent": "codex",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Managed approval rules failed to catch deletes in nested scripts; 16+2 real files deleted despite forbidden location."
+ },
+ {
+  "n": "3-244",
+  "url": "https://github.com/anthropics/claude-code/issues/48792",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "F",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-245",
+  "url": "https://github.com/microsoft/vscode-copilot-release/issues/12977",
+  "agent": "vscode-copilot-release",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-246",
+  "url": "https://github.com/anthropics/claude-code/issues/34597",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-247",
+  "url": "https://github.com/anomalyco/opencode/issues/23597",
+  "agent": "opencode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-248",
+  "url": "https://github.com/anthropics/claude-code/issues/87494",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "T",
+  "duplicate_of": "",
+  "notes": "Config-save operation silently replaced entire NZBGet config while editing a small extension setting."
+ },
+ {
+  "n": "3-249",
+  "url": "https://github.com/anomalyco/opencode/issues/13472",
+  "agent": "opencode",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-250",
+  "url": "https://github.com/anthropics/claude-code/issues/8027",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-251",
+  "url": "https://github.com/anthropics/claude-code/issues/67385",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "S",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-252",
+  "url": "https://github.com/anthropics/claude-code/issues/45463",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-253",
+  "url": "https://github.com/google-gemini/gemini-cli/issues/20321",
+  "agent": "gemini-cli",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-254",
+  "url": "https://github.com/anthropics/claude-code/issues/4912",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-255",
+  "url": "https://github.com/anthropics/claude-code/issues/46070",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "P",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-256",
+  "url": "https://github.com/microsoft/vscode/issues/278045",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-257",
+  "url": "https://github.com/microsoft/vscode-copilot-release/issues/12700",
+  "agent": "vscode-copilot-release",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-258",
+  "url": "https://github.com/anomalyco/opencode/issues/43921",
+  "agent": "opencode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "P",
+  "duplicate_of": "",
+  "notes": "PowerShell/cmd.exe quoting caused rmdir to recurse into D:\\ root beyond authorized project."
+ },
+ {
+  "n": "3-259",
+  "url": "https://github.com/google-gemini/gemini-cli/issues/13405",
+  "agent": "gemini-cli",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-260",
+  "url": "https://github.com/anomalyco/opencode/issues/44186",
+  "agent": "opencode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-261",
+  "url": "https://github.com/anthropics/claude-code/issues/57355",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "F",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-262",
+  "url": "https://github.com/anthropics/claude-code/issues/31034",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "S",
+  "duplicate_of": "",
+  "notes": "Agent-authored bulk rename script caused colliding outputs; 36+ user files overwritten."
+ },
+ {
+  "n": "3-263",
+  "url": "https://github.com/anthropics/claude-code/issues/46624",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-264",
+  "url": "https://github.com/anthropics/claude-code/issues/54436",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "S",
+  "duplicate_of": "",
+  "notes": "Agent-authored watcher/script test overwrote 1,008 pre-existing user screenshots."
+ },
+ {
+  "n": "3-265",
+  "url": "https://github.com/microsoft/vscode/issues/276182",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-266",
+  "url": "https://github.com/anthropics/claude-code/issues/68915",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-267",
+  "url": "https://github.com/anthropics/claude-code/issues/69898",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-268",
+  "url": "https://github.com/anthropics/claude-code/issues/97953",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Trading positions closed due existing Worker.cs logic, not file/database/resource deletion defined by guide."
+ },
+ {
+  "n": "3-269",
+  "url": "https://github.com/anthropics/claude-code/issues/46962",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-270",
+  "url": "https://github.com/google-gemini/gemini-cli/issues/20866",
+  "agent": "gemini-cli",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-271",
+  "url": "https://github.com/google-gemini/gemini-cli/issues/3402",
+  "agent": "gemini-cli",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-272",
+  "url": "https://github.com/anthropics/claude-code/issues/105046",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Agent ignored conditional plan and deliberately deleted 20 tasks and 22 skill folders; later recoverable."
+ },
+ {
+  "n": "3-273",
+  "url": "https://github.com/microsoft/vscode/issues/274397",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-274",
+  "url": "https://github.com/anthropics/claude-code/issues/50196",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-275",
+  "url": "https://github.com/anthropics/claude-code/issues/84162",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "F",
+  "duplicate_of": "",
+  "notes": "Git worktree removal followed NTFS junction and destroyed target data."
+ },
+ {
+  "n": "3-276",
+  "url": "https://github.com/google-gemini/gemini-cli/issues/12380",
+  "agent": "gemini-cli",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-277",
+  "url": "https://github.com/microsoft/vscode/issues/272396",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-278",
+  "url": "https://github.com/microsoft/vscode/issues/291968",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "P",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-279",
+  "url": "https://github.com/anthropics/claude-code/issues/46058",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "F",
+  "duplicate_of": "",
+  "notes": "Second organized PDF folder contained sole copies; assistant rm-rf deleted originals."
+ },
+ {
+  "n": "3-280",
+  "url": "https://github.com/microsoft/vscode/issues/290690",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-281",
+  "url": "https://github.com/microsoft/vscode/issues/291171",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-282",
+  "url": "https://github.com/anthropics/claude-code/issues/20718",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "X",
+  "duplicate_of": "",
+  "notes": "Agent killed all Python processes instead of only selected process; work in running simulations lost."
+ },
+ {
+  "n": "3-283",
+  "url": "https://github.com/kirodotdev/Kiro/issues/8204",
+  "agent": "Kiro",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-284",
+  "url": "https://github.com/openai/codex/issues/5904",
+  "agent": "codex",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-285",
+  "url": "https://github.com/anthropics/claude-code/issues/36150",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-286",
+  "url": "https://github.com/anthropics/claude-code/issues/81446",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "X",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-287",
+  "url": "https://github.com/anthropics/claude-code/issues/59510",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-288",
+  "url": "https://github.com/anthropics/claude-code/issues/45135",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "E",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-289",
+  "url": "https://github.com/anthropics/claude-code/issues/104865",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "W",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Another session changed active branch; merge/reset hit its branch instead of intended main."
+ },
+ {
+  "n": "3-290",
+  "url": "https://github.com/github/copilot-cli/issues/2982",
+  "agent": "copilot-cli",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-291",
+  "url": "https://github.com/anthropics/claude-code/issues/56277",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "F",
+  "duplicate_of": "",
+  "notes": "Fast-forward symlink replacement through Git removed ignored user-uploaded images."
+ },
+ {
+  "n": "3-292",
+  "url": "https://github.com/anthropics/claude-code/issues/86409",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Actual planned cleanup deleted correct assets; report says nothing wrongly deleted."
+ },
+ {
+  "n": "3-293",
+  "url": "https://github.com/anthropics/claude-code/issues/85274",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Model-authored script executed rm; report does not establish loss of valuable user content."
+ },
+ {
+  "n": "3-294",
+  "url": "https://github.com/anthropics/claude-code/issues/50180",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "T",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-295",
+  "url": "https://github.com/cline/cline/issues/5116",
+  "agent": "cline",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-296",
+  "url": "https://github.com/microsoft/vscode/issues/273336",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-297",
+  "url": "https://github.com/aws/amazon-q-developer-cli/issues/2927",
+  "agent": "amazon-q-developer-cli",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "rm -rf / test on Linux; no actual real-data destruction documented, GNU rm preserves root."
+ },
+ {
+  "n": "3-298",
+  "url": "https://github.com/anthropics/claude-code/issues/80759",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-299",
+  "url": "https://github.com/anthropics/claude-code/issues/39102",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-300",
+  "url": "https://github.com/anthropics/claude-code/issues/34754",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "X",
+  "duplicate_of": "",
+  "notes": "User asked to preserve live Python computations; broad process-kill command ended them."
+ },
+ {
+  "n": "3-301",
+  "url": "https://github.com/google-gemini/gemini-cli/issues/15001",
+  "agent": "gemini-cli",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": "Model removed useful existing source comments while intending to remove only whitespace diffs."
+ },
+ {
+  "n": "3-302",
+  "url": "https://github.com/anthropics/claude-code/issues/13278",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "E",
+  "duplicate_of": "",
+  "notes": "Assistant-generated find loop called rm -rf /* rather than rm on matched cache directory."
+ },
+ {
+  "n": "3-303",
+  "url": "https://github.com/kirodotdev/Kiro/issues/1275",
+  "agent": "Kiro",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": "New infrastructure task overwrote existing task list entry; specific user plan content lost."
+ },
+ {
+  "n": "3-304",
+  "url": "https://github.com/microsoft/vscode/issues/283462",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "P",
+  "duplicate_of": "",
+  "notes": "Agent edited production files and corrupted DEV file encoding during a wrong-workspace session."
+ },
+ {
+  "n": "3-305",
+  "url": "https://github.com/anomalyco/opencode/issues/34014",
+  "agent": "opencode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": "Feature request reports deletion of existing analysis fields during read-only analysis."
+ },
+ {
+  "n": "3-306",
+  "url": "https://github.com/anthropics/claude-code/issues/61444",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Reload/deploy intentionally killed running backtest tasks despite instruction not to."
+ },
+ {
+  "n": "3-307",
+  "url": "https://github.com/anthropics/claude-code/issues/7875",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Large vague reliability complaint; folder disappearance after crash not tied to assistant command."
+ },
+ {
+  "n": "3-308",
+  "url": "https://github.com/microsoft/vscode/issues/275885",
+  "agent": "vscode",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant-caused data loss alleged; report does not establish command, motive, or mechanism."
+ },
+ {
+  "n": "3-309",
+  "url": "https://github.com/openai/codex/issues/2003",
+  "agent": "codex",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": "Codex /init overwrote user Agents.MD, not in Git history."
+ },
+ {
+  "n": "3-310",
+  "url": "https://github.com/anthropics/claude-code/issues/49344",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": "SCP deployed stale local files over newer server version; required backup was not created."
+ },
+ {
+  "n": "3-311",
+  "url": "https://github.com/openai/codex/issues/10037",
+  "agent": "codex",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "F",
+  "duplicate_of": "",
+  "notes": "apply_patch followed symlink to external .env and replaced target file."
+ },
+ {
+  "n": "3-312",
+  "url": "https://github.com/microsoft/vscode/issues/244269",
+  "agent": "vscode",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-313",
+  "url": "https://github.com/anthropics/claude-code/issues/83085",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-314",
+  "url": "https://github.com/anthropics/claude-code/issues/23067",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "G",
+  "duplicate_of": "",
+  "notes": "Git checkout of model_*.zip and rm deleted out-of-scope user-trained models."
+ },
+ {
+  "n": "3-315",
+  "url": "https://github.com/anthropics/claude-code/issues/6065",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "U",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant edited and later deleted script file; original found in trash, intention unclear."
+ },
+ {
+  "n": "3-316",
+  "url": "https://github.com/anthropics/claude-code/issues/39949",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "I",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Assistant deliberately removed data/config files while merging two directories, without safekeeping."
+ },
+ {
+  "n": "3-317",
+  "url": "https://github.com/Kilo-Org/kilocode/issues/3312",
+  "agent": "kilocode",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "O",
+  "duplicate_of": "",
+  "notes": ""
+ },
+ {
+  "n": "3-318",
+  "url": "https://github.com/anthropics/claude-code/issues/7255",
+  "agent": "claude-code",
+  "incident": "Y",
+  "cause": "M",
+  "mechanism": "P",
+  "duplicate_of": "",
+  "notes": "Unexpected space split c: drive argument causing destructive command to delete user profile."
+ },
+ {
+  "n": "3-319",
+  "url": "https://github.com/anthropics/claude-code/issues/88798",
+  "agent": "claude-code",
+  "incident": "N",
+  "cause": "",
+  "mechanism": "",
+  "duplicate_of": "",
+  "notes": "Model productivity/quality complaint; no demonstrated destructive edit of real user data."
+ }
+]

@@ -1,0 +1,849 @@
+{
+"https://github.com/anthropics/claude-code/issues/64392": {
+"n": 1,
+"final": "U",
+"mech": null,
+"title": "[Bug] Tool calls executing incorrectly and deleting files unintentionally",
+"notes": "Reporter alleges agent tool calls deleted files but provides no path, command or proof of impact."
+},
+"https://github.com/anthropics/claude-code/issues/48324": {
+"n": 2,
+"final": "I",
+"mech": null,
+"title": "Claude destroyed a production Vultr server without asking while user was actively saying 'don't destroy it'",
+"notes": "Agent deliberately destroyed production Vultr server despite user's explicit prohibition; configuration and state lost."
+},
+"https://github.com/openai/codex/issues/43998": {
+"n": 3,
+"final": "M",
+"mech": "X",
+"title": "[Critical Data Loss] Unsafe recursive deletion caused permanent loss of project source code",
+"notes": "Windows recursive cleanup escaped intended runtime directory and erased unrelated projects; exact command unavailable."
+},
+"https://github.com/openai/codex/issues/36522": {
+"n": 4,
+"final": "I",
+"mech": null,
+"title": "Issue: Sol deleted production server directories after reporting \u201clocal server not responding\u201d",
+"notes": "Agent initiated an unauthorized cleanup of two production server directories after a server error; no actual command supplied."
+},
+"https://github.com/anthropics/claude-code/issues/46452": {
+"n": 5,
+"final": "M",
+"mech": "E",
+"title": "[BUG] Claude Code executed rm -rf /* on production VPS due to SSH variable escaping error",
+"notes": "Local expansion of unset SSH variable $SNAP changed a scoped remote cleanup into rm -rf /*; remote VPS destroyed."
+},
+"https://github.com/anthropics/claude-code/issues/63971": {
+"n": 6,
+"final": "M",
+"mech": "G",
+"title": "[Bug] Unsafe git operations cause data loss when reviewing PRs with uncommitted changes",
+"notes": "Hard reset during PR review discarded an unstaged AGENTS.md edit after checkout had failed."
+},
+"https://github.com/google-gemini/gemini-cli/issues/7287": {
+"n": 7,
+"final": "M",
+"mech": "O",
+"title": "Deleted data- again.",
+"notes": "WriteFile replaced long existing agent_comms/comms.txt while producing an analysis report; hidden earlier lines in diff."
+},
+"https://github.com/anthropics/claude-code/issues/84339": {
+"n": 8,
+"final": "M",
+"mech": "O",
+"title": "[Bug] Claude refuses to execute commands and claims to be deleting user files",
+"notes": "Agent admitted edits to matcher repeatedly shrank user's in-progress list from 188 to 105 to 93 entries."
+},
+"https://github.com/cline/cline/issues/9946": {
+"n": 9,
+"final": "N",
+"mech": null,
+"title": "Cline should verify move target is directory before executing to prevent data loss from overwrites",
+"notes": "Only a constructed move/overwrite reproduction with source.html and target.txt in e:/BeSafe is documented, not real user-data loss."
+},
+"https://github.com/openai/codex/issues/43343": {
+"n": 10,
+"final": "M",
+"mech": "P",
+"title": "Codex destructive cleanup escaped workspace on Windows and recursively deleted files outside target directory",
+"notes": "PowerShell-to-cmd quoting corrupted rd target; deleted unrelated repositories; nested-shell quoting also fits E."
+},
+"https://github.com/anthropics/claude-code/issues/99198": {
+"n": 11,
+"final": "M",
+"mech": "F",
+"title": "[CRITICAL] Sub-agent ran `rm -rf` on the user's Windows home directory (via 8.3 short name), no hard guard; delete kept running after the task was stopped",
+"notes": "Stray rm -rf used Windows 8.3 alias for home folder; TaskStop did not stop child process. Mechanism uncertain; alias/target error."
+},
+"https://github.com/anthropics/claude-code/issues/47694": {
+"n": 12,
+"final": "I",
+"mech": null,
+"title": "Claude Code executed destructive `supabase db reset` without warning, destroying curated user data",
+"notes": "Agent chose supabase db reset to apply one migration; user's curated database content lost."
+},
+"https://github.com/google-gemini/gemini-cli/issues/13837": {
+"n": 13,
+"final": "I",
+"mech": null,
+"title": "Gemini is always in a hurry to delete my local files.",
+"notes": "Gemini repeatedly intentionally deleted valuable local files as purported temporary-log cleanup despite warnings."
+},
+"https://github.com/google-gemini/gemini-cli/issues/17562": {
+"n": 14,
+"final": "M",
+"mech": "O",
+"title": "Data Loss: replace Tool Causes Silent Truncation of Large Files",
+"notes": "Targeted replace on a large historical log silently removed surrounding records."
+},
+"https://github.com/anthropics/claude-code/issues/62091": {
+"n": 15,
+"final": "M",
+"mech": "T",
+"title": "Agent deleted user's main project repo via gh repo fork --fork-name rename behavior",
+"notes": "gh fork --fork-name unexpectedly renamed existing fork; agent deleted it believing it was a newly created duplicate. I also arguable."
+},
+"https://github.com/anthropics/claude-code/issues/98539": {
+"n": 16,
+"final": "U",
+"mech": null,
+"title": "[BUG]  `/model` in one session silently changes the model of every future session: an unnoticed downgrade led to data loss and put a root-privileged system agent on a model the user never chose",
+"notes": "AI-authored application routine later deleted sampled records; indirect loss, no confirmed test-time deletion by agent."
+},
+"https://github.com/anthropics/claude-code/issues/37331": {
+"n": 17,
+"final": "W",
+"mech": null,
+"title": "[BUG] claude deleted all my files, need to have a refund of claude code max x20",
+"notes": "Failed deploy checkout led cleanup to execute Remove-Item * in original repo rather than intended destination; local-only source lost."
+},
+"https://github.com/anthropics/claude-code/issues/94453": {
+"n": 18,
+"final": "I",
+"mech": null,
+"title": "Unrequested `Remove-Item -Recurse -Force` permanently deleted user data in auto mode",
+"notes": "Agent knowingly cleared a purported copy destination, which was actually an existing working folder; name collision, no confirmation."
+},
+"https://github.com/anthropics/claude-code/issues/80868": {
+"n": 19,
+"final": "W",
+"mech": null,
+"title": "Auto mode + ask rules failed to gate destructive command: `prisma migrate diff --shadow-database-url` wiped a production database",
+"notes": "Prisma's shadow database URL pointed at production via .env; migrate diff reset real production tables. T also relevant."
+},
+"https://github.com/anthropics/claude-code/issues/68920": {
+"n": 20,
+"final": "M",
+"mech": "G",
+"title": "git submodule deinit wipes working tree without warning or checking for local changes",
+"notes": "git submodule deinit -f plus git rm destroyed uncommitted and gitignored files when user only wanted to remove a reference."
+},
+"https://github.com/openai/codex/issues/46022": {
+"n": 21,
+"final": "U",
+"mech": null,
+"title": "[CRITICAL DATA LOSS][Windows] Codex mass-deleted hundreds of GB outside project scope, including unrelated projects, apps and Windows components",
+"notes": "Hundreds of GB of unrelated data destroyed during Codex project creation; no exact command or mechanism identified."
+},
+"https://github.com/openai/codex/issues/32684": {
+"n": 22,
+"final": "M",
+"mech": "P",
+"title": "Windows PowerShell `$home` collision let a read-only subagent recursively delete `%USERPROFILE%`",
+"notes": "PowerShell's case-insensitive read-only $HOME made temp $home assignment fail; subsequent recursive remove targeted actual home. E secondary."
+},
+"https://github.com/anthropics/claude-code/issues/67892": {
+"n": 23,
+"final": "N",
+"mech": null,
+"title": "[Bug] Data Loss: Database content deleted after Claude Code update",
+"notes": "Report says database data vanished after an update, but provides no assistant action or tool call linking the loss to the agent."
+},
+"https://github.com/openai/codex/issues/6981": {
+"n": 24,
+"final": "I",
+"mech": null,
+"title": "gpt-5.1-codex-max made several bad decisions one after another, ending with the deletion of the file",
+"notes": "Codex chose to delete an entire file after repeated edits; user asked for fixes, not file removal. No command available."
+},
+"https://github.com/anthropics/claude-code/issues/89141": {
+"n": 25,
+"final": "M",
+"mech": "S",
+"title": "[Bug] Decision log file accidentally truncated by script, data loss recovery in progress",
+"notes": "Agent-authored section-rebuild script wrote only one span over the full 2,000-line decision log; O also fits."
+},
+"https://github.com/anthropics/claude-code/issues/75861": {
+"n": 26,
+"final": "I",
+"mech": null,
+"title": "[BUG] Explore (read-only) subagent executed rm -rf, deleting files outside its intended scope",
+"notes": "Supposedly read-only Explore agent executed rm -rf .claude/worktrees during code search, deleting active worktree files."
+},
+"https://github.com/google-gemini/gemini-cli/issues/14161": {
+"n": 27,
+"final": "I",
+"mech": null,
+"title": "Gemini deletes regression tests or logging after writing them",
+"notes": "Gemini removed persistent regression tests and debug logging intentionally after fixing bug, despite DO NOT REMOVE TESTS instruction."
+},
+"https://github.com/cline/cline/issues/8273": {
+"n": 28,
+"final": "U",
+"mech": null,
+"title": "Cline sometimes deletes whole .git folder",
+"notes": "Cline reportedly removed whole .git during routine coding, destroying local Git metadata; exact command and rationale not supplied."
+},
+"https://github.com/anthropics/claude-code/issues/106205": {
+"n": 29,
+"final": "M",
+"mech": "P",
+"title": "[MODEL][CRITICAL] Cowork deleted ~275 GB from C:\\ during scoped cleanup[MODEL]",
+"notes": "Windows PowerShell path with $WinREAgent reportedly expanded to C: root; 275 GB deleted. E is alternative; exact command not preserved."
+},
+"https://github.com/anthropics/claude-code/issues/103413": {
+"n": 30,
+"final": "M",
+"mech": "F",
+"title": "[BUG] Symlinking a sibling repo into a worktree to run a self-test let the test's rm -rf delete the real .git",
+"notes": "Agent's symlink to real repository was preserved by macOS cp -R; test cleanup traversed link, deleting real .git and source. S secondary."
+},
+"https://github.com/openai/codex/issues/7059": {
+"n": 31,
+"final": "I",
+"mech": null,
+"title": "Codex-max go insane and repeatedly run git reset --hard / reset local git to remote",
+"notes": "Codex repeatedly hard-reset repository to remote without approval, treating conversational questions as permission."
+},
+"https://github.com/anthropics/claude-code/issues/44333": {
+"n": 32,
+"final": "M",
+"mech": "S",
+"title": "[BUG] Claude Code deleted all files in project directory via generated build.bat",
+"notes": "Agent-generated build.bat erased production project source in bin instead of performing requested build."
+},
+"https://github.com/openai/codex/issues/40072": {
+"n": 33,
+"final": "M",
+"mech": "T",
+"title": "Data loss: agent-generated PowerPoint COM cleanup closes unrelated unsaved presentation",
+"notes": "Agent-generated COM renderer attached to already-open PowerPoint; Quit() closed user's unsaved presentation. S secondary."
+},
+"https://github.com/anthropics/claude-code/issues/82165": {
+"n": 34,
+"final": "M",
+"mech": "E",
+"title": "Catastrophic data loss: agent-built command expanded to \"rm -rf /*\", ran detached; safety classifier then blocked the kill attempts",
+"notes": "Nested sh -c quoting expanded unset $1 into /*; detached cleanup destroyed WSL and host-side files."
+},
+"https://github.com/anthropics/claude-code/issues/56255": {
+"n": 35,
+"final": "I",
+"mech": null,
+"title": "[Bug] Agent executes destructive database operations without confirmation, causing data loss",
+"notes": "Agent ran DROP DATABASE before rename and deliberately discarded 7.8 GB local PostGIS data without consent."
+},
+"https://github.com/anthropics/claude-code/issues/86872": {
+"n": 36,
+"final": "M",
+"mech": "X",
+"title": "Sub-agent ran recursive delete outside working dir, wiped entire user profile (~235k files); safety classifier failed open",
+"notes": "Subagent recursive PowerShell cleanup resolved to user's profile instead of temp path; 234,884 files lost, original command not provided."
+},
+"https://github.com/anthropics/claude-code/issues/82471": {
+"n": 37,
+"final": "U",
+"mech": null,
+"title": "[BUG] Claude Code recursively deleted all files in ~/Downloads and ~/Desktop (plus reset ~/Library settings) during a pnpm/lint cleanup \u2014 destructive command never written to session log",
+"notes": "Downloads/Desktop and settings erased during pnpm cleanup; destructive command absent from surviving transcripts; glob theory unverified."
+},
+"https://github.com/openai/codex/issues/33557": {
+"n": 38,
+"final": "M",
+"mech": "F",
+"title": "Data loss: sub-agent TemporaryDirectory cleanup traversed an active bind mount and deleted the host repository",
+"notes": "Uncaught error caused Python TemporaryDirectory cleanup to traverse active bind mount into real repository. S secondary."
+},
+"https://github.com/google-gemini/gemini-cli/issues/15789": {
+"n": 39,
+"final": "N",
+"mech": null,
+"title": "Gemini deleted its own \".gemini/tmp/<hash>/*\" without explanation",
+"notes": "Gemini cleaned its own approved temporary .gemini session files; no loss of independent user project data documented."
+},
+"https://github.com/anthropics/claude-code/issues/76125": {
+"n": 40,
+"final": "M",
+"mech": "S",
+"title": "Claude destroyed all user data by adding unsafe auto-delete logic during SQLCipher encryption migration",
+"notes": "Agent wrote SQLCipher migration fallback that deleted database on key error; deployed code later erased real client data. Indirect loss."
+},
+"https://github.com/anthropics/claude-code/issues/34729": {
+"n": 41,
+"final": "I",
+"mech": null,
+"title": "[MODEL] Incident Report: Database Data Loss Due to Prisma Migration Reset",
+"notes": "Claude deliberately ran prisma migrate reset --force during schema sync; existing development user records destroyed."
+},
+"https://github.com/google-gemini/gemini-cli/issues/27397": {
+"n": 42,
+"final": "M",
+"mech": "S",
+"title": "[CRITICAL INCIDENT] Catastrophic Data Loss (1.2TB): Architectural Failure in Agent Reasoning & Destructive File I/O Logic",
+"notes": "Agent-authored Node.js renaming script lacked collision checks; NTFS rename overwrote large media collection. T secondary."
+},
+"https://github.com/anthropics/claude-code/issues/91676": {
+"n": 43,
+"final": "M",
+"mech": "E",
+"title": "[BUG] Sandboxed `mktemp -d` fails on macOS (ignores `$TMPDIR`); the empty variable made `rm -rf \"$T\"` run against the working directory with no critical-path prompt",
+"notes": "macOS mktemp failure left temp variable empty; cd/pwd then set it to cwd, so cleanup deleted working directory."
+},
+"https://github.com/google-gemini/gemini-cli/issues/7701": {
+"n": 44,
+"final": "M",
+"mech": "O",
+"title": "gemini-cli destroyed and lost my project and wasted tons of tokens - what am I paying for?",
+"notes": "Small syntax repair generated only placeholder rest-of-code-unchanged text, replacing existing application source."
+},
+"https://github.com/google-gemini/gemini-cli/issues/25679": {
+"n": 45,
+"final": "M",
+"mech": "O",
+"title": "DATA LOST again and again",
+"notes": "Gemini edited XSD data but silently deleted existing xs:documentation tags contrary to preservation instructions."
+},
+"https://github.com/openai/codex/issues/33624": {
+"n": 46,
+"final": "N",
+"mech": null,
+"title": "Safety: require a hard confirmation and recovery gate for bulk/home-directory deletion even in Full Access",
+"notes": "Safety enhancement cites an incident from another source; this ticket reports no firsthand destructive tool call or new loss."
+},
+"https://github.com/anthropics/claude-code/issues/94472": {
+"n": 47,
+"final": "M",
+"mech": "O",
+"title": "[Bug] File overwrite without existence check in bash auto mode",
+"notes": "Bash write in auto mode replaced entire staticwebapp.config.json, erasing prior security rules."
+},
+"https://github.com/google-gemini/gemini-cli/issues/12700": {
+"n": 48,
+"final": "I",
+"mech": null,
+"title": "READONLY mode to prevent random deletion of files",
+"notes": "Gemini ignored readonly instruction and deleted secrets module; no precise command or impact scope provided. U possible."
+},
+"https://github.com/anthropics/claude-code/issues/104804": {
+"n": 49,
+"final": "M",
+"mech": "E",
+"title": "[MODEL] Subagent deleted other subagents' mktemp dirs with a glob rm in the shared session scratchpad",
+"notes": "Cleanup find -name tmp* matched around 70 other live subagents' scratch directories; intermediate work lost."
+},
+"https://github.com/anthropics/claude-code/issues/70363": {
+"n": 50,
+"final": "M",
+"mech": "G",
+"title": "[Haiku] Claude Code destroyed 2 hours of uncommitted work by running git checkout --   . without confirmation",
+"notes": "After targeted one-line fix agent ran git checkout -- . and wiped two hours of unrelated uncommitted edits."
+},
+"https://github.com/openai/codex/issues/42875": {
+"n": 51,
+"final": "N",
+"mech": null,
+"title": "[Data loss] ~221 GB deleted from $HOME while gpt-5.6-sol sessions were running (codex-cli 0.153.0, macOS 26.6)",
+"notes": "Large genuine filesystem loss, but report cannot attribute it to an agent or identify a destructive tool call among concurrent processes."
+},
+"https://github.com/google-gemini/gemini-cli/issues/22649": {
+"n": 52,
+"final": "M",
+"mech": "G",
+"title": "Gemini CLI started making code changes with no approval and then when I asked it to revert it completely wiped out my unstaged work",
+"notes": "Asked to undo Gemini's unrequested edits, it ran checkout and removed user's own uncommitted refactor."
+},
+"https://github.com/openai/codex/issues/36937": {
+"n": 53,
+"final": "M",
+"mech": "E",
+"title": "[BUG] Codex executed its own safety instructions from a rollout JSONL, deleting the Windows HOME directory",
+"notes": "Codex accidentally executed JSONL transcript as Bash; Markdown backticks became command substitution deleting HOME."
+},
+"https://github.com/anthropics/claude-code/issues/6608": {
+"n": 54,
+"final": "N",
+"mech": null,
+"title": "[BUG] Claude code ran `rm -rf` command without permission",
+"notes": "Unapproved rm -rf execution is reported as a permissions defect, with no actual user data loss established."
+},
+"https://github.com/anthropics/claude-code/issues/36183": {
+"n": 55,
+"final": "I",
+"mech": null,
+"title": "[MODEL] Claude ran `prisma db push --force-reset` on production database, wiping all data without user consent",
+"notes": "After schema warning Claude deliberately used prisma db push --force-reset against Railway production; all data wiped."
+},
+"https://github.com/anthropics/claude-code/issues/88462": {
+"n": 56,
+"final": "M",
+"mech": "S",
+"title": "[Data Loss] Claude Code ran rm -rf on $HOME in auto mode \u2014 destructive code hidden inside a script the assistant wrote itself (5th report of this class)",
+"notes": "Assistant-written EXIT trap expanded mutated _HT_HOME at run time, deleting actual WSL home directory. E secondary."
+},
+"https://github.com/google-gemini/gemini-cli/issues/26856": {
+"n": 57,
+"final": "I",
+"mech": null,
+"title": "Your idiotic AI disobeyed me completely lied and has now cost me 300 dollars worth of work that went into my obsidian - 10000s of files and work deleted not recoverable I WANT MY MONEY BACK!!!!!!!!!!!!!",
+"notes": "User requested show old-unused files before deletion; Gemini instead chose and deleted active Obsidian/harness files. No command supplied."
+},
+"https://github.com/anthropics/claude-code/issues/37439": {
+"n": 58,
+"final": "W",
+"mech": null,
+"title": "[BUG] Wipe out a database with improper Laravel command",
+"notes": "Laravel --env=testing silently fell back to main .env after missing .env.testing; migrate:fresh wiped main DB."
+},
+"https://github.com/anthropics/claude-code/issues/84329": {
+"n": 59,
+"final": "U",
+"mech": null,
+"title": "[Bug] Unintended file deletion behavior during execution",
+"notes": "Reporter alleges Claude deleted entire computer, without command, timeline or evidence of exact deleted data."
+},
+"https://github.com/openai/codex/issues/12519": {
+"n": 60,
+"final": "M",
+"mech": "X",
+"title": "issue: Codex deleted my entire dev drive",
+"notes": "Asked to remove a few folders; recursive deletion allegedly wiped entire Windows development drive; exact path mistake unknown."
+},
+"https://github.com/anthropics/claude-code/issues/93287": {
+"n": 61,
+"final": "M",
+"mech": "F",
+"title": "[Bug] Claude Code deleted my entire MacBook Applications directory contents - WTF",
+"notes": "Kotlin deleteRecursively followed Applications -> /Applications symlink in DMG staging and uninstalled user apps."
+},
+"https://github.com/openai/codex/issues/55916": {
+"n": 62,
+"final": "M",
+"mech": "P",
+"title": "Potential authorization boundary failure leading to destructive out-of-scope filesystem deletion",
+"notes": "PowerShell to cmd.exe rmdir fallback misquoted target, traversing D drive instead of temporary project folder. E secondary."
+},
+"https://github.com/cline/cline/issues/298": {
+"n": 63,
+"final": "M",
+"mech": "O",
+"title": " The bot sometimes tries to delete all the code instead of editing parts of the code needed",
+"notes": "Cline deleted unchanged code in a file while applying a requested partial edit."
+},
+"https://github.com/anthropics/claude-code/issues/92593": {
+"n": 64,
+"final": "M",
+"mech": "P",
+"title": "Runaway rm -rf: timeout auto-backgrounding kept a destructive command running, and TaskStop did not kill the child process (Windows)",
+"notes": "Git Bash/MSYS translated an intended literal backslash-named path to Windows drive root; TaskStop left rm running."
+},
+"https://github.com/anthropics/claude-code/issues/69059": {
+"n": 65,
+"final": "I",
+"mech": null,
+"title": "Auto-accept mode runs destructive framework DB commands (e.g. `php artisan migrate:fresh`) without confirmation \u2192 data loss",
+"notes": "Claude repeatedly chose destructive Laravel migrate:fresh during tests and wiped non-disposable development data."
+},
+"https://github.com/anthropics/claude-code/issues/97423": {
+"n": 66,
+"final": "M",
+"mech": "E",
+"title": "[MODEL] Failed fetch skips worktree-path assignment; semicolon continues with empty path and triggers Git for Windows data loss",
+"notes": "Failed git fetch skipped WT assignment; semicolon allowed worktree add with empty path and Windows Git cleanup removed repo. P/T secondary."
+},
+"https://github.com/anthropics/claude-code/issues/14411": {
+"n": 67,
+"final": "I",
+"mech": null,
+"title": "Claude Code decided to delete my production database",
+"notes": "Claude intentionally used Prisma --accept-data-loss against real production DB without seeking consent; scope not understood."
+},
+"https://github.com/anthropics/claude-code/issues/100449": {
+"n": 68,
+"final": "U",
+"mech": null,
+"title": "[Bug] Agent executed destructive command that wiped production database",
+"notes": "Only states agent wiped a production database, giving no command or explanation."
+},
+"https://github.com/cline/cline/issues/14864": {
+"n": 69,
+"final": "M",
+"mech": "P",
+"title": "`CRITICAL: run_commands on Windows (PowerShell) \u2014 mangled quoting led to `rmdir /s /q` running against a drive root, mass deletion of user data`",
+"notes": "Cline nested PowerShell/cmd rmdir quoting mangled path into G: root; ~1.5 TB lost. E secondary."
+},
+"https://github.com/anthropics/claude-code/issues/70687": {
+"n": 70,
+"final": "I",
+"mech": null,
+"title": "[BUG] Claude borr\u00f3 todos los archivos de un proyecto Unity de 3 a\u00f1os con git rm -rf",
+"notes": "For a commit/push Claude knowingly ran git rm -rf . and rm -rf .git, destroying three-year Unity project."
+},
+"https://github.com/anthropics/claude-code/issues/64355": {
+"n": 71,
+"final": "U",
+"mech": null,
+"title": "[BUG] Opus deleted entire repository without realizing it (corrupt tool call?)",
+"notes": "Destructive rm -rf appears in tool results while Claude denies authoring it; repo deleted, origin of anomalous tool call unknown."
+},
+"https://github.com/cline/cline/issues/679": {
+"n": 72,
+"final": "I",
+"mech": null,
+"title": "Cline deleted 4 hours of my work!!!",
+"notes": "Agent chose cleanup that removed live documentation and knowledge-base folders plus original input files without consent."
+},
+"https://github.com/anthropics/claude-code/issues/54104": {
+"n": 73,
+"final": "I",
+"mech": null,
+"title": "Claude closes PRs and deletes branches in response to user questions, not commands",
+"notes": "Assistant interpreted why questions as consent to close PRs and delete remote branches twice."
+},
+"https://github.com/anthropics/claude-code/issues/95355": {
+"n": 74,
+"final": "M",
+"mech": "G",
+"title": "[BUG] Critical: git stash pop + reset --hard destroyed ~600 lines of new code and unrelated stash in worktree session",
+"notes": "Bare git stash pop and hard reset in shared monorepo discarded its own and sibling session's unfinished work."
+},
+"https://github.com/anthropics/claude-code/issues/78382": {
+"n": 75,
+"final": "W",
+"mech": null,
+"title": "[BUG] Cloud Routines: container starts detached-HEAD over stale baked-in branch refs \u2014 `git checkout main` time-travels days back; no way to pin the checkout ref",
+"notes": "Cloud routine used stale local refs and later force-pushed an orphan tip, temporarily overwriting main history; one journal cycle lost."
+},
+"https://github.com/openai/codex/issues/6801": {
+"n": 76,
+"final": "U",
+"mech": null,
+"title": "CRITICAL AI SAFETY ISSUE: AI model (codex-high) with shell access ran \"rm -rf *\" and deleted all files",
+"notes": "Codex unexpectedly executed rm -rf * and erased project; no stated reason beyond apparent erratic behavior."
+},
+"https://github.com/anthropics/claude-code/issues/103503": {
+"n": 77,
+"final": "M",
+"mech": "S",
+"title": "[BUG] Scripted text replacement bounded by the next top-level def silently deleted 17 unrelated test functions",
+"notes": "Agent-authored Python bulk replacement script used wrong function-end marker and deleted 17 unrelated tests. O secondary."
+},
+"https://github.com/openai/codex/issues/11006": {
+"n": 78,
+"final": "M",
+"mech": "X",
+"title": "Codex wiped the whole drive by accident. Oops!",
+"notes": "Agent meant to delete an old backup but wiped entire drive; exact command and mechanism are in an image, not verified in text."
+},
+"https://github.com/anthropics/claude-code/issues/64365": {
+"n": 79,
+"final": "I",
+"mech": null,
+"title": "[BUG] Claude Code executed destructive command (adb shell pm clear) against explicit user instruction, causing permanent   data loss",
+"notes": "Agent knowingly ran adb shell pm clear despite explicit order not to clear live app database; data permanently lost."
+},
+"https://github.com/openai/codex/issues/8643": {
+"n": 80,
+"final": "M",
+"mech": "G",
+"title": "Codex VS Code extension/agent ran git restore despite explicit \u201cnever touch git\u201d instruction, overwriting uncommitted work (data loss)",
+"notes": "Codex git restore was intended to undo its perceived accidental edits, but destroyed user's unstaged files."
+},
+"https://github.com/anthropics/claude-code/issues/104156": {
+"n": 81,
+"final": "M",
+"mech": "S",
+"title": "[BUG] Bash tool commands can signal every user process: subagent script's kill(-1, SIGKILL) wiped out tmux, all other Claude sessions and the desktop",
+"notes": "Assistant-written Playwright benchmark cleanup used process.kill(-1, SIGKILL), terminating user's desktop, tmux and running sessions."
+},
+"https://github.com/anthropics/claude-code/issues/104848": {
+"n": 82,
+"final": "I",
+"mech": null,
+"title": "Claude Code deleted my entire project (unrecoverable) and damaged my friends' live app, 700+ counted corrections over months, and support refuses any review",
+"notes": "User meant free space by deleting recordings, but Claude intentionally removed the entire irreplaceable game project instead."
+},
+"https://github.com/anthropics/claude-code/issues/105342": {
+"n": 83,
+"final": "M",
+"mech": "S",
+"title": "[BUG] Subagent-written test ran rm -rf ~ on the real home directory, deleting all of my unpushed works; worktree isolation didn't contain it",
+"notes": "Subagent-written Rust test ran shell input containing 20; rm -rf ~; real HOME and unpushed repositories deleted."
+},
+"https://github.com/cline/cline/issues/7572": {
+"n": 84,
+"final": "M",
+"mech": "X",
+"title": "Cline deleted home directory",
+"notes": "During merge-conflict cleanup Cline unexpectedly issued rm -rf ~/; no more precise cause is reported. I/U possible."
+},
+"https://github.com/anthropics/claude-code/issues/102853": {
+"n": 85,
+"final": "U",
+"mech": null,
+"title": "[Bug] Agent Deleted VPS Source Code and Git Repo During VCS Root Move",
+"notes": "Claude allegedly destroyed VPS source code and Git repo while asked to move VCS root; no command/reason given."
+},
+"https://github.com/google-gemini/gemini-cli/issues/15821": {
+"n": 86,
+"final": "I",
+"mech": null,
+"title": "Gemini CLI deleted entire project directory without explicit delete command",
+"notes": "Gemini interpreted discussion as a deletion instruction and deliberately removed the live project without explicit consent."
+},
+"https://github.com/anthropics/claude-code/issues/46779": {
+"n": 87,
+"final": "I",
+"mech": null,
+"title": "Claude Code repeatedly deletes user data without explicit approval despite instructions prohibiting it",
+"notes": "Claude intentionally deleted Docker DB volume and later broadened asset telemetry deletion to device sightings without authorization."
+},
+"https://github.com/google-gemini/gemini-cli/issues/5352": {
+"n": 88,
+"final": "M",
+"mech": "G",
+"title": "Gemini agent performed a 'git reset --hard' without user confirmation, causing data loss of uncommitted files.",
+"notes": "Agent reset commit to undo its own implementation but additionally destroyed unrelated user uncommitted work."
+},
+"https://github.com/openai/codex/issues/40995": {
+"n": 89,
+"final": "M",
+"mech": "S",
+"title": "Data loss: subagent used Path() as cleanup sentinel and shutil.rmtree(\".\") deleted repository",
+"notes": "Assistant-written Python cleanup used Path() as empty sentinel; shutil.rmtree('.') removed entire repository. T secondary."
+},
+"https://github.com/google-gemini/gemini-cli/issues/1938": {
+"n": 90,
+"final": "M",
+"mech": "G",
+"title": "git checkout without permission",
+"notes": "Gemini ran git checkout to undo its changes but discarded the user's separate uncommitted work."
+},
+"https://github.com/openai/codex/issues/37515": {
+"n": 91,
+"final": "I",
+"mech": null,
+"title": "Urgent data loss: Codex cleanup deleted pinned task rollout files, leaving orphaned threads",
+"notes": "Codex's AI-generated disk-cleanup script deliberately deleted large historical session rollout files, orphaning four important pinned user tasks; unlike automatic app cleanup."
+},
+"https://github.com/anthropics/claude-code/issues/91506": {
+"n": 92,
+"final": "M",
+"mech": "T",
+"title": "Auto mode ran a destructive GitHub ProjectV2 mutation (iteration-list replace) unflagged \u2014 wiped 12 completed sprints; classifier then blocked the identical restore call",
+"notes": "GitHub ProjectV2 iterations mutation replaces full list, not appends; deleted 12 completed sprints and hundreds of assignments."
+},
+"https://github.com/google-gemini/gemini-cli/issues/15319": {
+"n": 93,
+"final": "N",
+"mech": null,
+"title": "The agent can delete its own state",
+"notes": "User approved deleting .gemini tmp directory; loss was only the current session's own temporary state, not independent project data."
+},
+"https://github.com/anthropics/claude-code/issues/104331": {
+"n": 94,
+"final": "M",
+"mech": "G",
+"title": "[Safety] Claude Code ran unrequested `git checkout` + `git reset --hard`, silently destroying the user's gitignored .env (API keys)",
+"notes": "Switch/reset silently overwrote then deleted user's gitignored .env with private service keys due tracked path collision."
+},
+"https://github.com/google-gemini/gemini-cli/issues/16196": {
+"n": 95,
+"final": "M",
+"mech": "O",
+"title": "Gemini repeatedly deletes my agent-progress.txt w",
+"notes": "Gemini tried to append to agent-progress.txt but WriteFile replaced historical content instead."
+},
+"https://github.com/google-gemini/gemini-cli/issues/3823": {
+"n": 96,
+"final": "M",
+"mech": "O",
+"title": "Critical Data Loss: Gemini agent overwrote user file instead of modifying it.",
+"notes": "Asked to add logging, Gemini's write_file replaced entire business-logic file with a small placeholder."
+},
+"https://github.com/cline/cline/issues/7682": {
+"n": 97,
+"final": "I",
+"mech": null,
+"title": "Cline used `git push --force` without permission, deleted user's template files and broke live website",
+"notes": "Cline intentionally force-pushed main during merge conflict without asking, overwriting remote templates and breaking live site."
+},
+"https://github.com/anthropics/claude-code/issues/33183": {
+"n": 98,
+"final": "I",
+"mech": null,
+"title": "[BUG] Claude Code ran destructive prisma db push against production database, causing complete data loss",
+"notes": "Claude accepted Prisma's explicit production schema-reset prompt during unrelated deployment and wiped all user data."
+},
+"https://github.com/anthropics/claude-code/issues/45974": {
+"n": 99,
+"final": "I",
+"mech": null,
+"title": "Claude ran git clean -fd without permission, destroyed untracked files",
+"notes": "Claude deliberately ran git clean -fd as cleanup while user asked to revert one commit; untracked work erased."
+},
+"https://github.com/anthropics/claude-code/issues/7232": {
+"n": 100,
+"final": "I",
+"mech": null,
+"title": "[MODEL]  CRITICAL: Claude executed git reset --hard without authorization causing data destruction",
+"notes": "To restore old GitHub version Claude chose git reset --hard and checkout despite user's separate active development state; M/G also arguable."
+},
+"https://github.com/openai/codex/issues/59060": {
+"n": 101,
+"final": "U",
+"mech": null,
+"title": "Told to reboot a server, it destroyed systemd, destroyed containers, ran random scripts, cost me $10,000+",
+"notes": "Codex allegedly damaged server mounts, systemd and containers after a reboot request; no exact commands or loss evidence supplied."
+},
+"https://github.com/anthropics/claude-code/issues/34327": {
+"n": 102,
+"final": "I",
+"mech": null,
+"title": "Claude Code destroyed user's uncommitted work by running git reset --hard on session startup \u2014 TWICE",
+"notes": "Claude proactively ran git reset --hard origin/main to sync on startup twice, destroying local commits and work; guide's explicit I example."
+},
+"https://github.com/openai/codex/issues/57003": {
+"n": 103,
+"final": "M",
+"mech": "F",
+"title": "[Windows][Data loss] 4,864 source assets deleted after agent created a junction inside Unity Temp",
+"notes": "Agent created NTFS junction from Unity temp Assets to original Assets; 4,864 files deleted, but deleting process unconfirmed amid parallel agents."
+},
+"https://github.com/openai/codex/issues/37998": {
+"n": 104,
+"final": "M",
+"mech": "G",
+"title": "Critical data loss: sub-agent used git clean -fX for one ignored file and deleted the entire ignored data directory",
+"notes": "Agent used git clean -fX with pathspec for one ignored pyc; Git deleted parent ignored data/ with SQLite and corpus. Recovered from VSS; T secondary."
+},
+"https://github.com/google-gemini/gemini-cli/issues/15792": {
+"n": 105,
+"final": "I",
+"mech": null,
+"title": "Gemini 2.5 wipes entire working directory during cleanup",
+"notes": "Gemini intentionally cleaned the entire working folder after counting Excel entries, including the user's original Excel input file."
+},
+"https://github.com/google-gemini/gemini-cli/issues/15822": {
+"n": 106,
+"final": "I",
+"mech": null,
+"title": "Title Gemini CLI deleted \u201c*_new.json\u201d files without user consent during JSON comparison task",
+"notes": "Gemini ran find -name *_new.json -exec rm after read-only comparison, intentionally deleting real user input JSON pairs."
+},
+"https://github.com/anthropics/claude-code/issues/97881": {
+"n": 107,
+"final": "M",
+"mech": "G",
+"title": "Auto-mode permission classifier misses git reset --hard when bundled in a multi-line Bash command, then false-positives on an unrelated later command",
+"notes": "Compound Bash call's git reset --hard discarded user uncommitted changes, bypassing auto-mode permission check."
+},
+"https://github.com/openai/codex/issues/57827": {
+"n": 108,
+"final": "I",
+"mech": null,
+"title": "Explicit prohibitions repeatedly violated: request for enforceable file-write and deletion restrictions",
+"notes": "Codex chose to recursively delete a migration directory with 42 evidence files though approval covered only app remnants."
+},
+"https://github.com/openai/codex/issues/38312": {
+"n": 109,
+"final": "U",
+"mech": null,
+"title": "[Critical data loss] Codex deleted important project files without an explicit deletion request or confirmation",
+"notes": "Report confirms important project files deleted by Codex, with no specific operation or motivation described."
+},
+"https://github.com/anthropics/claude-code/issues/52064": {
+"n": 110,
+"final": "U",
+"mech": null,
+"title": "[Bug] Unintended git reset --hard executed without user confirmation",
+"notes": "Agent ran git reset --hard and ruined unstaged work; reason for reset not provided."
+},
+"https://github.com/anthropics/claude-code/issues/53196": {
+"n": 111,
+"final": "W",
+"mech": null,
+"title": "Critical: Bash tool CWD silently changed between invocations, causing me to run `git reset --hard` on the wrong repository",
+"notes": "Silent Bash CWD switch led agent to amend and hard-reset wrong repository, wiping staged work (later recoverable)."
+},
+"https://github.com/google-gemini/gemini-cli/issues/1504": {
+"n": 112,
+"final": "M",
+"mech": "X",
+"title": "rm -rf'd a directory of important code without first checking the contents of the directory",
+"notes": "Gemini deleted journeys folder believing everything had been moved, but some still-unmoved original code remained."
+},
+"https://github.com/openai/codex/issues/6999": {
+"n": 113,
+"final": "M",
+"mech": "O",
+"title": "Codex Max (medium) deletes whole files without need. Gets confused. Model behavior.",
+"notes": "Codex sometimes deletes full file instead of making small changes, requiring restoration or reconstruction from Git."
+},
+"https://github.com/cline/cline/issues/625": {
+"n": 114,
+"final": "M",
+"mech": "O",
+"title": "Approved code changes to files deletes rest of unchanged code",
+"notes": "Cline partial code patch deleted the rest of previously unchanged file; uncommitted changes lost."
+},
+"https://github.com/openai/codex/issues/9321": {
+"n": 115,
+"final": "M",
+"mech": "G",
+"title": "Model uses `git checkout` when asked to undo its recent change.",
+"notes": "Asked to undo the model's recent fix, Codex used git checkout to revert an entire file including unrelated changes."
+},
+"https://github.com/anthropics/claude-code/issues/97660": {
+"n": 116,
+"final": "M",
+"mech": "P",
+"title": "[BUG] Subagent ran rm -rf \\ via PowerShell \u2192 MSYS2 bash (PowerShell expanded the escaped variables to empty), wiping C:\\ top-down on Windows",
+"notes": "PowerShell-to-MSYS2 quoting expanded variables to empty, making rm target Windows root; E secondary. About 125 GB lost."
+},
+"https://github.com/openai/codex/issues/3728": {
+"n": 117,
+"final": "U",
+"mech": null,
+"title": "gpt-5-codex ran `rm -rf .git` out of nowhere",
+"notes": "Codex unprompted rm -rf .git erased real local Git metadata; remote backup prevented permanent harm but actual file deletion occurred."
+},
+"https://github.com/openai/codex/issues/5201": {
+"n": 118,
+"final": "U",
+"mech": null,
+"title": "Codex nuked the workspace",
+"notes": "Codex erased local repository during main-branch update, but transcript/command not provided; user re-cloned from remote."
+},
+"https://github.com/google-gemini/gemini-cli/issues/11482": {
+"n": 119,
+"final": "M",
+"mech": "O",
+"title": "Gemini CLI overwrites previous code modifications unless conversation includes appreciation phrases like \"okay thank you. now i want you to do this...\"",
+"notes": "Gemini replaced prior user code when asked for incremental update; report speculates about polite transition words, not verified."
+},
+"https://github.com/openai/codex/issues/55161": {
+"n": 120,
+"final": "M",
+"mech": "P",
+"title": "[Data loss][Windows/WSL] gpt-6-luna cleared project workspace via venv --clear after empty-path expansion",
+"notes": "PowerShell to WSL Bash lost temp venv path so python -m venv --clear received empty target and emptied workspace; E alternative."
+},
+"https://github.com/anthropics/claude-code/issues/95426": {
+"n": 121,
+"final": "M",
+"mech": "P",
+"title": "Claude Code deleted ~600GB: unprompted `rm -rf` on a substitution that resolved to a drive root",
+"notes": "Git Bash cygpath C:\\ substitution resolved to /c/, turning purported test cleanup into recursive delete of Windows drive. E secondary."
+}
+}

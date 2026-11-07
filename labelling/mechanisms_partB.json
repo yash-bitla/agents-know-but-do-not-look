@@ -1,0 +1,197 @@
+{
+"https://github.com/google-gemini/gemini-cli/issues/14471": {
+"n": 6,
+"mech": "G",
+"notes": "To undo a bad commit, agent ran git reset --hard HEAD~1 and discarded uncommitted sprint-planning work."
+},
+"https://github.com/anthropics/claude-code/issues/13729": {
+"n": 7,
+"mech": "F",
+"notes": "Jenkins workspace cleanup also erased databases stored in Docker bind-mounted workspace paths across environments."
+},
+"https://github.com/anthropics/claude-code/issues/97534": {
+"n": 10,
+"mech": "G",
+"notes": "git reset --hard origin/main used for branch sync also removed uncommitted script edits; report is brief."
+},
+"https://github.com/anthropics/claude-code/issues/75771": {
+"n": 11,
+"mech": "T",
+"notes": "Uninstalling the Android app before reinstall also removed its on-device user/test data."
+},
+"https://github.com/anthropics/claude-code/issues/94548": {
+"n": 13,
+"mech": "X",
+"notes": "Agent overwrote an admin password hash without retaining original values or backup; no more specific mechanism fits. Password reset was user-approved."
+},
+"https://github.com/google-gemini/gemini-cli/issues/15580": {
+"n": 17,
+"mech": "G",
+"notes": "git reset --hard origin/main while resolving a rebase discarded local work; other cleanup commands also appear in transcript."
+},
+"https://github.com/anthropics/claude-code/issues/76626": {
+"n": 18,
+"mech": "X",
+"notes": "Folder was emptied during a request to count files, but report does not identify the destructive command or mechanism."
+},
+"https://github.com/openai/codex/issues/7315": {
+"n": 20,
+"mech": "T",
+"notes": "Codex command runner allegedly passed && and following tokens as rm arguments rather than running a shell; explicit shell wrapper worked correctly."
+},
+"https://github.com/anthropics/claude-code/issues/81508": {
+"n": 22,
+"mech": "G",
+"notes": "Generated loop called git checkout -- on modified files after formatting; faulty matching discarded uncommitted edits."
+},
+"https://github.com/anthropics/claude-code/issues/80728": {
+"n": 23,
+"mech": "T",
+"notes": "Scaffolding a Vite project into an existing Java project's directory overwrote the prior project; based on reporter's account."
+},
+"https://github.com/anthropics/claude-code/issues/85200": {
+"n": 29,
+"mech": "T",
+"notes": "TaskStop ended a wrapper shell but not the rm child; deletion continued about 20 minutes after reported stop. Initial /c drive targeting is secondary."
+},
+"https://github.com/cline/cline/issues/8422": {
+"n": 30,
+"mech": "O",
+"notes": "write_to_file replaced entire .env with a single added variable, erasing existing credentials."
+},
+"https://github.com/anthropics/claude-code/issues/95156": {
+"n": 33,
+"mech": "G",
+"notes": "git checkout <branch> -- . in a dirty working tree overwrote uncommitted prototype changes."
+},
+"https://github.com/anthropics/claude-code/issues/92737": {
+"n": 35,
+"mech": "P",
+"notes": "Assistant-written photo move script used bash export -f under zsh, so transfer silently failed before assistant deleted presumed-moved originals. Secondary issue: no verification."
+},
+"https://github.com/google-gemini/gemini-cli/issues/24954": {
+"n": 36,
+"mech": "O",
+"notes": "write_file replaced functioning code with summaries rather than making narrow changes."
+},
+"https://github.com/anthropics/claude-code/issues/93099": {
+"n": 39,
+"mech": "E",
+"notes": "Cleanup used $HOME after temporary HOME had been restored to the real user home; rm -rf expanded to real home."
+},
+"https://github.com/anthropics/claude-code/issues/37888": {
+"n": 40,
+"mech": "G",
+"notes": "git checkout -- / checkout HEAD -- repeatedly discarded manual uncommitted edits; stale snapshot overwrites were a secondary loss."
+},
+"https://github.com/anthropics/claude-code/issues/29082": {
+"n": 42,
+"mech": "X",
+"notes": "During Flutter/Gradle cleanup a malformed shell command appears to include the project path as an rm argument; exact parsing failure uncertain."
+},
+"https://github.com/google-gemini/gemini-cli/issues/18764": {
+"n": 44,
+"mech": "O",
+"notes": "Primary loss came from write_file replacing large files using truncated reads; git checkout then compounded the damage (secondary G)."
+},
+"https://github.com/anthropics/claude-code/issues/15951": {
+"n": 45,
+"mech": "X",
+"notes": "Agent targeted a DerivedData subfolder but its parent app directory vanished; report hypothesizes path splitting without proving it."
+},
+"https://github.com/anthropics/claude-code/issues/100179": {
+"n": 48,
+"mech": "T",
+"notes": "AppleScript 'active tab' changed as the user opened a Meet call; agent's Gmail navigation affected that tab and wiped captions. Also resembles wrong target."
+},
+"https://github.com/google-gemini/gemini-cli/issues/13984": {
+"n": 51,
+"mech": "O",
+"notes": "Translation edit removed several non-message lines of source code; exact editing tool not documented."
+},
+"https://github.com/google-gemini/gemini-cli/issues/25592": {
+"n": 53,
+"mech": "T",
+"notes": "Beets configuration used move: yes rather than copy: yes, so later deletion of output folder destroyed originals that had been moved there."
+},
+"https://github.com/anthropics/claude-code/issues/98967": {
+"n": 54,
+"mech": "O",
+"notes": "Write tool replaced an append-only devlog with only new text after attempted shell append failed."
+},
+"https://github.com/anthropics/claude-code/issues/84660": {
+"n": 57,
+"mech": "G",
+"notes": "git reset --hard to restore WIP commit erased changes made after that commit that were not committed."
+},
+"https://github.com/anthropics/claude-code/issues/28521": {
+"n": 58,
+"mech": "S",
+"notes": "Assistant wrote and ran a security test invoking find / -delete; test escaped expected safety blocking and deleted real personal files."
+},
+"https://github.com/anthropics/claude-code/issues/95414": {
+"n": 63,
+"mech": "F",
+"notes": "OneDrive-synced .next deletion propagated unexpectedly to source files; assistant advised confirming a bulk sync deletion."
+},
+"https://github.com/google-gemini/gemini-cli/issues/20712": {
+"n": 65,
+"mech": "T",
+"notes": "Azure BlobServiceClient.setProperties replaces full CORS configuration instead of appending one rule."
+},
+"https://github.com/anthropics/claude-code/issues/89330": {
+"n": 66,
+"mech": "G",
+"notes": "PR review skill ran git checkout <ref> -- . against local checkout and overwrote an unstaged tracked-file edit."
+},
+"https://github.com/google-gemini/gemini-cli/issues/26316": {
+"n": 68,
+"mech": "S",
+"notes": "Agent's generated deduplication implementation/dry-run reportedly removed ~7M rows; specific script and query were not disclosed."
+},
+"https://github.com/anthropics/claude-code/issues/102901": {
+"n": 70,
+"mech": "E",
+"notes": "Failed prerequisite skipped temp-dir variable assignment; unquoted empty $T caused find -delete to default to current repo."
+},
+"https://github.com/google-gemini/gemini-cli/issues/19729": {
+"n": 72,
+"mech": "X",
+"notes": "Agent mistook .git.bak (valuable version-control backup) for temporary debris and deleted it; no specific expansion/tool side effect."
+},
+"https://github.com/anthropics/claude-code/issues/106370": {
+"n": 74,
+"mech": "T",
+"notes": "PowerPoint COM automation attached to the user's already-open instance; Quit() closed it, losing unsaved work."
+},
+"https://github.com/google-gemini/gemini-cli/issues/15161": {
+"n": 77,
+"mech": "O",
+"notes": "Assistant deleted entire 3,900-line static/style.css during a find-and-replace task; exact edit operation not supplied."
+},
+"https://github.com/anthropics/claude-code/issues/99193": {
+"n": 78,
+"mech": "P",
+"notes": "Windows 8.3 short-name alias C:/Users/<USER>~1 pointed to the entire home directory; accidental rm target plus failed TaskStop prolonged loss. Alternative X for typo."
+},
+"https://github.com/google-gemini/gemini-cli/issues/18011": {
+"n": 83,
+"mech": "F",
+"notes": "Likely Docker host-path/volume-mount confusion during Gitea migration led cleanup to erase original repos and backups; no command transcript."
+},
+"https://github.com/google-gemini/gemini-cli/issues/5013": {
+"n": 87,
+"mech": "G",
+"notes": "Git restore/commit workflow included unintended staged changes and reverted TODO.md work; reporter later recovered from editor buffer."
+},
+"https://github.com/openai/codex/issues/57530": {
+"n": 96,
+"mech": "P",
+"notes": "PowerShell-to-cmd.exe quoting/escaping mangled the rmdir target; deletion traversed E: partition rather than node_modules."
+},
+"https://github.com/openai/codex/issues/35707": {
+"n": 97,
+"mech": "T",
+"notes": "PowerShell Get-ChildItem -Recurse -Include did not restrict enumeration as assumed; Remove-Item then deleted entire repository."
+}
+}
