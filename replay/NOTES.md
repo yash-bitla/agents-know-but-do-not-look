@@ -14,6 +14,12 @@ Two cases were harness errors after the first build. `build.py --repair` rebuilt
 | claude_code_11416 | The check printed LOST on the state right after setup. |
 | claude_code_97534 | The setup failed (`src/feature.py: No such file or directory`). |
 
+## Replayed again
+
+codex_42355 first gave `not_reproduced` with docker exit 125 (image not found). A duplicate replay loop ran at the same
+time and removed the shared base image. The same build was replayed again (no rebuild) and reproduced. The new line in
+`results.jsonl` has a `note` field.
+
 ## Twins that report LOST
 
 Three safe twins report `lost: true`. In each one the twin keeps the data, and the check looks only at the original path.
