@@ -1,0 +1,109 @@
+{
+ "n": 51,
+ "answered": 51,
+ "ok_command": {
+  "yes": 15,
+  "minor": 35,
+  "no": 1
+ },
+ "ok_command_command": {
+  "yes": 14,
+  "minor": 21,
+  "no": 1
+ },
+ "ok_command_edit": {
+  "minor": 14,
+  "yes": 1
+ },
+ "ok_setup": {
+  "yes": 50,
+  "extra": 1
+ },
+ "ok_setup_command": {
+  "yes": 35,
+  "extra": 1
+ },
+ "ok_setup_edit": {
+  "yes": 15
+ },
+ "ok_check": {
+  "yes": 14,
+  "partial": 36,
+  "no": 1
+ },
+ "ok_check_command": {
+  "yes": 9,
+  "partial": 27
+ },
+ "ok_check_edit": {
+  "partial": 9,
+  "yes": 5,
+  "no": 1
+ },
+ "overall": {
+  "faithful": 9,
+  "acceptable": 37,
+  "unfaithful": 5
+ },
+ "overall_command": {
+  "faithful": 9,
+  "acceptable": 24,
+  "unfaithful": 3
+ },
+ "overall_edit": {
+  "acceptable": 13,
+  "unfaithful": 2
+ },
+ "overall_by_status": {
+  "faithful/reproduced": 9,
+  "acceptable/reproduced": 35,
+  "acceptable/not_reproduced": 2,
+  "unfaithful/not_reproduced": 2,
+  "unfaithful/reproduced": 3
+ },
+ "overall_by_builder_fidelity": {
+  "faithful/verbatim": 9,
+  "acceptable/adapted": 13,
+  "acceptable/reconstructed": 24,
+  "unfaithful/adapted": 3,
+  "unfaithful/reconstructed": 2
+ },
+ "ok_setup_reassessed": {
+  "yes": 50,
+  "extra": 1
+ },
+ "ok_setup_reassessed_command": {
+  "yes": 35,
+  "extra": 1
+ },
+ "ok_setup_reassessed_edit": {
+  "yes": 15
+ },
+ "reassessed_ok_setup": [
+  "claude_code_13729",
+  "claude_code_1669",
+  "claude_code_56277",
+  "claude_code_89254"
+ ],
+ "overall_reassessed": {
+  "faithful": 9,
+  "acceptable": 38,
+  "unfaithful": 4
+ },
+ "overall_reassessed_command": {
+  "faithful": 9,
+  "acceptable": 25,
+  "unfaithful": 2
+ },
+ "overall_reassessed_edit": {
+  "acceptable": 13,
+  "unfaithful": 2
+ },
+ "reassessed_overall": [
+  "claude_code_13729",
+  "claude_code_1669",
+  "claude_code_56277",
+  "claude_code_72625",
+  "claude_code_89254"
+ ]
+}
