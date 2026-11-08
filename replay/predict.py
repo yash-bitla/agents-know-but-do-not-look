@@ -83,13 +83,14 @@ def prompt(it, cond):
 
 
 def parse(text):
-    m = re.search(r"\{[^{}]*\"destroys\"[^{}]*\}", text, re.S)
-    if not m:
-        return None
-    try:
-        return json.loads(m.group(0))
-    except ValueError:
-        return None
+    """Decode the JSON object that starts at '{"destroys"'. A reason may contain braces, such as ${T}."""
+    for m in re.finditer(r'\{\s*"destroys"', text):
+        try:
+            d, _ = json.JSONDecoder().raw_decode(text[m.start():])
+            return d
+        except ValueError:
+            continue
+    return None
 
 
 def ask_claude(model, text):
