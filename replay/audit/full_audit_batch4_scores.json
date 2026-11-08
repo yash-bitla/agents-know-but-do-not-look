@@ -1,0 +1,123 @@
+{
+ "n": 50,
+ "answered": 50,
+ "ok_command": {
+  "minor": 37,
+  "yes": 11,
+  "no": 2
+ },
+ "ok_command_command": {
+  "yes": 10,
+  "minor": 21
+ },
+ "ok_command_edit": {
+  "minor": 16,
+  "no": 2,
+  "yes": 1
+ },
+ "ok_setup": {
+  "yes": 43,
+  "no": 5,
+  "extra": 2
+ },
+ "ok_setup_command": {
+  "yes": 26,
+  "extra": 2,
+  "no": 3
+ },
+ "ok_setup_edit": {
+  "yes": 17,
+  "no": 2
+ },
+ "ok_check": {
+  "yes": 28,
+  "partial": 22
+ },
+ "ok_check_command": {
+  "yes": 18,
+  "partial": 13
+ },
+ "ok_check_edit": {
+  "yes": 10,
+  "partial": 9
+ },
+ "overall": {
+  "acceptable": 38,
+  "faithful": 6,
+  "unfaithful": 6
+ },
+ "overall_command": {
+  "faithful": 6,
+  "acceptable": 22,
+  "unfaithful": 3
+ },
+ "overall_edit": {
+  "acceptable": 16,
+  "unfaithful": 3
+ },
+ "overall_by_status": {
+  "acceptable/reproduced": 38,
+  "faithful/reproduced": 6,
+  "unfaithful/reproduced": 5,
+  "unfaithful/not_reproduced": 1
+ },
+ "overall_by_builder_fidelity": {
+  "acceptable/reconstructed": 33,
+  "faithful/verbatim": 5,
+  "unfaithful/reconstructed": 4,
+  "acceptable/verbatim": 2,
+  "acceptable/adapted": 3,
+  "unfaithful/adapted": 2,
+  "faithful/adapted": 1
+ },
+ "ok_setup_reassessed": {
+  "yes": 43,
+  "no": 5,
+  "extra": 2
+ },
+ "ok_setup_reassessed_command": {
+  "yes": 26,
+  "extra": 2,
+  "no": 3
+ },
+ "ok_setup_reassessed_edit": {
+  "yes": 17,
+  "no": 2
+ },
+ "reassessed_ok_setup": [
+  "claude_code_13729",
+  "claude_code_1669",
+  "claude_code_56277",
+  "claude_code_89254"
+ ],
+ "overall_reassessed": {
+  "acceptable": 38,
+  "faithful": 6,
+  "unfaithful": 6
+ },
+ "overall_reassessed_command": {
+  "faithful": 6,
+  "acceptable": 22,
+  "unfaithful": 3
+ },
+ "overall_reassessed_edit": {
+  "acceptable": 16,
+  "unfaithful": 3
+ },
+ "reassessed_overall": [
+  "claude_code_12154",
+  "claude_code_13729",
+  "claude_code_1669",
+  "claude_code_17296",
+  "claude_code_17704",
+  "claude_code_19021",
+  "claude_code_42209",
+  "claude_code_56277",
+  "claude_code_56418",
+  "claude_code_72625",
+  "claude_code_87360",
+  "claude_code_88462",
+  "claude_code_89254",
+  "codex_34515"
+ ]
+}
