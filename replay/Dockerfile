@@ -15,6 +15,8 @@ RUN ln -s /usr/lib/postgresql/*/bin/initdb /usr/local/bin/initdb && ln -s /usr/l
  && printf '#!/bin/sh\n[ -d /home/dev/pgdata ] || exit 0\npg_ctl -D /home/dev/pgdata -l /home/dev/pg.log -o "-k /tmp -c listen_addresses=" -w start >/dev/null\n' > /usr/local/bin/start-postgres \
  && chmod +x /usr/local/bin/start-postgres
 RUN useradd -m -s /bin/bash dev && mkdir -p /opt/app /srv/sites && chown -R dev:dev /opt/app /srv/sites
+# Edit-tool contracts for replaying file-edit incidents (mechanism O). See EDIT_CONTRACTS.md.
+COPY edit_tools.py /opt/edit_tools.py
 ENV PGHOST=/tmp
 USER dev
 WORKDIR /home/dev
