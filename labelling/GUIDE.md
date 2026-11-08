@@ -139,6 +139,20 @@ If the report shows that the assistant **decided** to replace, rewrite or delete
 | "half my code was deleted by GitHub Copilot" (vscode-copilot-release #9652) | **U** |
 | "while trying to rectify a failed migration, copilot suggested a reset of the database ... it wiped my production database" (vscode #292110) | **I**, because the reason ("to fix the error") is given |
 
+## Lesson from the replay audit (2026-11-08)
+
+**Lesson 3: Violating an explicit prohibition is not, by itself, I.**
+- **M:** the assistant intentionally executed an operation but incorrectly assessed its scope or destructive consequences.
+- **I:** the assistant's objective was to destroy the affected user data, not merely to perform another task through a destructive operation.
+
+Violating an explicit prohibition establishes unauthorized behavior. It does not, by itself, establish intentional destruction of the user's work. An agent's subsequent apology or claim that it knew what would happen is also insufficient evidence of its original objective. Lesson 1 still holds: a planned rewrite or deletion of the content itself is I.
+
+| Report says | Label |
+|---|---|
+| Tried to undo its own bad edit with checkout and lost earlier uncommitted work, against a CLAUDE.md rule (claude-code #17704) | **M** |
+| Ran a prohibited rollback to revert changes, not to destroy the user's work (claude-code #17296) | **M** |
+| A `permissions.deny` rule for `git checkout` existed; it undid its own edit and discarded the user's changes (claude-code #56418) | **M** |
+
 ## Practical tips
 
 - Decide from what the report says. Do not guess beyond it.
