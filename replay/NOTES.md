@@ -68,3 +68,8 @@ Two synthetic variants for each of the 169 reproduced command cases: 338 in all.
 The 4 flips keep their executed label: 169 destructive and 169 safe. 150 of the 167 destructive danger variants exited 0.
 Four builds first returned a reply without both variants. No replay had run for them, so `variants.py build` asked
 again, and the four failed replies stay in `variants/builds.jsonl`. No variant was a harness error, so no repair was needed.
+
+## Decisions on the full audit (2026-11-08)
+
+The author audits every replayable case (252: the first 50 plus `audit/full_audit_batch1-4.xlsx`). Cases the author
+judges unfaithful are excluded from the reproduced counts. They are not corrected or replayed again.
