@@ -70,5 +70,26 @@
   "acceptable/verbatim": 6,
   "unfaithful/reconstructed": 5,
   "faithful/verbatim": 4
- }
+ },
+ "overall_reassessed": {
+  "acceptable": 39,
+  "faithful": 7,
+  "unfaithful": 4
+ },
+ "overall_reassessed_command": {
+  "acceptable": 27,
+  "unfaithful": 2,
+  "faithful": 6
+ },
+ "overall_reassessed_edit": {
+  "faithful": 1,
+  "acceptable": 12,
+  "unfaithful": 2
+ },
+ "reassessed": [
+  "claude_code_13729",
+  "claude_code_1669",
+  "claude_code_56277",
+  "claude_code_89254"
+ ]
 }

@@ -6,6 +6,7 @@ The workbook does not show the replay outcome, so the auditor judges the case an
 Usage:
   uv run -q --with openpyxl python audit.py            writes audit/fidelity_audit.xlsx
   uv run -q --with openpyxl python audit.py --score F  reads a filled workbook, writes audit/fidelity_scores.json
+  If audit/reassessment.json exists, the scores also give overall_reassessed. The workbook keeps the first labels.
 """
 import json
 import os
@@ -48,11 +49,14 @@ GUIDE = [
     "fidelity_by_builder is the builder's own label: verbatim (copied), adapted (small changes), reconstructed "
     "(from a description). Check it too, and say in notes if it is wrong.",
     "Use notes for anything that explains a 'no'.",
+    "",
+    "Harness facts: the command runs in the cwd column, not in the folder where the setup ends. "
+    "`ssh HOST \"cmd\"` runs cmd in the same container. The setup runs after a fixed common state is created.",
 ]
 CASE_COLS = ["n", "id", "link", "kind", "mechanism", "fidelity_by_builder", "title", "evidence", "reported_loss",
-             "goal", "command", "setup", "check", "twin", "assumptions"]
+             "goal", "shell", "cwd", "command", "setup", "check", "twin", "assumptions"]
 WIDTH = dict(n=5, id=22, link=18, kind=8, mechanism=10, fidelity_by_builder=14, title=30, evidence=40,
-             reported_loss=35, goal=30, command=50, setup=60, check=45, twin=40, assumptions=35)
+             reported_loss=35, goal=30, shell=8, cwd=20, command=50, setup=60, check=45, twin=40, assumptions=35)
 
 
 def sample():
@@ -91,6 +95,7 @@ def write():
         row = dict(n=n, id=b["id"], link=b["url"], kind="edit" if b["mechanism"] == "O" else "command",
                    mechanism=b["mechanism"], fidelity_by_builder=c.get("fidelity"), title=issue.get("title", ""),
                    evidence=c.get("evidence"), reported_loss=c.get("reported_loss"), goal=c.get("goal"),
+                   shell=c.get("shell"), cwd=c.get("cwd"),
                    command=text(c.get("command")), setup=c.get("setup"), check=c.get("check"),
                    twin=text(c.get("twin")), assumptions=c.get("assumptions"))
         ws.append([row[k] for k in CASE_COLS])
@@ -136,6 +141,18 @@ def score(path):
                                             for r in rows))
     out["overall_by_builder_fidelity"] = dict(Counter("%s/%s" % (r.get("overall") or "blank",
                                                                  r["fidelity_by_builder"]) for r in rows))
+    re = os.path.join(OUT, "reassessment.json")
+    if os.path.exists(re):
+        change = json.load(open(re))["overall"]
+        for r in rows:
+            if r["id"] in change:
+                assert r["overall"] == change[r["id"]][0], r["id"]
+        revised = [change[r["id"]][1] if r["id"] in change else r.get("overall") for r in rows]
+        out["overall_reassessed"] = dict(Counter(v or "blank" for v in revised))
+        for kind in ("command", "edit"):
+            out["overall_reassessed_" + kind] = dict(Counter(v or "blank" for v, r in zip(revised, rows)
+                                                             if r["kind"] == kind))
+        out["reassessed"] = sorted(change)
     dest = os.path.join(OUT, "fidelity_scores.json")
     json.dump(out, open(dest, "w"), indent=1)
     print(json.dumps(out, indent=1))
