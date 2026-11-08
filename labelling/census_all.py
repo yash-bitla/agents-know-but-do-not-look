@@ -1,7 +1,8 @@
 """Final census over every human-labelled report: round 1 (sheet 1 + sheet 2 Part A) and round 3 (sheet3 batches 1-4).
 
 Output: census_all.json and a printed summary. Duplicates marked by the reviewer are dropped when the
-report they point to is also a counted incident. Reports in corrections.json marked N are dropped.
+report they point to is also a counted incident. Reports in corrections.json marked N are dropped. Pilot (round 1)
+incidents that the final pipeline does not flag are out of scope.
 """
 import collections
 import json
@@ -23,6 +24,20 @@ def load_dates():
 
 
 DATES = load_dates()
+def final_pipeline_flags():
+    """Reports the final pipeline flags: found by the 21-tracker search, kept by stage 1, flagged by stage 2."""
+    flagged = set()
+    for line in open(os.path.join(ROOT, "round2", "labels2.jsonl")):
+        x = json.loads(line)
+        if x["incident"]:
+            flagged.add(x["url"])
+    return flagged
+
+
+# Scope: the census counts only incidents that the final pipeline reaches. Pilot (round 1) incidents that it does not
+# flag are left out; their labels stay in the round 1 files.
+FLAGGED = final_pipeline_flags()
+
 # Label corrections found after the census was final (for example, by the replay fidelity audit).
 CORRECTIONS = json.load(open(os.path.join(HERE, "corrections.json")))
 
@@ -57,6 +72,9 @@ def main():
     corrected = [c["url"] for c in CORRECTIONS if c["to"]["incident"] == "N" and c["url"] in recs]
     for u in corrected:
         del recs[u]
+    pilot_only = sorted(u for u, r in recs.items() if r["round"] == 1 and u not in FLAGGED)
+    for u in pilot_only:
+        del recs[u]
     for r in recs.values():
         r["repo"] = "/".join(r["url"].split("/")[3:5])
         r["created"] = created(r["url"])
@@ -65,7 +83,7 @@ def main():
 
     C = collections.Counter
     print("round-1 incidents", sum(r["round"] == 1 for r in out), "| round-3 new", sum(r["round"] == 3 for r in out),
-          "| round-3 already in round 1", overlap, "| duplicates dropped", len(dropped), "of", len(dups), "| corrected to N", len(corrected))
+          "| round-3 already in round 1", overlap, "| duplicates dropped", len(dropped), "of", len(dups), "| corrected to N", len(corrected), "| pilot-only, out of scope", len(pilot_only))
     c = C(r["cause"] for r in out)
     t = len(out)
     print("TOTAL", t, dict(c), "M %.1f%% of all, %.1f%% of clear (%d)" % (100 * c["M"] / t, 100 * c["M"] / (t - c["U"]), t - c["U"]))

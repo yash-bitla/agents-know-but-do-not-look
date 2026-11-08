@@ -12,11 +12,14 @@ Data and code for the paper of the same name (working title). The paper studies 
 |---|---|
 | Issues found by search | 26,087 (round 2, 21 trackers) + 1,809 (round 1, 4 trackers) |
 | Reports read by a human | 1,498 |
-| Human-verified incidents | 1,203 |
-| Cause M: the agent misjudged the effect | 668 (65.7% of the 1,017 with a clear cause) |
-| Cause I: the agent meant to destroy | 328 |
-| Cause W: a setting picked the wrong target | 21 |
-| Cause U: the report does not say | 186 |
+| Human-verified incidents | 1,199 |
+| Cause M: the agent misjudged the effect | 668 (65.9% of the 1,014 with a clear cause) |
+| Cause I: the agent meant to destroy | 326 |
+| Cause W: a setting picked the wrong target | 20 |
+| Cause U: the report does not say | 185 |
+
+The census counts only incidents that the final 21-tracker pipeline flags. Round 1 was a pilot on 4 trackers. It shaped the
+search terms, the filter and the labelling guide. The final pipeline flags 171 of its 175 incidents. The other 4 are out of scope.
 
 Mechanisms of the 668 M incidents: O overwrite by an edit 256, G git also discarded user work 112, T hidden tool behaviour 80,
 X other 67, S script or test the agent wrote 50, P platform difference 42, E expansion or quoting 31, F file-system side effect 30.

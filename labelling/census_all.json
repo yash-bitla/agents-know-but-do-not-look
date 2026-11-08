@@ -4944,14 +4944,6 @@
   "created": "2026-07-16"
  },
  {
-  "url": "https://github.com/anthropics/claude-code/issues/78382",
-  "round": 1,
-  "cause": "W",
-  "mechanism": "",
-  "repo": "anthropics/claude-code",
-  "created": "2026-07-17"
- },
- {
   "url": "https://github.com/anthropics/claude-code/issues/78462",
   "round": 3,
   "cause": "I",
@@ -5316,14 +5308,6 @@
   "round": 3,
   "cause": "M",
   "mechanism": "F",
-  "repo": "anthropics/claude-code",
-  "created": "2026-08-05"
- },
- {
-  "url": "https://github.com/anthropics/claude-code/issues/84329",
-  "round": 1,
-  "cause": "U",
-  "mechanism": "",
   "repo": "anthropics/claude-code",
   "created": "2026-08-05"
  },
@@ -6408,14 +6392,6 @@
   "created": "2025-11-05"
  },
  {
-  "url": "https://github.com/google-gemini/gemini-cli/issues/12700",
-  "round": 1,
-  "cause": "I",
-  "mechanism": "",
-  "repo": "google-gemini/gemini-cli",
-  "created": "2025-11-07"
- },
- {
   "url": "https://github.com/google-gemini/gemini-cli/issues/12738",
   "round": 3,
   "cause": "U",
@@ -6462,14 +6438,6 @@
   "mechanism": "O",
   "repo": "google-gemini/gemini-cli",
   "created": "2025-11-27"
- },
- {
-  "url": "https://github.com/google-gemini/gemini-cli/issues/14161",
-  "round": 1,
-  "cause": "I",
-  "mechanism": "",
-  "repo": "google-gemini/gemini-cli",
-  "created": "2025-11-30"
  },
  {
   "url": "https://github.com/google-gemini/gemini-cli/issues/14343",
