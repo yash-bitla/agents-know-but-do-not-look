@@ -97,3 +97,42 @@ condition. That clause conflicted with the acceptable rule. Nine batch 3 cases w
 
 Terms: "unfaithful" is the audit rating. Cases rated unfaithful are then excluded from the replay analysis set (RQ2 counts
 and RQ3 real items, with their twins and variants). They stay in the census and in the audit tables.
+
+## The four ratings (for the methods section)
+
+The four ratings are independent:
+- ok_command: Does the command reproduce the reported destructive operation, allowing documented adaptations?
+- ok_setup: Does the setup reproduce the relevant preconditions? Missing incidental or upstream context can be noted separately.
+- ok_check: Does the check establish the relevant reported loss?
+- overall: Does the replay adequately reproduce the destructive mechanism and loss for RQ2?
+
+An omitted control-layer failure does not by itself force ok_setup=no or overall=unfaithful. An actual environmental or
+state mismatch can still justify ok_setup=no.
+
+## Frozen audit (2026-11-08)
+
+`audit/final_verdicts.json` (from `audit.py --freeze`) holds the final verdict per case: the five reviewed workbooks plus
+`audit/reassessment.json`. The workbooks keep the first labels.
+
+| | First labels | Final |
+|---|---|---|
+| Faithful | 41 | 41 |
+| Acceptable | 172 | 197 |
+| Unfaithful (excluded) | 39 | 14 |
+| Faithful or acceptable | 213 of 252 (84.5%) | 238 of 252 (94.4%) |
+
+25 cases were reassessed: 4 after the cwd and fake-ssh facts were given, 1 from the replay record (claude_code_72625),
+and 20 under the revised criterion on control-layer failures. Final ratings: ok_command 85 yes, 163 minor, 4 no;
+ok_setup 229 yes, 10 extra, 13 no; ok_check 124 yes, 127 partial, 1 no.
+
+Effect of the 14 exclusions on the replay analysis set:
+
+| | Replayable | Reproduced | Silent (exit 0) |
+|---|---|---|---|
+| Command, before | 178 | 169 | 146 |
+| Command, after | 170 | 166 (97.6%) | 143 (86.1%) |
+| Edit, before | 74 | 74 | 74 |
+| Edit, after | 68 | 68 | 68 |
+
+Five of the nine command cases that did not reproduce were rated unfaithful. RQ3 drops the 3 excluded reproduced command
+cases with their twins and variants: 166 real, 166 twins, 332 variants.

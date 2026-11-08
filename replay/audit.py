@@ -7,6 +7,7 @@ Usage:
   uv run -q --with openpyxl python audit.py            writes audit/fidelity_audit.xlsx
   uv run -q --with openpyxl python audit.py --full     writes audit/full_audit_batch1-4.xlsx (all other replayable cases)
   uv run -q --with openpyxl python audit.py --score F  reads a filled workbook, writes audit/fidelity_scores.json
+  uv run -q --with openpyxl python audit.py --freeze   writes audit/final_verdicts.json (all workbooks + reassessments)
   If audit/reassessment.json exists, the scores also give overall_reassessed. The workbook keeps the first labels.
 """
 import json
@@ -174,7 +175,44 @@ def score(path):
     print(json.dumps(out, indent=1))
 
 
+WORKBOOKS = ["fidelity_audit_reviewed.xlsx"] + ["full_audit_batch%d_reviewed.xlsx" % k for k in range(1, 5)]
+
+
+def freeze():
+    """Final audit verdict per case: the five reviewed workbooks plus reassessment.json. Writes audit/final_verdicts.json."""
+    changes = json.load(open(os.path.join(OUT, "reassessment.json")))
+    out = {}
+    for name in WORKBOOKS:
+        ws = openpyxl.load_workbook(os.path.join(OUT, name))["Audit"]
+        head = [c.value for c in ws[1]]
+        for row in ws.iter_rows(min_row=2):
+            r = dict(zip(head, [c.value for c in row]))
+            v = dict(workbook=name, kind=r["kind"], mechanism=r["mechanism"], notes=r["notes"], reassessed=[])
+            for q, _, _ in QUESTIONS:
+                v["first_" + q] = r[q]
+                v[q] = r[q]
+                if r["id"] in changes.get(q, {}):
+                    old, new, _ = changes[q][r["id"]]
+                    assert old == r[q], (q, r["id"])
+                    v[q] = new
+                    v["reassessed"].append(q)
+            assert r["id"] not in out and v["overall"], r["id"]
+            out[r["id"]] = v
+    excluded = sorted(i for i, v in out.items() if v["overall"] == "unfaithful")
+    summary = dict(cases=len(out), overall=dict(Counter(v["overall"] for v in out.values())),
+                   first_overall=dict(Counter(v["first_overall"] for v in out.values())),
+                   ok_command=dict(Counter(v["ok_command"] for v in out.values())),
+                   ok_setup=dict(Counter(v["ok_setup"] for v in out.values())),
+                   ok_check=dict(Counter(v["ok_check"] for v in out.values())),
+                   reassessed=sum(bool(v["reassessed"]) for v in out.values()), excluded=excluded)
+    json.dump(dict(summary=summary, cases=out), open(os.path.join(OUT, "final_verdicts.json"), "w"), indent=1)
+    print(json.dumps(summary, indent=1))
+
+
 if __name__ == "__main__":
+    if "--freeze" in sys.argv:
+        freeze()
+        sys.exit()
     if "--score" in sys.argv:
         score(sys.argv[sys.argv.index("--score") + 1])
     elif "--full" in sys.argv:
