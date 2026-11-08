@@ -120,7 +120,7 @@ def replay(b):
         case["_witness"] = {w: witness(probe, w) for w in WITNESSES}
         sh(["docker", "rm", "-f", probe])
         cmd = execute(case, base, cid, "cmd")
-        twin = execute(case, base, cid, "twin")
+        twin = execute(case, base, cid, "twin") if case.get("twin") else None  # Tier B variants have no twin
     finally:
         sh(["docker", "rmi", "-f", base])
     return dict(out, status="reproduced" if cmd["lost"] else "not_reproduced", cmd=cmd, twin=twin)
