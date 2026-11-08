@@ -71,6 +71,26 @@
   "unfaithful/reconstructed": 5,
   "faithful/verbatim": 4
  },
+ "ok_setup_reassessed": {
+  "yes": 46,
+  "no": 3,
+  "extra": 1
+ },
+ "ok_setup_reassessed_command": {
+  "yes": 32,
+  "no": 2,
+  "extra": 1
+ },
+ "ok_setup_reassessed_edit": {
+  "yes": 14,
+  "no": 1
+ },
+ "reassessed_ok_setup": [
+  "claude_code_13729",
+  "claude_code_1669",
+  "claude_code_56277",
+  "claude_code_89254"
+ ],
  "overall_reassessed": {
   "acceptable": 39,
   "faithful": 7,
@@ -86,7 +106,7 @@
   "acceptable": 12,
   "unfaithful": 2
  },
- "reassessed": [
+ "reassessed_overall": [
   "claude_code_13729",
   "claude_code_1669",
   "claude_code_56277",

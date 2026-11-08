@@ -26,5 +26,27 @@
   "claude_code_3109": "verbatim permits renamed user paths",
   "claude_code_4331": "verbatim permits renamed user paths",
   "claude_code_29082": "verbatim permits renamed user paths"
+ },
+ "ok_setup": {
+  "claude_code_89254": [
+   "no",
+   "yes",
+   "The setup objection rested on the cwd or ssh fact that the audited workbook did not show; with it, the setup creates the state the report describes."
+  ],
+  "claude_code_1669": [
+   "no",
+   "yes",
+   "The setup objection rested on the cwd or ssh fact that the audited workbook did not show; with it, the setup creates the state the report describes."
+  ],
+  "claude_code_56277": [
+   "no",
+   "yes",
+   "The setup objection rested on the cwd or ssh fact that the audited workbook did not show; with it, the setup creates the state the report describes."
+  ],
+  "claude_code_13729": [
+   "no",
+   "yes",
+   "The setup objection rested on the cwd or ssh fact that the audited workbook did not show; with it, the setup creates the state the report describes."
+  ]
  }
 }

@@ -143,16 +143,20 @@ def score(path):
                                                                  r["fidelity_by_builder"]) for r in rows))
     re = os.path.join(OUT, "reassessment.json")
     if os.path.exists(re):
-        change = json.load(open(re))["overall"]
-        for r in rows:
-            if r["id"] in change:
-                assert r["overall"] == change[r["id"]][0], r["id"]
-        revised = [change[r["id"]][1] if r["id"] in change else r.get("overall") for r in rows]
-        out["overall_reassessed"] = dict(Counter(v or "blank" for v in revised))
-        for kind in ("command", "edit"):
-            out["overall_reassessed_" + kind] = dict(Counter(v or "blank" for v, r in zip(revised, rows)
-                                                             if r["kind"] == kind))
-        out["reassessed"] = sorted(change)
+        changes = json.load(open(re))
+        for q in ("ok_command", "ok_setup", "ok_check", "overall"):
+            change = changes.get(q, {})
+            if not change:
+                continue
+            for r in rows:
+                if r["id"] in change:
+                    assert r[q] == change[r["id"]][0], (q, r["id"])
+            revised = [change[r["id"]][1] if r["id"] in change else r.get(q) for r in rows]
+            out[q + "_reassessed"] = dict(Counter(v or "blank" for v in revised))
+            for kind in ("command", "edit"):
+                out["%s_reassessed_%s" % (q, kind)] = dict(Counter(v or "blank" for v, r in zip(revised, rows)
+                                                                   if r["kind"] == kind))
+            out["reassessed_" + q] = sorted(change)
     dest = os.path.join(OUT, "fidelity_scores.json")
     json.dump(out, open(dest, "w"), indent=1)
     print(json.dumps(out, indent=1))

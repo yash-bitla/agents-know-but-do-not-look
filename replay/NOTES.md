@@ -42,7 +42,7 @@ The paper reports the 71 as a count and the 3 as tool-contract reproductions.
 
 The first author audited 50 random replayable cases (`audit/fidelity_audit_reviewed.xlsx`, scores in
 `audit/fidelity_scores.json`). The audited workbook did not show the `cwd` and `shell` fields or the fake-ssh rule. After
-these facts were given, the auditor reassessed four cases from unfaithful to acceptable (`audit/reassessment.json`, with
+these facts were given, the auditor reassessed four cases from unfaithful to acceptable, and their setup from no to yes (`audit/reassessment.json`, with
 reasons). The workbook keeps the first labels. The current `audit.py` adds `shell`, `cwd` and the harness facts to the blank
 workbook. The version that was audited is in commit e8394d2.
 
@@ -51,6 +51,7 @@ workbook. The version that was audited is in commit e8394d2.
 | Faithful | 7 | 7 |
 | Acceptable | 35 | 39 |
 | Unfaithful | 8 | 4 |
+| Setup omits a condition (`ok_setup` = no) | 7 | 3 |
 
 "Acceptable" means a faithful replay of the reported loss. It does not mean the full causal chain of the incident: some
 cases omit earlier steps. The checks test a sample of the lost data in 16 of the 50 cases.
