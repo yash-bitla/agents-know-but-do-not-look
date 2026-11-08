@@ -55,3 +55,16 @@ workbook. The version that was audited is in commit e8394d2.
 
 "Acceptable" means a faithful replay of the reported loss. It does not mean the full causal chain of the incident: some
 cases omit earlier steps. The checks test a sample of the lost data in 16 of the 50 cases.
+
+## Tier B variants
+
+Two synthetic variants for each of the 169 reproduced command cases: 338 in all. Execution sets each label.
+
+| Meant as | Executed destructive | Executed safe |
+|---|---|---|
+| danger | 167 | 2 |
+| safe | 2 | 167 |
+
+The 4 flips keep their executed label: 169 destructive and 169 safe. 150 of the 167 destructive danger variants exited 0.
+Four builds first returned a reply without both variants. No replay had run for them, so `variants.py build` asked
+again, and the four failed replies stay in `variants/builds.jsonl`. No variant was a harness error, so no repair was needed.
