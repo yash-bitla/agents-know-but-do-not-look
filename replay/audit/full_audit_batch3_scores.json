@@ -89,24 +89,33 @@
   "claude_code_89254"
  ],
  "overall_reassessed": {
-  "acceptable": 27,
-  "unfaithful": 13,
+  "acceptable": 36,
+  "unfaithful": 4,
   "faithful": 10
  },
  "overall_reassessed_command": {
-  "unfaithful": 11,
-  "faithful": 10,
-  "acceptable": 17
+  "unfaithful": 3,
+  "acceptable": 25,
+  "faithful": 10
  },
  "overall_reassessed_edit": {
-  "acceptable": 10,
-  "unfaithful": 2
+  "acceptable": 11,
+  "unfaithful": 1
  },
  "reassessed_overall": [
+  "claude_code_12154",
   "claude_code_13729",
   "claude_code_1669",
+  "claude_code_17296",
+  "claude_code_17704",
+  "claude_code_19021",
+  "claude_code_42209",
   "claude_code_56277",
+  "claude_code_56418",
   "claude_code_72625",
-  "claude_code_89254"
+  "claude_code_87360",
+  "claude_code_88462",
+  "claude_code_89254",
+  "codex_34515"
  ]
 }

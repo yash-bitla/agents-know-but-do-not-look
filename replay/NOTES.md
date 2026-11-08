@@ -74,18 +74,26 @@ again, and the four failed replies stay in `variants/builds.jsonl`. No variant w
 The author audits every replayable case (252: the first 50 plus `audit/full_audit_batch1-4.xlsx`). Cases the author
 judges unfaithful are excluded from the reproduced counts. They are not corrected or replayed again.
 
-## Audit criterion (for the methods section)
+## Audit criterion (for the methods section, revised 2026-11-08)
 
-We assessed replay fidelity against the original incident reports, prioritizing preservation of the destructive
-mechanism over exact reproduction of the full incident sequence. A case was rated faithful when it directly reproduced
-the reported mechanism without material deviations, and acceptable when it reproduced the same mechanism and type of
-loss through a reasonable adaptation, including omission of preceding causal steps that did not change the destructive
-operation. A case was rated unfaithful when it omitted or substituted a defining failure condition, such as a tool
-safety-guard failure, permission bypass, environment-specific execution behavior, or storage-system semantics that the
-sandbox did not reproduce. Producing data loss alone was insufficient to establish fidelity.
+We evaluated replay fidelity with respect to the destructive operation and its resulting data loss, rather than
+reproduction of the entire agent interaction. A replay was considered acceptable when it preserved the original
+destructive mechanism, relevant execution preconditions, and type of loss, even if preceding agent decisions or
+permission-control failures were not modeled. A replay was considered unfaithful when it changed or omitted an essential
+destructive operation, target, execution condition, or loss mechanism. Control-layer failures were documented separately
+and did not disqualify a replay when the original destructive operation had executed.
+
+Scope: the replay evaluation measures the effects of executed destructive actions. It does not test whether agent
+permission rules, plan-mode restrictions, safety classifiers, or approval mechanisms would have allowed those actions.
+We can say that the original incidents reported control-layer failures and that their destructive effects were
+reproduced. We cannot say those controls were bypassed during the replay, because the controls were not exercised.
 
 The test is whether the sandbox models the behaviour that caused the destruction, not whether it uses the original
 technology (for example, bash failglob stands in for zsh nomatch in claude_code_72625).
 
-Terms: "unfaithful" is the audit rating. Cases rated unfaithful are then removed from the replay analysis set (RQ2 counts
+This replaces an earlier version that also listed "a tool safety-guard failure, permission bypass" as a defining failure
+condition. That clause conflicted with the acceptable rule. Nine batch 3 cases were reassessed under the revised text
+(`audit/reassessment.json`), and their control failures are listed in `audit/control_failures.json`.
+
+Terms: "unfaithful" is the audit rating. Cases rated unfaithful are then excluded from the replay analysis set (RQ2 counts
 and RQ3 real items, with their twins and variants). They stay in the census and in the audit tables.
