@@ -6568,14 +6568,6 @@
   "created": "2026-01-26"
  },
  {
-  "url": "https://github.com/google-gemini/gemini-cli/issues/17776",
-  "round": 3,
-  "cause": "M",
-  "mechanism": "O",
-  "repo": "google-gemini/gemini-cli",
-  "created": "2026-01-28"
- },
- {
   "url": "https://github.com/google-gemini/gemini-cli/issues/18011",
   "round": 1,
   "cause": "M",

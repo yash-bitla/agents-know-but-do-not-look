@@ -1,0 +1,10 @@
+[
+ {
+  "url": "https://github.com/google-gemini/gemini-cli/issues/17776",
+  "date": "2026-11-08",
+  "from": {"incident": "Y", "cause": "M", "mechanism": "O"},
+  "to": {"incident": "N", "cause": "", "mechanism": ""},
+  "found_by": "fidelity audit of the replay case (replay/audit/full_audit_batch1_reviewed.xlsx)",
+  "reason": "Destructive write proposed but cancelled before execution; near miss, not confirmed data loss."
+ }
+]

@@ -2,7 +2,7 @@
 
 data/human_reviewed.csv: every report a human read (1,498 rows), with the AI label and the human label.
 data/incidents.csv:      the final census (one row per counted incident), copied from census_all.json.
-Run census_all.py first.
+Run census_all.py first. Corrections in corrections.json change the final columns only.
 """
 import csv
 import json
@@ -59,6 +59,12 @@ def main():
                              final_incident=d["incident"], final_cause=d["cause"],
                              mechanism=d["mechanism"], duplicate_of=d["duplicate_of"], notes=d["notes"]))
 
+    fixes = {c["url"]: c for c in load("corrections.json")}
+    for r in rows:
+        if r["url"] in fixes and r["final_incident"] == fixes[r["url"]]["from"]["incident"]:
+            c = fixes[r["url"]]["to"]
+            r["final_incident"], r["final_cause"], r["mechanism"] = c["incident"], c["cause"], c["mechanism"]
+            r["notes"] = ((r["notes"] or "") + " | corrected: " + fixes[r["url"]]["reason"]).strip(" |")
     for r in rows:
         r["repo"] = "/".join(r["url"].split("/")[3:5])
         r["created"] = created(r["url"])

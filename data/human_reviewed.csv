@@ -459,7 +459,7 @@ https://github.com/microsoft/vscode/issues/266003,microsoft/vscode,2025-09-10,3,
 https://github.com/google-gemini/gemini-cli/issues/22907,google-gemini/gemini-cli,2026-03-18,3,sheet3_batch1,1-237,flagged,Y,M,Y,M,Y,M,O,,Y,
 https://github.com/microsoft/vscode-copilot-release/issues/9114,microsoft/vscode-copilot-release,2025-05-06,3,sheet3_batch1,1-238,flagged,Y,M,Y,M,Y,M,O,,Y,
 https://github.com/google-gemini/gemini-cli/issues/16595,google-gemini/gemini-cli,2026-01-14,3,sheet3_batch1,1-239,flagged,Y,I,N,,N,,,,N,
-https://github.com/google-gemini/gemini-cli/issues/17776,google-gemini/gemini-cli,2026-01-28,3,sheet3_batch1,1-240,flagged,Y,M,Y,M,Y,M,O,,Y,
+https://github.com/google-gemini/gemini-cli/issues/17776,google-gemini/gemini-cli,2026-01-28,3,sheet3_batch1,1-240,flagged,Y,M,Y,M,N,,,,N,"corrected: Destructive write proposed but cancelled before execution; near miss, not confirmed data loss."
 https://github.com/anthropics/claude-code/issues/31946,anthropics/claude-code,2026-03-07,3,sheet3_batch1,1-241,flagged,Y,I,Y,I,Y,I,,,Y,
 https://github.com/microsoft/vscode-copilot-release/issues/13722,microsoft/vscode-copilot-release,2025-07-19,3,sheet3_batch1,1-242,flagged,Y,U,Y,I,Y,I,,,Y,
 https://github.com/openai/codex/issues/27823,openai/codex,2026-06-12,3,sheet3_batch1,1-243,check_stage1,N,,N,,N,,,,N,

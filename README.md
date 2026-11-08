@@ -12,13 +12,13 @@ Data and code for the paper of the same name (working title). The paper studies 
 |---|---|
 | Issues found by search | 26,087 (round 2, 21 trackers) + 1,809 (round 1, 4 trackers) |
 | Reports read by a human | 1,498 |
-| Human-verified incidents | 1,204 |
-| Cause M: the agent misjudged the effect | 669 (65.7% of the 1,018 with a clear cause) |
+| Human-verified incidents | 1,203 |
+| Cause M: the agent misjudged the effect | 668 (65.7% of the 1,017 with a clear cause) |
 | Cause I: the agent meant to destroy | 328 |
 | Cause W: a setting picked the wrong target | 21 |
 | Cause U: the report does not say | 186 |
 
-Mechanisms of the 669 M incidents: O overwrite by an edit 257, G git also discarded user work 112, T hidden tool behaviour 80,
+Mechanisms of the 668 M incidents: O overwrite by an edit 256, G git also discarded user work 112, T hidden tool behaviour 80,
 X other 67, S script or test the agent wrote 50, P platform difference 42, E expansion or quoting 31, F file-system side effect 30.
 
 Sandbox: 26 of 29 rebuilt commands destroy data, and 22 of those 26 exit with status 0. None of the 29 corrected "safe twin" commands do.

@@ -75,9 +75,9 @@ Command-level mechanisms (all but O) cover 83 of 101 (82%). O comes from file-ed
 
 ## Final census, all human-labelled incidents (census_all.py -> census_all.json)
 
-1,204 incidents (175 round 1 + 1,029 round 3, 6 marked duplicates dropped, 0 overlap).
-M 669 (55.6% of all, **65.7% of the 1,018 with a clear cause**), I 328, W 21, U 186.
-Mechanisms over 669 M: O 257, G 112, T 80, X 67, S 50, P 42, E 31, F 30. Not-O (command-level) 412 of 669 (62%).
+1,203 incidents (175 round 1 + 1,028 round 3, 6 marked duplicates dropped, 0 overlap, 1 corrected to N in `corrections.json`).
+M 668 (55.5% of all, **65.7% of the 1,017 with a clear cause**), I 328, W 21, U 186.
+Mechanisms over 668 M: O 256, G 112, T 80, X 67, S 50, P 42, E 31, F 30. Not-O (command-level) 412 of 668 (62%).
 
 ## Time trend divided by tracker volume (labelling/trend_normalised.py, round2/volume.json, 2026-11-07)
 
