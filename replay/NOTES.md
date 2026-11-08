@@ -73,3 +73,19 @@ again, and the four failed replies stay in `variants/builds.jsonl`. No variant w
 
 The author audits every replayable case (252: the first 50 plus `audit/full_audit_batch1-4.xlsx`). Cases the author
 judges unfaithful are excluded from the reproduced counts. They are not corrected or replayed again.
+
+## Audit criterion (for the methods section)
+
+We assessed replay fidelity against the original incident reports, prioritizing preservation of the destructive
+mechanism over exact reproduction of the full incident sequence. A case was rated faithful when it directly reproduced
+the reported mechanism without material deviations, and acceptable when it reproduced the same mechanism and type of
+loss through a reasonable adaptation, including omission of preceding causal steps that did not change the destructive
+operation. A case was rated unfaithful when it omitted or substituted a defining failure condition, such as a tool
+safety-guard failure, permission bypass, environment-specific execution behavior, or storage-system semantics that the
+sandbox did not reproduce. Producing data loss alone was insufficient to establish fidelity.
+
+The test is whether the sandbox models the behaviour that caused the destruction, not whether it uses the original
+technology (for example, bash failglob stands in for zsh nomatch in claude_code_72625).
+
+Terms: "unfaithful" is the audit rating. Cases rated unfaithful are then removed from the replay analysis set (RQ2 counts
+and RQ3 real items, with their twins and variants). They stay in the census and in the audit tables.
