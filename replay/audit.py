@@ -5,6 +5,7 @@ The workbook does not show the replay outcome, so the auditor judges the case an
 
 Usage:
   uv run -q --with openpyxl python audit.py            writes audit/fidelity_audit.xlsx
+  uv run -q --with openpyxl python audit.py --full     writes audit/full_audit_batch1-4.xlsx (all other replayable cases)
   uv run -q --with openpyxl python audit.py --score F  reads a filled workbook, writes audit/fidelity_scores.json
   If audit/reassessment.json exists, the scores also give overall_reassessed. The workbook keeps the first labels.
 """
@@ -59,6 +60,18 @@ WIDTH = dict(n=5, id=22, link=18, kind=8, mechanism=10, fidelity_by_builder=14, 
              reported_loss=35, goal=30, shell=8, cwd=20, command=50, setup=60, check=45, twin=40, assumptions=35)
 
 
+def remaining(batches=4):
+    """Every other replayable case (the full audit), shuffled with the same seed and split into batches."""
+    latest = {}
+    for b in read_jsonl(os.path.join(HERE, "builds.jsonl")):
+        if b["case"] is not None:
+            latest[b["id"]] = b
+    first = {b["id"] for b in sample()}
+    rest = sorted(i for i, b in latest.items() if b["case"].get("replayable") and i not in first)
+    random.Random(SEED + 1).shuffle(rest)
+    return [[latest[i] for i in rest[k::batches]] for k in range(batches)]
+
+
 def sample():
     latest = {}
     for b in read_jsonl(os.path.join(HERE, "builds.jsonl")):
@@ -77,7 +90,7 @@ def text(v):
     return v if isinstance(v, str) else json.dumps(v)
 
 
-def write():
+def write(cases, path):
     os.makedirs(OUT, exist_ok=True)
     wb = openpyxl.Workbook()
     g = wb.active
@@ -89,7 +102,7 @@ def write():
     ws = wb.create_sheet("Audit")
     cols = CASE_COLS + [q for q, _, _ in QUESTIONS] + ["notes"]
     ws.append(cols)
-    for n, b in enumerate(sample(), 1):
+    for n, b in enumerate(cases, 1):
         c = b["case"]
         issue = load_issue(b["url"]) or {}
         row = dict(n=n, id=b["id"], link=b["url"], kind="edit" if b["mechanism"] == "O" else "command",
@@ -119,7 +132,6 @@ def write():
         for i in range(2, last + 1):
             ws.cell(i, j).fill = answer
     ws.freeze_panes = "D2"
-    path = os.path.join(OUT, "fidelity_audit.xlsx")
     wb.save(path)
     print("wrote", path, last - 1, "cases")
 
@@ -165,5 +177,8 @@ def score(path):
 if __name__ == "__main__":
     if "--score" in sys.argv:
         score(sys.argv[sys.argv.index("--score") + 1])
+    elif "--full" in sys.argv:
+        for k, cases in enumerate(remaining(), 1):
+            write(cases, os.path.join(OUT, "full_audit_batch%d.xlsx" % k))
     else:
-        write()
+        write(sample(), os.path.join(OUT, "fidelity_audit.xlsx"))
