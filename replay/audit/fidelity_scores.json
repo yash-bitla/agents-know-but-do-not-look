@@ -1,0 +1,74 @@
+{
+ "n": 50,
+ "answered": 50,
+ "ok_command": {
+  "minor": 21,
+  "yes": 28,
+  "no": 1
+ },
+ "ok_command_command": {
+  "minor": 19,
+  "yes": 16
+ },
+ "ok_command_edit": {
+  "yes": 12,
+  "minor": 2,
+  "no": 1
+ },
+ "ok_setup": {
+  "yes": 42,
+  "no": 7,
+  "extra": 1
+ },
+ "ok_setup_command": {
+  "yes": 28,
+  "no": 6,
+  "extra": 1
+ },
+ "ok_setup_edit": {
+  "yes": 14,
+  "no": 1
+ },
+ "ok_check": {
+  "yes": 34,
+  "partial": 16
+ },
+ "ok_check_command": {
+  "yes": 23,
+  "partial": 12
+ },
+ "ok_check_edit": {
+  "yes": 11,
+  "partial": 4
+ },
+ "overall": {
+  "acceptable": 35,
+  "faithful": 7,
+  "unfaithful": 8
+ },
+ "overall_command": {
+  "acceptable": 23,
+  "unfaithful": 6,
+  "faithful": 6
+ },
+ "overall_edit": {
+  "faithful": 1,
+  "acceptable": 12,
+  "unfaithful": 2
+ },
+ "overall_by_status": {
+  "acceptable/reproduced": 35,
+  "faithful/reproduced": 7,
+  "unfaithful/not_reproduced": 1,
+  "unfaithful/reproduced": 7
+ },
+ "overall_by_builder_fidelity": {
+  "acceptable/reconstructed": 20,
+  "faithful/reconstructed": 3,
+  "acceptable/adapted": 9,
+  "unfaithful/adapted": 3,
+  "acceptable/verbatim": 6,
+  "unfaithful/reconstructed": 5,
+  "faithful/verbatim": 4
+ }
+}
