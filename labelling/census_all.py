@@ -1,8 +1,8 @@
 """Final census over every human-labelled report: round 1 (sheet 1 + sheet 2 Part A) and round 3 (sheet3 batches 1-4).
 
 Output: census_all.json and a printed summary. Duplicates marked by the reviewer are dropped when the
-report they point to is also a counted incident. Reports in corrections.json marked N are dropped. Pilot (round 1)
-incidents that the final pipeline does not flag are out of scope.
+report they point to is also a counted incident. Reports in corrections.json marked N are dropped. Incidents that the final pipeline
+does not flag are out of scope: 4 pilot (round 1) incidents and 1 found among the hidden recall checks.
 """
 import collections
 import json
@@ -73,7 +73,9 @@ def main():
     for u in corrected:
         del recs[u]
     pilot_only = sorted(u for u, r in recs.items() if r["round"] == 1 and u not in FLAGGED)
-    for u in pilot_only:
+    # Incidents found among the hidden recall checks (reports the screen rejected) measure recall only.
+    recall_checks = sorted(u for u, r in recs.items() if r["round"] == 3 and u not in FLAGGED)
+    for u in pilot_only + recall_checks:
         del recs[u]
     for r in recs.values():
         r["repo"] = "/".join(r["url"].split("/")[3:5])
@@ -83,7 +85,7 @@ def main():
 
     C = collections.Counter
     print("round-1 incidents", sum(r["round"] == 1 for r in out), "| round-3 new", sum(r["round"] == 3 for r in out),
-          "| round-3 already in round 1", overlap, "| duplicates dropped", len(dropped), "of", len(dups), "| corrected to N", len(corrected), "| pilot-only, out of scope", len(pilot_only))
+          "| round-3 already in round 1", overlap, "| duplicates dropped", len(dropped), "of", len(dups), "| corrected to N", len(corrected), "| pilot-only, out of scope", len(pilot_only), "| from recall checks, out of scope", len(recall_checks))
     c = C(r["cause"] for r in out)
     t = len(out)
     print("TOTAL", t, dict(c), "M %.1f%% of all, %.1f%% of clear (%d)" % (100 * c["M"] / t, 100 * c["M"] / (t - c["U"]), t - c["U"]))

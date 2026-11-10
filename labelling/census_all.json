@@ -3448,14 +3448,6 @@
   "created": "2026-04-20"
  },
  {
-  "url": "https://github.com/anthropics/claude-code/issues/51712",
-  "round": 3,
-  "cause": "U",
-  "mechanism": "",
-  "repo": "anthropics/claude-code",
-  "created": "2026-04-21"
- },
- {
   "url": "https://github.com/anthropics/claude-code/issues/51774",
   "round": 3,
   "cause": "I",

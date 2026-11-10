@@ -75,10 +75,11 @@ Command-level mechanisms (all but O) cover 83 of 101 (82%). O comes from file-ed
 
 ## Final census, all human-labelled incidents (census_all.py -> census_all.json)
 
-1,199 incidents (171 round 1 + 1,028 round 3, 6 marked duplicates dropped, 0 overlap, 1 corrected to N in `corrections.json`).
+1,198 incidents (171 round 1 + 1,027 round 3, 6 marked duplicates dropped, 0 overlap, 1 corrected to N in `corrections.json`).
 Scope: only incidents the final 21-tracker pipeline flags. 4 pilot (round 1) incidents it does not reach are left out
-(claude-code #78382 W, #84329 U, gemini-cli #12700 I, #14161 I).
-M 668 (55.7% of all, **65.9% of the 1,014 with a clear cause**), I 326, W 20, U 185.
+(claude-code #78382 W, #84329 U, gemini-cli #12700 I, #14161 I). The 1 incident found among the hidden
+recall checks (claude-code #51712, U) is also left out, because the screen rejected it.
+M 668 (55.8% of all, **65.9% of the 1,014 with a clear cause**), I 326, W 20, U 184.
 Mechanisms over 668 M: O 256, G 112, T 80, X 67, S 50, P 42, E 31, F 30. Not-O (command-level) 412 of 668 (62%).
 
 ## Time trend divided by tracker volume (labelling/trend_normalised.py, round2/volume.json, 2026-11-07)

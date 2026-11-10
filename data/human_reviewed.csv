@@ -481,7 +481,7 @@ https://github.com/anthropics/claude-code/issues/87117,anthropics/claude-code,20
 https://github.com/anthropics/claude-code/issues/9966,anthropics/claude-code,2025-10-20,3,sheet3_batch1,1-259,flagged,Y,M,Y,M,Y,M,S,,Y,
 https://github.com/kirodotdev/Kiro/issues/9206,kirodotdev/Kiro,2026-06-06,3,sheet3_batch1,1-260,flagged,Y,M,Y,M,Y,M,X,,Y,"Reported loss exceeded intent, but mechanism is unspecified or outside named categories."
 https://github.com/anthropics/claude-code/issues/54036,anthropics/claude-code,2026-04-27,3,sheet3_batch1,1-261,flagged,Y,U,Y,M,Y,M,G,,Y,
-https://github.com/anthropics/claude-code/issues/51712,anthropics/claude-code,2026-04-21,3,sheet3_batch1,1-262,check_stage2,N,,Y,U,Y,U,,,Y,"Reported loss, but the destructive command and reason are not adequately specified."
+https://github.com/anthropics/claude-code/issues/51712,anthropics/claude-code,2026-04-21,3,sheet3_batch1,1-262,check_stage2,N,,Y,U,Y,U,,,N,"Reported loss, but the destructive command and reason are not adequately specified."
 https://github.com/anthropics/claude-code/issues/64315,anthropics/claude-code,2026-05-31,3,sheet3_batch1,1-263,check_stage2,N,,N,,N,,,,N,
 https://github.com/anthropics/claude-code/issues/44532,anthropics/claude-code,2026-04-07,3,sheet3_batch1,1-264,flagged,Y,M,N,,N,,,,N,RunPod ephemeral storage loss on container teardown; assistant did not delete data itself.
 https://github.com/kirodotdev/Kiro/issues/608,kirodotdev/Kiro,2025-07-16,3,sheet3_batch1,1-265,flagged,Y,I,Y,M,Y,M,O,,Y,
