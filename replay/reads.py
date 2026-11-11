@@ -35,11 +35,11 @@ echo '$ ls -la ~'; ls -la ~ 2>&1 | head -40
 def collect(job):
     key, case = job
     cwd = case.get("cwd") or "/home/dev"
-    script = ("( set -e\n" + COMMON + "\ncd /home/dev\n" + (case.get("setup") or "") + "\n) >/dev/null 2>&1\n"
+    script = ("( set -e\n" + COMMON + "\ncd /home/dev\n" + (case.get("setup") or "") + "\n) >/dev/null 2>&1\necho SETUP_RC=$?\n"
               + "echo " + MARK + "\ncd '" + cwd + "' 2>&1\n" + READS)
     r, _ = run.run_script(IMAGE, case, script)
     out = r.stdout.split(MARK, 1)[-1].strip() if MARK in r.stdout else "(the setup failed)"
-    return dict(key=key, reads=out[:LIMIT], truncated=len(out) > LIMIT)
+    return dict(key=key, reads=out[:LIMIT], truncated=len(out) > LIMIT, setup_ok="SETUP_RC=0" in r.stdout)
 
 
 def jobs():

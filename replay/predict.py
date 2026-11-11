@@ -7,10 +7,12 @@ Items (ground truth from execution in the sandbox, never from the model that bui
 Conditions:
   blind    shell, cwd, goal and command: what an agent knows before it runs the command
   full     the same plus the setup script that created the files
+  reads    the same as blind, plus the output of a fixed set of read-only commands run in the set-up state
+           (reads.py). The setup script is not shown, so cue strings in it cannot help.
 Models read text only. Claude models run through `claude -p --tools ""`; the Codex model runs in the cmdfx-codex
 container (no host mounts, read-only sandbox), as in bench/predict_codex.py. Nothing is executed here.
 
-Usage: python3 predict.py [--cond blind|full] [--models haiku,sonnet,opus,codex] [--limit N]
+Usage: python3 predict.py [--cond blind|full|reads] [--models haiku,sonnet,opus,codex] [--limit N]
 Output: predictions.jsonl (append; reruns resume and stop cleanly at a usage limit).
 """
 import json
@@ -70,9 +72,21 @@ def items():
     return out
 
 
+READS = {}
+
+
+def reads_for(it):
+    if not READS:
+        READS.update({d["key"]: d["reads"] for d in read_jsonl(os.path.join(HERE, "reads.jsonl"))})
+    return READS[it["item"] if it["set"] == "variant" else it["source"]]
+
+
 def prompt(it, cond):
     c = it["case"]
     setup = ""
+    if cond == "reads":
+        setup = ("Before running the command, the agent ran these read-only commands in the working directory and saw "
+                 "this output:\n```\n%s\n```\n" % reads_for(it))
     if cond == "full":
         setup = "The current files were created by this setup script:\n```bash\n%s\n```\n" % (
             COMMON + "\n" + (c.get("setup") or "")).strip()
