@@ -5,9 +5,12 @@ or transcript (a code block), because only those can show the agent's steps befo
 The author answers one question per report: before the destructive action, did the agent read the state that decided
 its effect?
 
+Batch 2 draws 100 more at random from the rest of the pool, so the two batches together are a random sample of 200.
+
 Usage:
   uv run -q --with openpyxl python labelling/look_audit.py            writes labelling/workbooks/look_audit.xlsx
-  uv run -q --with openpyxl python labelling/look_audit.py --score F  reads the filled workbook, writes look_audit_scores.json
+  uv run -q --with openpyxl python labelling/look_audit.py --batch 2  writes labelling/workbooks/look_audit_batch2.xlsx
+  uv run -q --with openpyxl python labelling/look_audit.py --score F [F2 ...]  reads filled workbooks, writes look_audit_scores.json
 """
 import collections
 import json
@@ -50,7 +53,7 @@ COLS = ["n", "id", "link", "agent", "mechanism", "title", "looked", "deciding_st
 WIDTH = dict(n=5, id=22, link=18, agent=18, mechanism=10, title=50, looked=16, deciding_state=35, notes=50)
 
 
-def sample():
+def sample(batch=1):
     census = json.load(open(os.path.join(HERE, "census_all.json")))
     pool = []
     for r in sorted(census, key=lambda r: r["url"]):
@@ -59,11 +62,17 @@ def sample():
         body = (load_issue(r["url"]) or {}).get("body") or ""
         if "```" in body:
             pool.append(r)
-    return random.Random(SEED).sample(pool, N), len(pool)
+    first = random.Random(SEED).sample(pool, N)
+    if batch == 1:
+        return first, len(pool)
+    taken = {r["url"] for r in first}
+    rest = [r for r in pool if r["url"] not in taken]
+    return random.Random(SEED + 1).sample(rest, N), len(rest)
 
 
-def write():
-    rows, pool = sample()
+def write(batch=1):
+    rows, pool = sample(batch)
+    start = 0 if batch == 1 else N
     wb = openpyxl.Workbook()
     g = wb.active
     g.title = "Guide"
@@ -76,7 +85,7 @@ def write():
     for n, r in enumerate(rows, 1):
         issue = load_issue(r["url"]) or {}
         p = r["url"].split("/")
-        ws.append([n, "%s_%s" % (p[4].lower().replace("-", "_"), p[6]), r["url"], r["repo"], r["mechanism"],
+        ws.append([start + n, "%s_%s" % (p[4].lower().replace("-", "_"), p[6]), r["url"], r["repo"], r["mechanism"],
                    issue.get("title", ""), None, None, None])
         ws.cell(n + 1, 3).hyperlink = r["url"]
         ws.cell(n + 1, 3).font = Font(color="0563C1", underline="single")
@@ -94,15 +103,18 @@ def write():
     ws.add_data_validation(dv)
     dv.add("G2:G%d" % ws.max_row)
     ws.freeze_panes = "D2"
-    path = os.path.join(HERE, "workbooks", "look_audit.xlsx")
+    path = os.path.join(HERE, "workbooks", "look_audit.xlsx" if batch == 1 else "look_audit_batch%d.xlsx" % batch)
     wb.save(path)
     print("wrote", path, "with", len(rows), "of", pool, "M incidents that paste a code block")
 
 
-def score(path):
-    ws = openpyxl.load_workbook(path)["Look"]
-    head = [c.value for c in ws[1]]
-    rows = [dict(zip(head, [c.value for c in r])) for r in ws.iter_rows(min_row=2)]
+def score(paths):
+    rows = []
+    for path in paths:
+        ws = openpyxl.load_workbook(path)["Look"]
+        head = [c.value for c in ws[1]]
+        rows += [dict(zip(head, [c.value for c in r])) for r in ws.iter_rows(min_row=2)]
+    assert len({r["link"] for r in rows}) == len(rows), "a report appears in two batches"
     c = collections.Counter(r["looked"] or "blank" for r in rows)
     known = c["no_look"] + c["looked_missed"]
     out = dict(n=len(rows), answers=dict(c), known=known,
@@ -115,6 +127,6 @@ def score(path):
 
 if __name__ == "__main__":
     if "--score" in sys.argv:
-        score(sys.argv[sys.argv.index("--score") + 1])
+        score(sys.argv[sys.argv.index("--score") + 1:])
     else:
-        write()
+        write(int(sys.argv[sys.argv.index("--batch") + 1]) if "--batch" in sys.argv else 1)
