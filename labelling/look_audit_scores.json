@@ -1,0 +1,47 @@
+{
+ "n": 100,
+ "answers": {
+  "no_look": 38,
+  "looked_missed": 10,
+  "unknown": 52
+ },
+ "known": 48,
+ "no_look_share_of_known": 79.2,
+ "by_mechanism": {
+  "E": {
+   "looked_missed": 1,
+   "no_look": 4,
+   "unknown": 1
+  },
+  "F": {
+   "no_look": 5
+  },
+  "G": {
+   "unknown": 9,
+   "no_look": 9,
+   "looked_missed": 4
+  },
+  "O": {
+   "unknown": 30,
+   "looked_missed": 3,
+   "no_look": 5
+  },
+  "P": {
+   "no_look": 3,
+   "unknown": 2
+  },
+  "S": {
+   "no_look": 7,
+   "looked_missed": 1
+  },
+  "T": {
+   "looked_missed": 1,
+   "unknown": 7,
+   "no_look": 3
+  },
+  "X": {
+   "no_look": 2,
+   "unknown": 3
+  }
+ }
+}
