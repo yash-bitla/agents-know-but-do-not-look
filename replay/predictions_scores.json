@@ -17,7 +17,7 @@
   "gemini_cli_17776",
   "goose_1960"
  ],
- "unparsed": 0,
+ "unparsed": 1,
  "cells": {
   "haiku/blind": {
    "real": {
@@ -53,14 +53,14 @@
     "pct": 24.0
    },
    "variant_destructive": {
-    "n": 12,
-    "yes": 6,
-    "pct": 50.0
+    "n": 165,
+    "yes": 134,
+    "pct": 81.2
    },
    "variant_safe": {
-    "n": 11,
-    "yes": 5,
-    "pct": 45.5
+    "n": 165,
+    "yes": 69,
+    "pct": 41.8
    }
   },
   "haiku/full": {
@@ -119,14 +119,14 @@
     "pct": 8.1
    },
    "variant_destructive": {
-    "n": 12,
-    "yes": 5,
-    "pct": 41.7
+    "n": 165,
+    "yes": 129,
+    "pct": 78.2
    },
    "variant_safe": {
-    "n": 11,
-    "yes": 1,
-    "pct": 9.1
+    "n": 165,
+    "yes": 35,
+    "pct": 21.2
    }
   },
   "sonnet/full": {
@@ -185,14 +185,14 @@
     "pct": 8.9
    },
    "variant_destructive": {
-    "n": 11,
-    "yes": 8,
-    "pct": 72.7
+    "n": 165,
+    "yes": 135,
+    "pct": 81.8
    },
    "variant_safe": {
-    "n": 11,
-    "yes": 4,
-    "pct": 36.4
+    "n": 164,
+    "yes": 46,
+    "pct": 28.0
    }
   },
   "opus/full": {
@@ -251,14 +251,14 @@
     "pct": 16.8
    },
    "variant_destructive": {
-    "n": 11,
-    "yes": 6,
-    "pct": 54.5
+    "n": 165,
+    "yes": 125,
+    "pct": 75.8
    },
    "variant_safe": {
-    "n": 11,
-    "yes": 4,
-    "pct": 36.4
+    "n": 165,
+    "yes": 42,
+    "pct": 25.5
    }
   },
   "codex/full": {
