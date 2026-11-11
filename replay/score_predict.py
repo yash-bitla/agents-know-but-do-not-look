@@ -15,6 +15,7 @@ import os
 from common import HERE, read_jsonl
 
 MODELS = ["haiku", "sonnet", "opus", "codex"]
+CONDS = ["blind", "full"]
 
 
 def load():
@@ -36,12 +37,14 @@ def rate(rows):
 def main():
     answers, excluded = load()
     parsed = [p for p in answers if p["pred"] is not None]
+    global CONDS
+    CONDS = [c for c in ("blind", "reads", "full") if any(p["cond"] == c for p in parsed)]
     out = dict(excluded_sources=sorted(excluded), unparsed=len(answers) - len(parsed), cells={})
     groups = {"real": lambda p: p["set"] == "real", "twin": lambda p: p["set"] == "twin",
               "variant_destructive": lambda p: p["set"] == "variant" and p["label"],
               "variant_safe": lambda p: p["set"] == "variant" and not p["label"]}
     for m in MODELS:
-        for cond in ("blind", "full"):
+        for cond in CONDS:
             cell = {}
             for g, f in groups.items():
                 cell[g] = rate([p for p in parsed if p["model"] == m and p["cond"] == cond and f(p)])
@@ -67,7 +70,7 @@ def main():
     print("%-7s %-6s %18s %18s %18s %18s" % ("model", "cond", "real caught", "twin false alarm",
                                              "variant caught", "variant false al."))
     for m in MODELS:
-        for cond in ("blind", "full"):
+        for cond in CONDS:
             c = out["cells"]["%s/%s" % (m, cond)]
             print("%-7s %-6s %18s %18s %18s %18s" % (m, cond, *["%d/%d %.1f%%" % (c[g]["yes"], c[g]["n"], c[g]["pct"])
                                                                 for g in groups]))

@@ -160,6 +160,10 @@ def main():
     done = {(p["model"], p["cond"], p["item"], p["sample"]) for p in read_jsonl(OUT) if p["pred"] is not None}
     jobs = [(m, it, cond, k) for it in its for k in range(SAMPLES[it["set"]]) for m in models
             if (m, cond, it["item"], k) not in done]
+    if cond == "reads":  # reads exist only for kept items; the audit excluded the others
+        if not READS:
+            READS.update({d["key"]: d["reads"] for d in read_jsonl(os.path.join(HERE, "reads.jsonl"))})
+        jobs = [j for j in jobs if (j[1]["item"] if j[1]["set"] == "variant" else j[1]["source"]) in READS]
     jobs = jobs[:limit] if limit else jobs
     print("items", len(its), "jobs", len(jobs), cond, models, flush=True)
     if "codex" in models:
