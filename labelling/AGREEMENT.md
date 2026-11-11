@@ -82,7 +82,7 @@ recall checks (claude-code #51712, U) is also left out, because the screen rejec
 M 668 (55.8% of all, **65.9% of the 1,014 with a clear cause**), I 326, W 20, U 184.
 Mechanisms over 668 M: O 256, G 112, T 80, X 67, S 50, P 42, E 31, F 30. Not-O (command-level) 412 of 668 (62%).
 
-## Time trend divided by tracker volume (labelling/trend_normalised.py, round2/volume.json, 2026-11-07)
+## Time trend divided by tracker volume (labelling/trend_normalised.py, round2/volume.json, updated 2026-11-11 for the final census)
 
 Denominator: all issues per repo and half-year, same repos and same extra word for vscode/zed/warp as collect2.py.
 Collection ended 2026-11-06, so 2026-H2 covers about 4 of 6 months in both numerator and denominator.
@@ -91,8 +91,8 @@ Collection ended 2026-11-06, so 2026-H2 covers about 4 of 6 months in both numer
 |---|---|---|---|---|---|---|
 | 2024-H2 | 7,943 | 17 | 21.4 | 15 | 18.9 | 88% |
 | 2025-H1 | 26,445 | 78 | 29.5 | 56 | 21.2 | 82% |
-| 2025-H2 | 58,103 | 281 | 48.4 | 138 | 23.8 | 65% |
-| 2026-H1 | 126,297 | 544 | 43.1 | 286 | 22.6 | 61% |
-| 2026-H2 | 93,096 | 282 | 30.3 | 172 | 18.5 | 68% |
+| 2025-H2 | 58,103 | 279 | 48.0 | 138 | 23.8 | 65% |
+| 2026-H1 | 126,297 | 542 | 42.9 | 285 | 22.6 | 61% |
+| 2026-H2 | 93,096 | 280 | 30.1 | 172 | 18.5 | 69% |
 
-Claude Code alone: M per 10k = 25.9, 37.2, 37.0, 36.4 (2025-H1 to 2026-H2). All other trackers: 18.9, 20.6, 20.0, 11.7, 7.7.
+Claude Code alone: M per 10k = 25.9, 37.2, 37.0, 36.4 (2025-H1 to 2026-H2). All other trackers: 18.9, 20.6, 20.0, 11.6, 7.7.
