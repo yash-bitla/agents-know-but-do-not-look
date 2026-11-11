@@ -72,6 +72,11 @@ def main():
     corrected = [c["url"] for c in CORRECTIONS if c["to"]["incident"] == "N" and c["url"] in recs]
     for u in corrected:
         del recs[u]
+    for c in CORRECTIONS:  # cause corrections keep the incident and change its cause
+        if c["to"]["incident"] == "Y" and c["url"] in recs:
+            assert recs[c["url"]]["cause"] == c["from"]["cause"], c["url"]
+            recs[c["url"]]["cause"] = c["to"]["cause"]
+            recs[c["url"]]["mechanism"] = c["to"]["mechanism"]
     pilot_only = sorted(u for u, r in recs.items() if r["round"] == 1 and u not in FLAGGED)
     # Incidents found among the hidden recall checks (reports the screen rejected) measure recall only.
     recall_checks = sorted(u for u, r in recs.items() if r["round"] == 3 and u not in FLAGGED)

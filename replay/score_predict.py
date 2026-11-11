@@ -12,14 +12,14 @@ import collections
 import json
 import os
 
-from common import HERE, read_jsonl
+from common import HERE, out_of_scope, read_jsonl
 
 MODELS = ["haiku", "sonnet", "opus", "codex"]
 CONDS = ["blind", "full"]
 
 
 def load():
-    excluded = set(json.load(open(os.path.join(HERE, "audit", "final_verdicts.json")))["summary"]["excluded"])
+    excluded = out_of_scope()
     latest = {}
     for p in read_jsonl(os.path.join(HERE, "predictions.jsonl")):
         k = (p["model"], p["cond"], p["item"], p["sample"])

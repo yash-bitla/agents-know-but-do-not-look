@@ -30,3 +30,15 @@ def case_id(url):
 
 def read_jsonl(path):
     return [json.loads(l) for l in open(path)] if os.path.exists(path) else []
+
+
+def out_of_scope():
+    """Case ids left out of the replay and prediction results: rated unfaithful by the audit, or no longer a
+    misjudged-effect (M) incident after a census label correction (labelling/corrections.json)."""
+    out = set(json.load(open(os.path.join(HERE, "audit", "final_verdicts.json")))["summary"]["excluded"])
+    census = json.load(open(os.path.join(ROOT, "labelling", "census_all.json")))
+    m_ids = {case_id(r["url"]) for r in census if r["cause"] == "M"}
+    for c in read_jsonl(os.path.join(HERE, "candidates.jsonl")):
+        if c["id"] not in m_ids:
+            out.add(c["id"])
+    return out

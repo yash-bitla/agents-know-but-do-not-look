@@ -1,12 +1,16 @@
 {
- "n": 200,
+ "n": 198,
+ "dropped_not_m": [
+  "https://github.com/anthropics/claude-code/issues/35093",
+  "https://github.com/anthropics/claude-code/issues/25374"
+ ],
  "answers": {
   "no_look": 86,
-  "looked_missed": 25,
+  "looked_missed": 23,
   "unknown": 89
  },
- "known": 111,
- "no_look_share_of_known": 77.5,
+ "known": 109,
+ "no_look_share_of_known": 78.9,
  "by_mechanism": {
   "E": {
    "looked_missed": 1,
@@ -24,7 +28,7 @@
   },
   "O": {
    "unknown": 44,
-   "looked_missed": 8,
+   "looked_missed": 7,
    "no_look": 14
   },
   "P": {
@@ -44,7 +48,7 @@
   "X": {
    "no_look": 6,
    "unknown": 7,
-   "looked_missed": 2
+   "looked_missed": 1
   }
  }
 }

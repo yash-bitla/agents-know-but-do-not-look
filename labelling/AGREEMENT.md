@@ -79,8 +79,9 @@ Command-level mechanisms (all but O) cover 83 of 101 (82%). O comes from file-ed
 Scope: only incidents the final 21-tracker pipeline flags. 4 pilot (round 1) incidents it does not reach are left out
 (claude-code #78382 W, #84329 U, gemini-cli #12700 I, #14161 I). The 1 incident found among the hidden
 recall checks (claude-code #51712, U) is also left out, because the screen rejected it.
-M 668 (55.8% of all, **65.9% of the 1,014 with a clear cause**), I 326, W 20, U 184.
-Mechanisms over 668 M: O 256, G 112, T 80, X 67, S 50, P 42, E 31, F 30. Not-O (command-level) 412 of 668 (62%).
+M 666 (55.6% of all, **65.7% of the 1,014 with a clear cause**), I 328, W 20, U 184.
+2 incidents were corrected from M to I after the look audit (claude-code #25374, #35093; `corrections.json`).
+Mechanisms over 666 M: O 255, G 112, T 80, X 66, S 50, P 42, E 31, F 30. Not-O (command-level) 411 of 666 (62%).
 
 ## Time trend divided by tracker volume (labelling/trend_normalised.py, round2/volume.json, updated 2026-11-11 for the final census)
 

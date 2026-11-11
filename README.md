@@ -15,22 +15,22 @@ Data and code for the paper of the same name. The paper studies AI coding agents
 | Issues found by the search | 26,087 |
 | Reports flagged by the screen and read by the author | 1,375 |
 | Human-verified incidents | 1,198 |
-| Cause M: the agent misjudged the effect | 668 (65.9% of the 1,014 with a clear cause) |
-| Cause I: the agent meant to destroy the data | 326 |
+| Cause M: the agent misjudged the effect | 666 (65.7% of the 1,014 with a clear cause) |
+| Cause I: the agent meant to destroy the data | 328 |
 | Cause W: a setting outside the command picked the wrong target | 20 |
 | Cause U: the report does not say enough | 184 |
 
-Mechanisms of the 668 M incidents: O overwrite by an edit 256, G git also discarded user work 112, T hidden tool behaviour 80,
-X other 67, S script or test the agent wrote 50, P platform difference 42, E expansion or quoting 31, F file-system side effect 30.
+Mechanisms of the 666 M incidents: O overwrite by an edit 255, G git also discarded user work 112, T hidden tool behaviour 80,
+X other 66, S script or test the agent wrote 50, P platform difference 42, E expansion or quoting 31, F file-system side effect 30.
 
 **Replay** (one case per M incident, audited by the author against its report)
 
 | | Count |
 |---|---|
-| Replayable cases | 251 (178 command, 73 edit) |
-| Rated faithful or acceptable by the audit | 238 (94.8%) |
-| Command cases that reproduce the reported loss | 166 of 170 (97.6%) |
-| ...and still exit with status 0 | 143 of 166 (86%) |
+| Replayable cases | 249 (177 command, 72 edit) |
+| Rated faithful or acceptable by the audit | 236 (94.8%) |
+| Command cases that reproduce the reported loss | 165 of 169 (97.6%) |
+| ...and still exit with status 0 | 142 of 165 (86%) |
 | Safe twins that destroy data | 0 |
 
 **Prediction** (share of answers that call an item destructive, %)

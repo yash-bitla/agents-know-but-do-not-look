@@ -115,9 +115,13 @@ def score(paths):
         head = [c.value for c in ws[1]]
         rows += [dict(zip(head, [c.value for c in r])) for r in ws.iter_rows(min_row=2)]
     assert len({r["link"] for r in rows}) == len(rows), "a report appears in two batches"
+    census = json.load(open(os.path.join(HERE, "census_all.json")))
+    m_urls = {r["url"] for r in census if r["cause"] == "M"}
+    dropped = [r["link"] for r in rows if r["link"] not in m_urls]  # relabelled after the sample was drawn
+    rows = [r for r in rows if r["link"] in m_urls]
     c = collections.Counter(r["looked"] or "blank" for r in rows)
     known = c["no_look"] + c["looked_missed"]
-    out = dict(n=len(rows), answers=dict(c), known=known,
+    out = dict(n=len(rows), dropped_not_m=dropped, answers=dict(c), known=known,
                no_look_share_of_known=round(100.0 * c["no_look"] / known, 1) if known else None,
                by_mechanism={m: dict(collections.Counter(r["looked"] or "blank" for r in rows if r["mechanism"] == m))
                              for m in sorted({r["mechanism"] for r in rows})})
